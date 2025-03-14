@@ -1,0 +1,2626 @@
+2024-01-21-16:09:52
+
+debug: False
+template: ResNet18
+n_threads: 6
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: ./dataset
+data_train: cifar10
+data_test: CIFAR10
+n_colors: 3
+no_flip: False
+crop: 1
+model: ResNet18_flanc_mlb_threepart
+vgg_type: 16
+download: False
+base: ResNet18
+base_p: ResNet18
+resume_from: 
+act: relu
+pretrained: 
+extend: 
+depth: 18
+in_channels: 64
+k: 12
+reduction: 1
+bottleneck: False
+kernel_size: 3
+no_bias: False
+precision: single
+multi: full-256
+n_init: 1
+max_iter: 4500
+symmetry: i
+init_seeds: random
+scale_type: kernel_norm_train
+n_bits: 16
+top: 1
+group_size: 16
+n_group: 1
+k_size1: 3
+k_size2: 3
+inverse_index: False
+transition_group: 6
+basis_size1: 16
+basis_size2: 32
+basis_size3: 64
+n_basis1: 24
+n_basis2: 48
+n_basis3: 84
+vgg_decom_type: all
+basis_size_str: 
+n_basis_str: 
+basis_size: 128
+n_basis: 0.25
+pre_train_optim: .
+unique_basis: False
+loss_orth: False
+reset: False
+test_every: 1000
+test_only: False
+epochs: 400
+resume: -1
+batch_size: 32
+linear: 1
+lr: 0.1
+decay: step-400-600
+gamma: 0.1
+optimizer: SGD
+momentum: 0.9
+nesterov: False
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0.0001
+basis_fraction: 0.25
+net_fraction: 1
+fraction_list: [0.0625, 0.125, 0.25, 0.5, 1.0]
+sync: False
+n_agents: 100
+n_joined: 10
+local_epochs: 3
+loss: 1*CE
+lambdaR: 10
+dir_save: ./validation
+save: FLANC-cifar10-0.0625-4
+load: 
+print_every: 100
+save_models: True
+compare: 
+project: FLANC_CIFAR10
+non_iid: 0
+num_class: 2
+uniform: 0.1
+dir: 0.3
+hubs: 10
+workers: 10
+q: 2
+skewed: 0
+fair: 0
+
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120
+# parameters of model 0: 631,298
+1x1: 38,688
+3x3: 192
+Others: 0
+Linear:320
+# parameters of model 1: 671,226
+1x1: 77,696
+3x3: 192
+Others: 0
+Linear:640
+# parameters of model 2: 755,114
+1x1: 159,744
+3x3: 192
+Others: 0
+Linear:1,280
+# parameters of model 3: 939,018
+1x1: 339,968
+3x3: 192
+Others: 0
+Linear:2,560
+# parameters of model 4: 1,367,114
+1x1: 760,832
+3x3: 192
+Others: 0
+Linear:5,120

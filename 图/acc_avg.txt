@@ -1,0 +1,152 @@
+option = {
+  title: {
+    text: 'Stacked Line'
+  },
+  tooltip: {
+    trigger: 'axis'
+  },
+  legend: {
+    data: ['4.0', '4.1', '4.2', '4.3', '4.4','7.0', '7.1', '7.2', '7.3', '7.4']
+  },
+  grid: {
+    left: '3%',
+    right: '4%',
+    bottom: '3%',
+    containLabel: true
+  },
+  toolbox: {
+    feature: {
+      saveAsImage: {}
+    }
+  },
+  xAxis: {
+    type: 'category',
+    axisPointer: {
+        type: 'shadow'
+      },
+    data:  ['0', '50', '100', '150', '200', '250', '300', '350']
+  },
+  yAxis: {
+    min:0.2,
+    type: 'value'
+  },
+  series: [
+    {
+      name: '4.0',
+      type: 'line',
+      data: [0.2584, 0.3324, 0.4099, 0.4313, 0.4374, 0.4384, 0.4638, 0.4579],
+      lineStyle: {
+        color: '#37A2DA',
+        width: 3
+      },
+      color: '#37A2DA',
+      symbolSize: 10
+    },
+    {
+      name: '4.1',
+      type: 'line',
+      data: [0.2765, 0.3683, 0.4773, 0.5099, 0.5206, 0.5517, 0.5501, 0.554],
+      lineStyle: {
+        color: '#e06343',
+        width: 3,
+      },
+      color: '#e06343',
+      symbolSize: 10
+    },
+    {
+      name: '4.2',
+      type: 'line',
+      data: [0.2903, 0.463, 0.505, 0.5297, 0.5587, 0.5819, 0.5907, 0.6018],
+      lineStyle: {
+        color: '#37a354',
+        width: 3
+      },
+      color: '#37a354',
+      symbolSize: 10
+    },
+    {
+      name: '4.3',
+      type: 'line',
+      data: [0.3168, 0.485, 0.518, 0.5506, 0.5594, 0.5683, 0.6019, 0.589],
+      lineStyle: {
+        color: '#b55dba',
+        width: 3
+      },
+      color: '#b55dba',
+      symbolSize: 10
+    },
+    {
+      name: '4.4',
+      type: 'line',
+      data: [0.3015, 0.457, 0.5381, 0.5712, 0.6056, 0.652, 0.657, 0.6637],
+       lineStyle: {
+        color: '#b5bd48',
+        width: 3
+      },
+      color: '#b5bd48',
+      symbolSize: 10
+    },
+    
+    {
+      name: '7.0',
+      type: 'line',
+      data: [0.2521, 0.3784, 0.456, 0.4864, 0.4857, 0.433, 0.4646, 0.4645],
+      lineStyle: {
+        color: '#37A2DA',
+        width: 3,
+        type: 'dashed'
+      },
+      color: '#37A2DA',
+      symbolSize: 10
+    },
+    {
+      name: '7.1',
+      type: 'line',
+      data: [0.2802, 0.4526, 0.5044, 0.5524, 0.5794, 0.6009, 0.6011, 0.6095],
+      lineStyle: {
+        color: '#e06343',
+        width: 3,
+        type: 'dashed'
+      },
+      color: '#e06343',
+      symbolSize: 10
+    },
+    {
+      name: '7.2',
+      type: 'line',
+      data: [0.3138, 0.4521, 0.5508, 0.596, 0.5829, 0.653, 0.6376, 0.6793],
+      lineStyle: {
+        color: '#37a354',
+        width: 3,
+        type: 'dashed'
+      },
+      color: '#37a354',
+      symbolSize: 10
+    },
+    {
+      name: '7.3',
+      type: 'line',
+      data: [0.3371, 0.5011, 0.5751, 0.6018, 0.6214, 0.6616, 0.6884, 0.6545],
+      lineStyle: {
+        color: '#b55dba',
+        width: 3,
+        type: 'dashed'
+      },
+      color: '#b55dba',
+      symbolSize: 10
+    },
+    {
+      name: '7.4',
+      type: 'line',
+      data: [0.2854, 0.4967, 0.5519, 0.6341, 0.6954, 0.678, 0.6904, 0.6952],
+       lineStyle: {
+        color: '#b5bd48',
+        width: 3,
+        type: 'dashed'
+      },
+      color: '#b5bd48',
+      symbolSize: 10
+    }
+    
+  ]
+};

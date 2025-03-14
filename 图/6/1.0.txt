@@ -1,0 +1,141 @@
+option = {
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'cross',
+      crossStyle: {
+        color: '#999'
+      }
+    }
+  },
+  toolbox: {
+    feature: {
+      saveAsImage: { show: true }
+    }
+  },
+  grid: {
+    left: '20%',
+    right: '20%',
+    bottom: '20%',
+    top: '20%',
+    containLabel: true
+  },
+  legend: {
+    top: '13%',
+    data: ['Minor', 'Major', 'ξ'],
+    textStyle: {
+      //图例字体大小
+      fontSize: 30,
+    },
+  },
+  xAxis: [
+    {
+      type: 'category',
+      data: ['HeteroFL', 'FjORD', 'FLANC', 'Heroes', 'DFFL-random', 'DFFL-DNM'],
+      axisPointer: {
+        type: 'shadow'
+      },
+      axisLabel: {
+      textStyle: {
+        fontSize: "30",
+        color: "black",
+      },
+      
+      rotate: -25,
+    },
+    }
+  ],
+  yAxis: [
+    {
+      min: 40,
+      max: 80,
+      splitLine:{
+        show: false,
+      },
+      type: 'value',
+      name: 'Accuracy',
+      interval: 10,
+      nameTextStyle:{ //文字样式
+        fontSize: "30",
+        color: "black"
+      },
+      axisLabel: {
+        textStyle: {
+          fontSize: "30",
+          color: "black"
+        },
+        formatter: '{value}'
+      },
+    },
+     {
+
+      type: 'value',
+      name: 'ξ',
+      nameGap: 20,//与轴线间距
+      nameTextStyle:{ //文字样式
+        fontSize: "30",
+        color: "black"
+      },
+      axisLabel: {
+        textStyle: {
+          fontSize: "30",
+          color: "black"
+        },
+      },
+    },
+    
+  ],
+  series: [
+
+    {
+      name: 'Minor',
+      type: 'bar',
+      tooltip: {
+        valueFormatter: function (value) {
+          return value + ' E';
+        }
+      },
+      stack: 'total',
+      color: '#B3C4D4',
+      data: [
+         54.81, 55.96, 68.47, 69.86, 72.89, 77.43
+
+      ]
+    },
+     {
+      name: 'Major',
+      type: 'bar',
+      tooltip: {
+        valueFormatter: function (value) {
+          return value + ' E';
+        }
+      },
+      stack: 'total',
+      color: '#A04646',
+      data: [
+       5.53, 5.77, 5.44, 5.79, 6.76, 2.32,
+
+
+      ]
+    },
+    {
+      name: 'ξ',
+      type: 'scatter',
+      yAxisIndex: 1,
+      tooltip: {
+        valueFormatter: function (value) {
+          return value;
+        }
+      },
+      color: 'black',
+      symbolSize: 15,
+      lineStyle: {
+         width: 0,
+         color: 'green',
+         
+      },
+      data: [  289.62, 300.22, 250.60, 235.43, 246.54, 120]
+    }
+    
+  ]
+};

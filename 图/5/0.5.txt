@@ -1,0 +1,85 @@
+option = {
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'cross',
+      crossStyle: {
+        color: '#999'
+      }
+    }
+  },
+  toolbox: {
+    feature: {
+      saveAsImage: { show: true }
+    }
+  },
+  grid: {
+    left: '20%',
+    right: '20%',
+    bottom: '20%',
+    top: '20%',
+    containLabel: true
+  },
+  
+  xAxis: [
+    {
+      type: 'category',
+      data: ['HeteroFL', 'FjORD', 'FLANC', 'Heroes', 'DFFL w/o', 'DFFL w/'],
+      axisPointer: {
+        type: 'shadow'
+      },
+      axisLabel: {
+      textStyle: {
+        fontSize: "30",
+        color: "black",
+      },
+      
+      rotate: -25,
+    },
+    }
+  ],
+  yAxis: [
+    {
+      splitLine:{
+        show: false,
+      },
+      type: 'value',
+      name: 'ξ',
+
+      nameTextStyle:{ //文字样式
+        fontSize: "30",
+        color: "black"
+      },
+      axisLabel: {
+        textStyle: {
+          fontSize: "30",
+          color: "black"
+        },
+        formatter: '{value}'
+      },
+    },
+    
+  ],
+  series: [
+
+    {
+      name: 'ξ',
+      type: 'bar',
+      tooltip: {
+        valueFormatter: function (value) {
+          return value + ' E';
+        }
+      },
+      data: [
+        371.62, 386.22, 290.60, 300.43, 285.54, {
+          value: 145,
+          itemStyle: {
+            color: '#a90000'
+          }
+        },
+
+      ]
+    },
+    
+  ]
+};
