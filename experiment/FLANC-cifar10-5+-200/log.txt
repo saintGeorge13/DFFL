@@ -1,0 +1,2901 @@
+Batch size: 32 = 1 x 32
+[Epoch 1]	Learning rate: 0.1
+5/10 (50%)	agent 74	model 0.25	NLL: 1.811	Top1: 63.08 / Top5: 10.42	Total 4.3001 Time: 8.2s
+1/10 (10%)	agent 13	model 1.0	NLL: 3.578	Top1: 77.41 / Top5: 27.34	Total 7.0513 Time: 30.7s
+0/10 (0%)	agent 4	model 0.75	NLL: 2.820	Top1: 76.42 / Top5: 24.42	Total 6.4742 Time: 10.2s
+6/10 (60%)	agent 81	model 0.5	NLL: 2.748	Top1: 72.25 / Top5: 15.83	Total 6.0219 Time: 8.1s
+7/10 (70%)	agent 83	model 0.25	NLL: 1.860	Top1: 67.19 / Top5: 8.65	Total 4.3309 Time: 13.1s
+4/10 (40%)	agent 59	model 1.0	NLL: 3.595	Top1: 74.00 / Top5: 27.56	Total 7.2369 Time: 17.6s
+9/10 (90%)	agent 99	model 1.0	NLL: 5.875	Top1: 74.25 / Top5: 29.88	Total 12.0714 Time: 8.4s
+2/10 (20%)	agent 20	model 0.5	NLL: 2.294	Top1: 71.29 / Top5: 22.09	Total 4.9627 Time: 22.8s
+8/10 (80%)	agent 89	model 1.0	NLL: 2.484	Top1: 70.38 / Top5: 23.65	Total 5.3604 Time: 24.2s
+3/10 (30%)	agent 47	model 0.5	NLL: 2.502	Top1: 76.62 / Top5: 7.21	Total 5.6529 Time: 15.5s
+
+Evaluation:
+model 0 Loss: 89.668 (Best: 89.668 from epoch 0)
+model 0 Top1 error: 90.000 (Best: 90.000 from epoch 0)
+model 0 Top5 error: 50.100 (Best: 50.100 from epoch 0)
+model 0 accuracy: 0.100
+model 1 Loss: 2.409 (Best: 2.409 from epoch 0)
+model 1 Top1 error: 90.000 (Best: 90.000 from epoch 0)
+model 1 Top5 error: 50.000 (Best: 50.000 from epoch 0)
+model 1 accuracy: 0.100
+model 2 Loss: 2.967 (Best: 2.967 from epoch 0)
+model 2 Top1 error: 90.000 (Best: 90.000 from epoch 0)
+model 2 Top5 error: 50.000 (Best: 50.000 from epoch 0)
+model 2 accuracy: 0.100
+model 3 Loss: 2.351 (Best: 2.351 from epoch 0)
+model 3 Top1 error: 90.000 (Best: 90.000 from epoch 0)
+model 3 Top5 error: 50.000 (Best: 50.000 from epoch 0)
+model 3 accuracy: 0.100
+[Epoch 2]	Learning rate: 0.1
+3/10 (30%)	agent 26	model 0.75	NLL: 1.776	Top1: 59.88 / Top5: 5.25	Total 4.8032 Time: 7.2s
+6/10 (60%)	agent 73	model 1.0	NLL: 2.174	Top1: 80.50 / Top5: 28.46	Total 4.6815 Time: 23.0s
+8/10 (80%)	agent 85	model 0.25	NLL: 2.000	Top1: 68.75 / Top5: 18.42	Total 4.6946 Time: 18.1s
+7/10 (70%)	agent 79	model 0.5	NLL: 1.956	Top1: 67.40 / Top5: 19.90	Total 5.2087 Time: 6.6s
+2/10 (20%)	agent 25	model 1.0	NLL: 1.933	Top1: 67.35 / Top5: 18.10	Total 4.2384 Time: 18.7s
+9/10 (90%)	agent 94	model 0.25	NLL: 1.704	Top1: 64.67 / Top5: 2.75	Total 4.0541 Time: 5.7s
+0/10 (0%)	agent 2	model 0.25	NLL: 1.723	Top1: 68.71 / Top5: 3.36	Total 4.3307 Time: 6.9s
+5/10 (50%)	agent 67	model 0.5	NLL: 1.941	Top1: 66.35 / Top5: 20.44	Total 4.4860 Time: 21.9s
+1/10 (10%)	agent 22	model 0.75	NLL: 1.871	Top1: 68.62 / Top5: 11.62	Total 5.0214 Time: 7.0s
+4/10 (40%)	agent 36	model 0.5	NLL: 2.082	Top1: 75.00 / Top5: 25.43	Total 4.8649 Time: 8.9s
+
+Evaluation:
+model 0 Loss: 2.319 (Best: 2.319 from epoch 1)
+model 0 Top1 error: 87.220 (Best: 87.220 from epoch 1)
+model 0 Top5 error: 49.990 (Best: 49.990 from epoch 1)
+model 0 accuracy: 0.128
+model 1 Loss: 2.430 (Best: 2.409 from epoch 0)
+model 1 Top1 error: 89.660 (Best: 89.660 from epoch 1)
+model 1 Top5 error: 49.000 (Best: 49.000 from epoch 1)
+model 1 accuracy: 0.103
+model 2 Loss: 2.618 (Best: 2.618 from epoch 1)
+model 2 Top1 error: 90.000 (Best: 90.000 from epoch 0)
+model 2 Top5 error: 50.000 (Best: 50.000 from epoch 0)
+model 2 accuracy: 0.100
+model 3 Loss: 2.364 (Best: 2.351 from epoch 0)
+model 3 Top1 error: 89.820 (Best: 89.820 from epoch 1)
+model 3 Top5 error: 45.560 (Best: 45.560 from epoch 1)
+model 3 accuracy: 0.102
+[Epoch 3]	Learning rate: 0.1
+5/10 (50%)	agent 35	model 0.25	NLL: 1.385	Top1: 43.62 / Top5: 4.12	Total 3.8345 Time: 4.0s
+4/10 (40%)	agent 32	model 0.25	NLL: 1.904	Top1: 67.27 / Top5: 15.38	Total 4.2464 Time: 13.1s
+8/10 (80%)	agent 87	model 0.25	NLL: 1.895	Top1: 70.46 / Top5: 13.88	Total 4.0952 Time: 11.7s
+6/10 (60%)	agent 81	model 0.25	NLL: 1.502	Top1: 56.58 / Top5: 4.42	Total 3.7328 Time: 6.0s
+0/10 (0%)	agent 18	model 0.75	NLL: 2.158	Top1: 77.50 / Top5: 31.86	Total 5.2386 Time: 29.8s
+2/10 (20%)	agent 30	model 0.5	NLL: 2.020	Top1: 67.04 / Top5: 26.08	Total 4.6313 Time: 17.5s
+9/10 (90%)	agent 88	model 0.25	NLL: 1.520	Top1: 53.88 / Top5: 5.25	Total 3.8509 Time: 4.5s
+3/10 (30%)	agent 31	model 0.25	NLL: 1.782	Top1: 68.00 / Top5: 6.75	Total 4.0713 Time: 6.3s
+7/10 (70%)	agent 83	model 1.0	NLL: 1.717	Top1: 64.31 / Top5: 5.85	Total 4.0193 Time: 25.4s
+1/10 (10%)	agent 23	model 1.0	NLL: 1.831	Top1: 64.25 / Top5: 7.25	Total 4.3628 Time: 12.1s
+
+Evaluation:
+model 0 Loss: 2.127 (Best: 2.127 from epoch 2)
+model 0 Top1 error: 79.370 (Best: 79.370 from epoch 2)
+model 0 Top5 error: 25.450 (Best: 25.450 from epoch 2)
+model 0 accuracy: 0.206
+model 1 Loss: 2.209 (Best: 2.209 from epoch 2)
+model 1 Top1 error: 85.140 (Best: 85.140 from epoch 2)
+model 1 Top5 error: 34.550 (Best: 34.550 from epoch 2)
+model 1 accuracy: 0.149
+model 2 Loss: 2.380 (Best: 2.380 from epoch 2)
+model 2 Top1 error: 89.510 (Best: 89.510 from epoch 2)
+model 2 Top5 error: 44.420 (Best: 44.420 from epoch 2)
+model 2 accuracy: 0.105
+model 3 Loss: 2.331 (Best: 2.331 from epoch 2)
+model 3 Top1 error: 79.870 (Best: 79.870 from epoch 2)
+model 3 Top5 error: 43.600 (Best: 43.600 from epoch 2)
+model 3 accuracy: 0.201
+[Epoch 4]	Learning rate: 0.1
+4/10 (40%)	agent 34	model 0.5	NLL: 1.223	Top1: 41.00 / Top5: 3.62	Total 3.2197 Time: 5.4s
+5/10 (50%)	agent 66	model 0.75	NLL: 1.827	Top1: 61.62 / Top5: 14.66	Total 3.9921 Time: 26.2s
+1/10 (10%)	agent 6	model 1.0	NLL: 2.072	Top1: 76.42 / Top5: 18.88	Total 4.7275 Time: 22.9s
+7/10 (70%)	agent 79	model 0.25	NLL: 1.328	Top1: 41.60 / Top5: 4.40	Total 3.4864 Time: 4.9s
+9/10 (90%)	agent 95	model 0.25	NLL: 1.709	Top1: 57.38 / Top5: 12.84	Total 3.9972 Time: 15.5s
+6/10 (60%)	agent 67	model 1.0	NLL: 1.860	Top1: 62.03 / Top5: 17.47	Total 4.5750 Time: 32.2s
+8/10 (80%)	agent 82	model 0.25	NLL: 1.616	Top1: 54.80 / Top5: 6.70	Total 4.3237 Time: 5.1s
+2/10 (20%)	agent 12	model 0.25	NLL: 1.734	Top1: 63.95 / Top5: 5.60	Total 4.1340 Time: 10.1s
+0/10 (0%)	agent 4	model 1.0	NLL: 1.721	Top1: 66.50 / Top5: 8.75	Total 4.1701 Time: 12.2s
+3/10 (30%)	agent 16	model 0.25	NLL: 1.860	Top1: 65.05 / Top5: 9.18	Total 4.4214 Time: 11.4s
+
+Evaluation:
+model 0 Loss: 2.115 (Best: 2.115 from epoch 3)
+model 0 Top1 error: 80.360 (Best: 79.370 from epoch 2)
+model 0 Top5 error: 28.000 (Best: 25.450 from epoch 2)
+model 0 accuracy: 0.196
+model 1 Loss: 2.545 (Best: 2.209 from epoch 2)
+model 1 Top1 error: 84.810 (Best: 84.810 from epoch 3)
+model 1 Top5 error: 42.550 (Best: 34.550 from epoch 2)
+model 1 accuracy: 0.152
+model 2 Loss: 2.361 (Best: 2.361 from epoch 3)
+model 2 Top1 error: 82.570 (Best: 82.570 from epoch 3)
+model 2 Top5 error: 36.180 (Best: 36.180 from epoch 3)
+model 2 accuracy: 0.174
+model 3 Loss: 2.261 (Best: 2.261 from epoch 3)
+model 3 Top1 error: 87.400 (Best: 79.870 from epoch 2)
+model 3 Top5 error: 42.170 (Best: 42.170 from epoch 3)
+model 3 accuracy: 0.126
+[Epoch 5]	Learning rate: 0.1
+2/10 (20%)	agent 26	model 0.5	NLL: 1.580	Top1: 58.00 / Top5: 2.50	Total 4.3412 Time: 5.3s
+8/10 (80%)	agent 66	model 1.0	NLL: 1.714	Top1: 57.38 / Top5: 10.84	Total 3.8102 Time: 30.1s
+9/10 (90%)	agent 87	model 1.0	NLL: 1.846	Top1: 69.12 / Top5: 11.08	Total 4.0016 Time: 22.8s
+5/10 (50%)	agent 49	model 1.0	NLL: 1.569	Top1: 53.89 / Top5: 3.83	Total 4.2551 Time: 18.4s
+3/10 (30%)	agent 36	model 0.5	NLL: 1.973	Top1: 71.07 / Top5: 19.00	Total 4.8133 Time: 8.7s
+1/10 (10%)	agent 16	model 0.75	NLL: 1.932	Top1: 72.77 / Top5: 13.59	Total 4.4720 Time: 17.4s
+6/10 (60%)	agent 61	model 0.5	NLL: 1.687	Top1: 51.59 / Top5: 12.29	Total 4.2123 Time: 20.8s
+4/10 (40%)	agent 40	model 0.25	NLL: 1.858	Top1: 67.91 / Top5: 15.62	Total 4.0836 Time: 16.6s
+7/10 (70%)	agent 65	model 0.25	NLL: 1.752	Top1: 61.14 / Top5: 11.41	Total 3.8665 Time: 11.3s
+0/10 (0%)	agent 6	model 0.75	NLL: 2.119	Top1: 75.88 / Top5: 29.96	Total 4.9602 Time: 18.9s
+
+Evaluation:
+model 0 Loss: 2.057 (Best: 2.057 from epoch 4)
+model 0 Top1 error: 81.730 (Best: 79.370 from epoch 2)
+model 0 Top5 error: 21.200 (Best: 21.200 from epoch 4)
+model 0 accuracy: 0.183
+model 1 Loss: 2.419 (Best: 2.209 from epoch 2)
+model 1 Top1 error: 86.160 (Best: 84.810 from epoch 3)
+model 1 Top5 error: 45.520 (Best: 34.550 from epoch 2)
+model 1 accuracy: 0.138
+model 2 Loss: 2.276 (Best: 2.276 from epoch 4)
+model 2 Top1 error: 87.390 (Best: 82.570 from epoch 3)
+model 2 Top5 error: 35.290 (Best: 35.290 from epoch 4)
+model 2 accuracy: 0.126
+model 3 Loss: 2.220 (Best: 2.220 from epoch 4)
+model 3 Top1 error: 86.100 (Best: 79.870 from epoch 2)
+model 3 Top5 error: 36.210 (Best: 36.210 from epoch 4)
+model 3 accuracy: 0.139
+[Epoch 6]	Learning rate: 0.1
+1/10 (10%)	agent 10	model 0.5	NLL: 1.540	Top1: 56.25 / Top5: 11.00	Total 4.0386 Time: 5.4s
+7/10 (70%)	agent 70	model 1.0	NLL: 1.786	Top1: 64.70 / Top5: 11.83	Total 3.8658 Time: 29.5s
+0/10 (0%)	agent 9	model 0.75	NLL: 1.952	Top1: 67.79 / Top5: 18.71	Total 4.1741 Time: 20.8s
+6/10 (60%)	agent 62	model 0.75	NLL: 1.517	Top1: 48.58 / Top5: 9.33	Total 4.0071 Time: 10.3s
+3/10 (30%)	agent 25	model 0.75	NLL: 1.809	Top1: 65.60 / Top5: 12.45	Total 4.0148 Time: 6219.7s
+2/10 (20%)	agent 23	model 0.5	NLL: 1.895	Top1: 67.00 / Top5: 14.25	Total 4.7594 Time: 6.0s
+4/10 (40%)	agent 37	model 0.25	NLL: 1.483	Top1: 55.19 / Top5: 5.81	Total 3.7101 Time: 5.8s
+5/10 (50%)	agent 42	model 0.75	NLL: 1.698	Top1: 64.88 / Top5: 6.50	Total 3.8256 Time: 14.5s
+9/10 (90%)	agent 86	model 0.75	NLL: 1.663	Top1: 57.15 / Top5: 7.60	Total 4.0271 Time: 12.5s
+8/10 (80%)	agent 83	model 0.5	NLL: 1.755	Top1: 63.69 / Top5: 10.54	Total 4.3077 Time: 12.3s
+
+Evaluation:
+model 0 Loss: 2.241 (Best: 2.057 from epoch 4)
+model 0 Top1 error: 78.390 (Best: 78.390 from epoch 5)
+model 0 Top5 error: 29.370 (Best: 21.200 from epoch 4)
+model 0 accuracy: 0.216
+model 1 Loss: 2.291 (Best: 2.209 from epoch 2)
+model 1 Top1 error: 82.750 (Best: 82.750 from epoch 5)
+model 1 Top5 error: 36.290 (Best: 34.550 from epoch 2)
+model 1 accuracy: 0.172
+model 2 Loss: 2.120 (Best: 2.120 from epoch 5)
+model 2 Top1 error: 77.390 (Best: 77.390 from epoch 5)
+model 2 Top5 error: 26.700 (Best: 26.700 from epoch 5)
+model 2 accuracy: 0.226
+model 3 Loss: 2.010 (Best: 2.010 from epoch 5)
+model 3 Top1 error: 73.930 (Best: 73.930 from epoch 5)
+model 3 Top5 error: 23.560 (Best: 23.560 from epoch 5)
+model 3 accuracy: 0.261
+[Epoch 7]	Learning rate: 0.1
+3/10 (30%)	agent 14	model 0.25	NLL: 1.436	Top1: 49.25 / Top5: 4.44	Total 4.1601 Time: 5.5s
+4/10 (40%)	agent 32	model 0.25	NLL: 1.703	Top1: 62.04 / Top5: 10.58	Total 3.9389 Time: 10.6s
+7/10 (70%)	agent 71	model 0.75	NLL: 1.729	Top1: 60.36 / Top5: 14.81	Total 3.7403 Time: 28.2s
+8/10 (80%)	agent 79	model 0.25	NLL: 1.200	Top1: 37.30 / Top5: 4.00	Total 3.1857 Time: 4.7s
+0/10 (0%)	agent 3	model 0.25	NLL: 1.702	Top1: 62.92 / Top5: 9.08	Total 4.1558 Time: 5.9s
+2/10 (20%)	agent 13	model 1.0	NLL: 1.607	Top1: 55.56 / Top5: 8.34	Total 3.4752 Time: 30.0s
+1/10 (10%)	agent 8	model 0.75	NLL: 1.654	Top1: 55.44 / Top5: 8.56	Total 4.2359 Time: 15.1s
+9/10 (90%)	agent 87	model 1.0	NLL: 1.810	Top1: 68.71 / Top5: 12.17	Total 3.9474 Time: 23.2s
+6/10 (60%)	agent 47	model 0.75	NLL: 1.762	Top1: 64.29 / Top5: 10.04	Total 4.4284 Time: 18.3s
+5/10 (50%)	agent 39	model 0.5	NLL: 1.774	Top1: 60.27 / Top5: 11.32	Total 3.9789 Time: 14.5s
+
+Evaluation:
+model 0 Loss: 1.907 (Best: 1.907 from epoch 6)
+model 0 Top1 error: 72.250 (Best: 72.250 from epoch 6)
+model 0 Top5 error: 15.310 (Best: 15.310 from epoch 6)
+model 0 accuracy: 0.278
+model 1 Loss: 2.272 (Best: 2.209 from epoch 2)
+model 1 Top1 error: 76.860 (Best: 76.860 from epoch 6)
+model 1 Top5 error: 24.910 (Best: 24.910 from epoch 6)
+model 1 accuracy: 0.231
+model 2 Loss: 2.374 (Best: 2.120 from epoch 5)
+model 2 Top1 error: 89.490 (Best: 77.390 from epoch 5)
+model 2 Top5 error: 45.470 (Best: 26.700 from epoch 5)
+model 2 accuracy: 0.105
+model 3 Loss: 2.016 (Best: 2.010 from epoch 5)
+model 3 Top1 error: 69.860 (Best: 69.860 from epoch 6)
+model 3 Top5 error: 25.100 (Best: 23.560 from epoch 5)
+model 3 accuracy: 0.301
+[Epoch 8]	Learning rate: 0.1
+1/10 (10%)	agent 33	model 1.0	NLL: 1.043	Top1: 32.00 / Top5: 2.30	Total 2.9790 Time: 8.8s
+9/10 (90%)	agent 90	model 1.0	NLL: 1.857	Top1: 72.65 / Top5: 14.04	Total 4.2329 Time: 25.2s
+7/10 (70%)	agent 87	model 0.75	NLL: 2.118	Top1: 80.04 / Top5: 25.17	Total 4.8492 Time: 19.7s
+6/10 (60%)	agent 74	model 0.5	NLL: 1.454	Top1: 53.75 / Top5: 3.33	Total 3.7026 Time: 7.9s
+5/10 (50%)	agent 70	model 0.25	NLL: 1.678	Top1: 61.33 / Top5: 10.37	Total 3.6969 Time: 14.9s
+0/10 (0%)	agent 4	model 0.75	NLL: 1.691	Top1: 62.83 / Top5: 9.08	Total 3.9137 Time: 10.3s
+3/10 (30%)	agent 60	model 0.25	NLL: 1.587	Top1: 58.21 / Top5: 3.36	Total 3.7529 Time: 6.8s
+4/10 (40%)	agent 66	model 0.75	NLL: 1.728	Top1: 59.09 / Top5: 11.97	Total 3.7899 Time: 25.6s
+2/10 (20%)	agent 50	model 0.5	NLL: 1.756	Top1: 60.85 / Top5: 10.00	Total 4.1286 Time: 16.9s
+8/10 (80%)	agent 89	model 1.0	NLL: 1.629	Top1: 58.08 / Top5: 9.50	Total 3.5596 Time: 26.1s
+
+Evaluation:
+model 0 Loss: 1.853 (Best: 1.853 from epoch 7)
+model 0 Top1 error: 71.310 (Best: 71.310 from epoch 7)
+model 0 Top5 error: 18.130 (Best: 15.310 from epoch 6)
+model 0 accuracy: 0.287
+model 1 Loss: 2.257 (Best: 2.209 from epoch 2)
+model 1 Top1 error: 77.770 (Best: 76.860 from epoch 6)
+model 1 Top5 error: 29.720 (Best: 24.910 from epoch 6)
+model 1 accuracy: 0.222
+model 2 Loss: 2.221 (Best: 2.120 from epoch 5)
+model 2 Top1 error: 82.350 (Best: 77.390 from epoch 5)
+model 2 Top5 error: 33.780 (Best: 26.700 from epoch 5)
+model 2 accuracy: 0.176
+model 3 Loss: 1.908 (Best: 1.908 from epoch 7)
+model 3 Top1 error: 73.200 (Best: 69.860 from epoch 6)
+model 3 Top5 error: 18.290 (Best: 18.290 from epoch 7)
+model 3 accuracy: 0.268
+[Epoch 9]	Learning rate: 0.1
+7/10 (70%)	agent 77	model 0.25	NLL: 1.251	Top1: 40.12 / Top5: 4.50	Total 3.7013 Time: 3.9s
+5/10 (50%)	agent 40	model 1.0	NLL: 1.783	Top1: 64.38 / Top5: 12.79	Total 3.9920 Time: 33.4s
+6/10 (60%)	agent 55	model 0.5	NLL: 1.835	Top1: 67.11 / Top5: 16.61	Total 4.2171 Time: 17.3s
+2/10 (20%)	agent 14	model 1.0	NLL: 1.324	Top1: 47.19 / Top5: 3.06	Total 3.6149 Time: 17.8s
+4/10 (40%)	agent 28	model 0.75	NLL: 1.883	Top1: 64.00 / Top5: 18.17	Total 4.3308 Time: 20.7s
+8/10 (80%)	agent 79	model 0.5	NLL: 1.385	Top1: 43.50 / Top5: 6.00	Total 3.9327 Time: 7.0s
+1/10 (10%)	agent 8	model 1.0	NLL: 1.316	Top1: 42.89 / Top5: 3.44	Total 3.6309 Time: 19.4s
+0/10 (0%)	agent 5	model 1.0	NLL: 1.711	Top1: 62.65 / Top5: 9.90	Total 3.9283 Time: 18.7s
+3/10 (30%)	agent 15	model 0.5	NLL: 1.805	Top1: 62.67 / Top5: 13.87	Total 4.2734 Time: 20.0s
+9/10 (90%)	agent 98	model 0.75	NLL: 1.567	Top1: 49.58 / Top5: 7.54	Total 3.8524 Time: 21.0s
+
+Evaluation:
+model 0 Loss: 2.112 (Best: 1.853 from epoch 7)
+model 0 Top1 error: 79.990 (Best: 71.310 from epoch 7)
+model 0 Top5 error: 17.080 (Best: 15.310 from epoch 6)
+model 0 accuracy: 0.200
+model 1 Loss: 1.977 (Best: 1.977 from epoch 8)
+model 1 Top1 error: 73.270 (Best: 73.270 from epoch 8)
+model 1 Top5 error: 19.210 (Best: 19.210 from epoch 8)
+model 1 accuracy: 0.267
+model 2 Loss: 2.096 (Best: 2.096 from epoch 8)
+model 2 Top1 error: 75.990 (Best: 75.990 from epoch 8)
+model 2 Top5 error: 26.990 (Best: 26.700 from epoch 5)
+model 2 accuracy: 0.240
+model 3 Loss: 1.892 (Best: 1.892 from epoch 8)
+model 3 Top1 error: 71.020 (Best: 69.860 from epoch 6)
+model 3 Top5 error: 16.410 (Best: 16.410 from epoch 8)
+model 3 accuracy: 0.290
+[Epoch 10]	Learning rate: 0.1
+1/10 (10%)	agent 2	model 0.25	NLL: 1.380	Top1: 51.79 / Top5: 1.14	Total 3.5002 Time: 6.3s
+0/10 (0%)	agent 1	model 0.5	NLL: 1.607	Top1: 57.41 / Top5: 9.21	Total 3.5032 Time: 19.8s
+8/10 (80%)	agent 85	model 0.25	NLL: 1.658	Top1: 65.47 / Top5: 6.69	Total 3.8429 Time: 16.7s
+7/10 (70%)	agent 76	model 0.5	NLL: 1.380	Top1: 46.31 / Top5: 4.50	Total 3.3588 Time: 9.7s
+2/10 (20%)	agent 13	model 1.0	NLL: 1.569	Top1: 51.34 / Top5: 9.66	Total 3.4530 Time: 29.0s
+6/10 (60%)	agent 57	model 0.25	NLL: 1.639	Top1: 65.35 / Top5: 6.50	Total 3.5108 Time: 12.8s
+3/10 (30%)	agent 23	model 0.75	NLL: 1.594	Top1: 52.58 / Top5: 8.75	Total 3.9892 Time: 10.0s
+5/10 (50%)	agent 50	model 0.5	NLL: 1.703	Top1: 59.23 / Top5: 10.54	Total 3.8846 Time: 17.6s
+4/10 (40%)	agent 31	model 0.5	NLL: 1.402	Top1: 53.42 / Top5: 3.75	Total 3.0870 Time: 8.5s
+9/10 (90%)	agent 89	model 0.5	NLL: 1.686	Top1: 58.62 / Top5: 8.69	Total 3.8241 Time: 17.5s
+
+Evaluation:
+model 0 Loss: 2.090 (Best: 1.853 from epoch 7)
+model 0 Top1 error: 76.520 (Best: 71.310 from epoch 7)
+model 0 Top5 error: 20.900 (Best: 15.310 from epoch 6)
+model 0 accuracy: 0.235
+model 1 Loss: 1.892 (Best: 1.892 from epoch 9)
+model 1 Top1 error: 70.390 (Best: 70.390 from epoch 9)
+model 1 Top5 error: 17.660 (Best: 17.660 from epoch 9)
+model 1 accuracy: 0.296
+model 2 Loss: 2.072 (Best: 2.072 from epoch 9)
+model 2 Top1 error: 75.790 (Best: 75.790 from epoch 9)
+model 2 Top5 error: 25.860 (Best: 25.860 from epoch 9)
+model 2 accuracy: 0.242
+model 3 Loss: 1.844 (Best: 1.844 from epoch 9)
+model 3 Top1 error: 70.250 (Best: 69.860 from epoch 6)
+model 3 Top5 error: 14.540 (Best: 14.540 from epoch 9)
+model 3 accuracy: 0.297
+[Epoch 11]	Learning rate: 0.1
+4/10 (40%)	agent 33	model 0.75	NLL: 1.166	Top1: 35.10 / Top5: 2.20	Total 3.4774 Time: 8.6s
+5/10 (50%)	agent 40	model 1.0	NLL: 1.690	Top1: 60.18 / Top5: 11.24	Total 3.7191 Time: 33.3s
+7/10 (70%)	agent 78	model 0.5	NLL: 1.437	Top1: 52.93 / Top5: 5.86	Total 3.3026 Time: 9.4s
+0/10 (0%)	agent 2	model 1.0	NLL: 1.439	Top1: 47.36 / Top5: 3.64	Total 3.7932 Time: 14.0s
+6/10 (60%)	agent 65	model 0.5	NLL: 1.773	Top1: 62.95 / Top5: 13.55	Total 4.2538 Time: 15.7s
+1/10 (10%)	agent 8	model 1.0	NLL: 1.311	Top1: 42.61 / Top5: 4.50	Total 3.3708 Time: 18.7s
+8/10 (80%)	agent 88	model 0.75	NLL: 1.333	Top1: 49.62 / Top5: 3.25	Total 3.3202 Time: 7.4s
+3/10 (30%)	agent 31	model 0.25	NLL: 1.609	Top1: 57.00 / Top5: 10.25	Total 4.1208 Time: 6.5s
+2/10 (20%)	agent 23	model 0.75	NLL: 1.337	Top1: 47.75 / Top5: 2.83	Total 2.8652 Time: 10.1s
+9/10 (90%)	agent 91	model 1.0	NLL: 1.432	Top1: 52.70 / Top5: 5.20	Total 3.6047 Time: 10.4s
+
+Evaluation:
+model 0 Loss: 1.950 (Best: 1.853 from epoch 7)
+model 0 Top1 error: 71.500 (Best: 71.310 from epoch 7)
+model 0 Top5 error: 17.920 (Best: 15.310 from epoch 6)
+model 0 accuracy: 0.285
+model 1 Loss: 1.916 (Best: 1.892 from epoch 9)
+model 1 Top1 error: 74.040 (Best: 70.390 from epoch 9)
+model 1 Top5 error: 16.850 (Best: 16.850 from epoch 10)
+model 1 accuracy: 0.260
+model 2 Loss: 2.177 (Best: 2.072 from epoch 9)
+model 2 Top1 error: 76.490 (Best: 75.790 from epoch 9)
+model 2 Top5 error: 30.340 (Best: 25.860 from epoch 9)
+model 2 accuracy: 0.235
+model 3 Loss: 1.761 (Best: 1.761 from epoch 10)
+model 3 Top1 error: 66.310 (Best: 66.310 from epoch 10)
+model 3 Top5 error: 12.940 (Best: 12.940 from epoch 10)
+model 3 accuracy: 0.337
+[Epoch 12]	Learning rate: 0.1
+3/10 (30%)	agent 34	model 0.25	NLL: 1.161	Top1: 33.25 / Top5: 5.12	Total 3.5881 Time: 3.8s
+7/10 (70%)	agent 55	model 1.0	NLL: 1.583	Top1: 56.11 / Top5: 9.96	Total 3.4087 Time: 24.8s
+4/10 (40%)	agent 43	model 1.0	NLL: 1.656	Top1: 59.77 / Top5: 8.92	Total 3.5911 Time: 27.0s
+9/10 (90%)	agent 96	model 0.5	NLL: 1.190	Top1: 35.75 / Top5: 4.17	Total 3.1521 Time: 7.9s
+6/10 (60%)	agent 50	model 0.75	NLL: 1.781	Top1: 62.65 / Top5: 12.31	Total 4.4672 Time: 21.6s
+5/10 (50%)	agent 46	model 0.75	NLL: 1.775	Top1: 65.15 / Top5: 14.15	Total 3.9745 Time: 17.5s
+8/10 (80%)	agent 92	model 0.25	NLL: 1.390	Top1: 50.20 / Top5: 5.70	Total 3.8724 Time: 5.1s
+0/10 (0%)	agent 9	model 0.25	NLL: 1.582	Top1: 55.32 / Top5: 10.68	Total 3.4397 Time: 13.6s
+2/10 (20%)	agent 28	model 0.75	NLL: 1.717	Top1: 58.67 / Top5: 14.46	Total 3.8108 Time: 20.7s
+1/10 (10%)	agent 27	model 0.5	NLL: 1.306	Top1: 46.00 / Top5: 2.62	Total 3.1832 Time: 6.0s
+
+Evaluation:
+model 0 Loss: 1.930 (Best: 1.853 from epoch 7)
+model 0 Top1 error: 71.940 (Best: 71.310 from epoch 7)
+model 0 Top5 error: 18.050 (Best: 15.310 from epoch 6)
+model 0 accuracy: 0.281
+model 1 Loss: 2.060 (Best: 1.892 from epoch 9)
+model 1 Top1 error: 78.460 (Best: 70.390 from epoch 9)
+model 1 Top5 error: 18.860 (Best: 16.850 from epoch 10)
+model 1 accuracy: 0.215
+model 2 Loss: 1.937 (Best: 1.937 from epoch 11)
+model 2 Top1 error: 73.270 (Best: 73.270 from epoch 11)
+model 2 Top5 error: 19.050 (Best: 19.050 from epoch 11)
+model 2 accuracy: 0.267
+model 3 Loss: 1.690 (Best: 1.690 from epoch 11)
+model 3 Top1 error: 64.350 (Best: 64.350 from epoch 11)
+model 3 Top5 error: 11.540 (Best: 11.540 from epoch 11)
+model 3 accuracy: 0.356
+[Epoch 13]	Learning rate: 0.1
+3/10 (30%)	agent 35	model 0.75	NLL: 1.249	Top1: 35.50 / Top5: 6.38	Total 3.8047 Time: 7.4s
+4/10 (40%)	agent 41	model 0.5	NLL: 1.718	Top1: 67.07 / Top5: 10.14	Total 4.0791 Time: 9.1s
+6/10 (60%)	agent 75	model 0.5	NLL: 1.068	Top1: 32.62 / Top5: 3.12	Total 3.3128 Time: 5.9s
+1/10 (10%)	agent 14	model 0.75	NLL: 1.340	Top1: 47.06 / Top5: 3.50	Total 3.5580 Time: 13.4s
+7/10 (70%)	agent 85	model 0.25	NLL: 1.637	Top1: 58.25 / Top5: 8.75	Total 3.7440 Time: 17.6s
+9/10 (90%)	agent 94	model 0.25	NLL: 1.522	Top1: 50.92 / Top5: 7.92	Total 3.9558 Time: 6.1s
+8/10 (80%)	agent 88	model 0.75	NLL: 1.259	Top1: 45.50 / Top5: 2.38	Total 3.2532 Time: 6.8s
+2/10 (20%)	agent 19	model 0.5	NLL: 1.675	Top1: 59.50 / Top5: 7.56	Total 4.1475 Time: 10.5s
+0/10 (0%)	agent 7	model 1.0	NLL: 1.228	Top1: 43.21 / Top5: 3.00	Total 3.1253 Time: 14.1s
+5/10 (50%)	agent 64	model 0.25	NLL: 1.218	Top1: 40.00 / Top5: 3.64	Total 3.0861 Time: 6.8s
+
+Evaluation:
+model 0 Loss: 1.801 (Best: 1.801 from epoch 12)
+model 0 Top1 error: 69.350 (Best: 69.350 from epoch 12)
+model 0 Top5 error: 14.280 (Best: 14.280 from epoch 12)
+model 0 accuracy: 0.306
+model 1 Loss: 1.919 (Best: 1.892 from epoch 9)
+model 1 Top1 error: 74.960 (Best: 70.390 from epoch 9)
+model 1 Top5 error: 15.220 (Best: 15.220 from epoch 12)
+model 1 accuracy: 0.250
+model 2 Loss: 2.031 (Best: 1.937 from epoch 11)
+model 2 Top1 error: 73.530 (Best: 73.270 from epoch 11)
+model 2 Top5 error: 20.110 (Best: 19.050 from epoch 11)
+model 2 accuracy: 0.265
+model 3 Loss: 1.902 (Best: 1.690 from epoch 11)
+model 3 Top1 error: 71.710 (Best: 64.350 from epoch 11)
+model 3 Top5 error: 16.280 (Best: 11.540 from epoch 11)
+model 3 accuracy: 0.283
+[Epoch 14]	Learning rate: 0.1
+6/10 (60%)	agent 77	model 0.75	NLL: 1.306	Top1: 44.25 / Top5: 4.25	Total 4.0871 Time: 6.9s
+1/10 (10%)	agent 20	model 1.0	NLL: 1.367	Top1: 49.06 / Top5: 6.00	Total 3.0594 Time: 33.8s
+4/10 (40%)	agent 36	model 0.25	NLL: 1.324	Top1: 43.93 / Top5: 3.93	Total 3.1200 Time: 7.3s
+0/10 (0%)	agent 2	model 0.5	NLL: 1.376	Top1: 49.29 / Top5: 1.93	Total 3.4600 Time: 9.5s
+7/10 (70%)	agent 95	model 0.75	NLL: 1.551	Top1: 51.59 / Top5: 10.19	Total 3.5316 Time: 27.1s
+3/10 (30%)	agent 27	model 0.25	NLL: 1.452	Top1: 51.00 / Top5: 5.88	Total 3.8134 Time: 4.3s
+9/10 (90%)	agent 99	model 0.5	NLL: 1.379	Top1: 52.75 / Top5: 4.12	Total 3.5899 Time: 5.8s
+5/10 (50%)	agent 41	model 1.0	NLL: 1.594	Top1: 58.64 / Top5: 8.14	Total 3.6445 Time: 14.0s
+2/10 (20%)	agent 23	model 1.0	NLL: 1.159	Top1: 38.42 / Top5: 4.50	Total 2.9202 Time: 13.2s
+8/10 (80%)	agent 97	model 1.0	NLL: 1.563	Top1: 54.62 / Top5: 8.31	Total 3.7980 Time: 32.5s
+
+Evaluation:
+model 0 Loss: 1.810 (Best: 1.801 from epoch 12)
+model 0 Top1 error: 71.170 (Best: 69.350 from epoch 12)
+model 0 Top5 error: 12.860 (Best: 12.860 from epoch 13)
+model 0 accuracy: 0.288
+model 1 Loss: 1.953 (Best: 1.892 from epoch 9)
+model 1 Top1 error: 72.020 (Best: 70.390 from epoch 9)
+model 1 Top5 error: 17.600 (Best: 15.220 from epoch 12)
+model 1 accuracy: 0.280
+model 2 Loss: 1.982 (Best: 1.937 from epoch 11)
+model 2 Top1 error: 76.150 (Best: 73.270 from epoch 11)
+model 2 Top5 error: 20.610 (Best: 19.050 from epoch 11)
+model 2 accuracy: 0.238
+model 3 Loss: 1.665 (Best: 1.665 from epoch 13)
+model 3 Top1 error: 64.030 (Best: 64.030 from epoch 13)
+model 3 Top5 error: 10.380 (Best: 10.380 from epoch 13)
+model 3 accuracy: 0.360
+[Epoch 15]	Learning rate: 0.1
+7/10 (70%)	agent 35	model 0.5	NLL: 1.086	Top1: 32.12 / Top5: 2.88	Total 3.0484 Time: 5.3s
+4/10 (40%)	agent 28	model 1.0	NLL: 1.428	Top1: 51.67 / Top5: 5.75	Total 3.2458 Time: 20.9s
+5/10 (50%)	agent 29	model 1.0	NLL: 1.059	Top1: 35.25 / Top5: 1.38	Total 2.7290 Time: 7.7s
+0/10 (0%)	agent 7	model 0.25	NLL: 1.474	Top1: 49.71 / Top5: 6.71	Total 3.9770 Time: 5.8s
+8/10 (80%)	agent 36	model 0.25	NLL: 1.229	Top1: 41.57 / Top5: 2.50	Total 2.8688 Time: 6.5s
+6/10 (60%)	agent 32	model 0.75	NLL: 1.636	Top1: 57.85 / Top5: 10.27	Total 3.6670 Time: 19.9s
+1/10 (10%)	agent 11	model 1.0	NLL: 1.566	Top1: 56.17 / Top5: 7.17	Total 3.7301 Time: 16.0s
+3/10 (30%)	agent 21	model 0.5	NLL: 1.647	Top1: 58.35 / Top5: 11.44	Total 3.7663 Time: 20.3s
+9/10 (90%)	agent 67	model 0.25	NLL: 1.356	Top1: 49.29 / Top5: 5.03	Total 2.9008 Time: 15.5s
+2/10 (20%)	agent 13	model 0.25	NLL: 1.558	Top1: 51.44 / Top5: 10.66	Total 3.7166 Time: 13.9s
+
+Evaluation:
+model 0 Loss: 1.709 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 67.270 (Best: 67.270 from epoch 14)
+model 0 Top5 error: 11.620 (Best: 11.620 from epoch 14)
+model 0 accuracy: 0.327
+model 1 Loss: 1.976 (Best: 1.892 from epoch 9)
+model 1 Top1 error: 73.590 (Best: 70.390 from epoch 9)
+model 1 Top5 error: 17.220 (Best: 15.220 from epoch 12)
+model 1 accuracy: 0.264
+model 2 Loss: 2.003 (Best: 1.937 from epoch 11)
+model 2 Top1 error: 76.810 (Best: 73.270 from epoch 11)
+model 2 Top5 error: 18.370 (Best: 18.370 from epoch 14)
+model 2 accuracy: 0.232
+model 3 Loss: 1.788 (Best: 1.665 from epoch 13)
+model 3 Top1 error: 68.980 (Best: 64.030 from epoch 13)
+model 3 Top5 error: 13.440 (Best: 10.380 from epoch 13)
+model 3 accuracy: 0.310
+[Epoch 16]	Learning rate: 0.1
+4/10 (40%)	agent 33	model 0.75	NLL: 1.099	Top1: 33.70 / Top5: 3.40	Total 3.4600 Time: 7.5s
+1/10 (10%)	agent 5	model 1.0	NLL: 1.417	Top1: 51.45 / Top5: 5.40	Total 3.1763 Time: 17.6s
+2/10 (20%)	agent 14	model 0.5	NLL: 1.243	Top1: 50.88 / Top5: 2.12	Total 3.3056 Time: 10.2s
+5/10 (50%)	agent 47	model 0.25	NLL: 1.340	Top1: 47.62 / Top5: 4.88	Total 3.5378 Time: 10.7s
+9/10 (90%)	agent 84	model 0.75	NLL: 1.611	Top1: 53.63 / Top5: 8.33	Total 3.9975 Time: 22.6s
+6/10 (60%)	agent 51	model 0.75	NLL: 1.554	Top1: 52.94 / Top5: 8.16	Total 3.6913 Time: 22.9s
+8/10 (80%)	agent 61	model 0.25	NLL: 1.212	Top1: 36.21 / Top5: 4.97	Total 2.8532 Time: 15.3s
+0/10 (0%)	agent 1	model 1.0	NLL: 1.387	Top1: 47.85 / Top5: 5.91	Total 3.1631 Time: 29.9s
+7/10 (70%)	agent 56	model 0.75	NLL: 1.585	Top1: 53.92 / Top5: 9.38	Total 3.7190 Time: 18.9s
+3/10 (30%)	agent 19	model 0.5	NLL: 1.496	Top1: 52.94 / Top5: 6.12	Total 3.6829 Time: 10.3s
+
+Evaluation:
+model 0 Loss: 1.850 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 66.020 (Best: 66.020 from epoch 15)
+model 0 Top5 error: 21.520 (Best: 11.620 from epoch 14)
+model 0 accuracy: 0.340
+model 1 Loss: 2.016 (Best: 1.892 from epoch 9)
+model 1 Top1 error: 71.690 (Best: 70.390 from epoch 9)
+model 1 Top5 error: 21.470 (Best: 15.220 from epoch 12)
+model 1 accuracy: 0.283
+model 2 Loss: 1.791 (Best: 1.791 from epoch 15)
+model 2 Top1 error: 66.410 (Best: 66.410 from epoch 15)
+model 2 Top5 error: 12.650 (Best: 12.650 from epoch 15)
+model 2 accuracy: 0.336
+model 3 Loss: 1.648 (Best: 1.648 from epoch 15)
+model 3 Top1 error: 62.270 (Best: 62.270 from epoch 15)
+model 3 Top5 error: 10.780 (Best: 10.380 from epoch 13)
+model 3 accuracy: 0.377
+[Epoch 17]	Learning rate: 0.1
+2/10 (20%)	agent 35	model 0.25	NLL: 0.930	Top1: 24.38 / Top5: 1.62	Total 2.7591 Time: 3.8s
+6/10 (60%)	agent 63	model 0.5	NLL: 1.713	Top1: 61.75 / Top5: 10.79	Total 4.1864 Time: 16.6s
+1/10 (10%)	agent 12	model 1.0	NLL: 1.229	Top1: 42.65 / Top5: 4.05	Total 2.9679 Time: 17.8s
+7/10 (70%)	agent 81	model 0.25	NLL: 1.195	Top1: 41.83 / Top5: 2.75	Total 3.3591 Time: 5.4s
+0/10 (0%)	agent 11	model 0.75	NLL: 1.601	Top1: 59.00 / Top5: 6.11	Total 3.7754 Time: 14.8s
+9/10 (90%)	agent 93	model 0.75	NLL: 1.268	Top1: 38.50 / Top5: 4.33	Total 3.6196 Time: 9.3s
+3/10 (30%)	agent 37	model 0.25	NLL: 1.257	Top1: 41.81 / Top5: 3.25	Total 3.3124 Time: 7.5s
+5/10 (50%)	agent 59	model 1.0	NLL: 1.458	Top1: 56.39 / Top5: 5.61	Total 3.2532 Time: 16.7s
+4/10 (40%)	agent 41	model 1.0	NLL: 1.334	Top1: 46.86 / Top5: 5.14	Total 3.0075 Time: 11.8s
+8/10 (80%)	agent 89	model 0.5	NLL: 1.583	Top1: 57.35 / Top5: 6.85	Total 3.7905 Time: 15.3s
+
+Evaluation:
+model 0 Loss: 1.749 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 64.170 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 15.130 (Best: 11.620 from epoch 14)
+model 0 accuracy: 0.358
+model 1 Loss: 1.831 (Best: 1.831 from epoch 16)
+model 1 Top1 error: 68.180 (Best: 68.180 from epoch 16)
+model 1 Top5 error: 16.740 (Best: 15.220 from epoch 12)
+model 1 accuracy: 0.318
+model 2 Loss: 1.881 (Best: 1.791 from epoch 15)
+model 2 Top1 error: 71.550 (Best: 66.410 from epoch 15)
+model 2 Top5 error: 15.990 (Best: 12.650 from epoch 15)
+model 2 accuracy: 0.284
+model 3 Loss: 1.758 (Best: 1.648 from epoch 15)
+model 3 Top1 error: 68.620 (Best: 62.270 from epoch 15)
+model 3 Top5 error: 10.270 (Best: 10.270 from epoch 16)
+model 3 accuracy: 0.314
+[Epoch 18]	Learning rate: 0.1
+3/10 (30%)	agent 49	model 0.75	NLL: 1.479	Top1: 48.22 / Top5: 3.78	Total 4.1968 Time: 13.7s
+4/10 (40%)	agent 55	model 1.0	NLL: 1.469	Top1: 52.32 / Top5: 7.82	Total 3.1866 Time: 24.5s
+1/10 (10%)	agent 32	model 1.0	NLL: 1.366	Top1: 49.08 / Top5: 5.69	Total 3.0711 Time: 22.8s
+7/10 (70%)	agent 82	model 0.25	NLL: 1.497	Top1: 51.80 / Top5: 7.60	Total 4.3139 Time: 4.3s
+0/10 (0%)	agent 24	model 0.5	NLL: 1.528	Top1: 54.88 / Top5: 8.69	Total 3.2609 Time: 19.1s
+8/10 (80%)	agent 97	model 0.25	NLL: 1.476	Top1: 49.78 / Top5: 7.47	Total 3.6039 Time: 13.6s
+2/10 (20%)	agent 47	model 1.0	NLL: 1.226	Top1: 41.04 / Top5: 4.42	Total 3.3047 Time: 20.7s
+5/10 (50%)	agent 63	model 0.25	NLL: 1.600	Top1: 57.79 / Top5: 8.04	Total 3.8423 Time: 12.3s
+9/10 (90%)	agent 98	model 1.0	NLL: 1.282	Top1: 40.17 / Top5: 4.92	Total 3.4192 Time: 21.4s
+6/10 (60%)	agent 64	model 0.5	NLL: 1.218	Top1: 37.07 / Top5: 4.64	Total 3.3379 Time: 8.3s
+
+Evaluation:
+model 0 Loss: 1.869 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 72.120 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 15.890 (Best: 11.620 from epoch 14)
+model 0 accuracy: 0.279
+model 1 Loss: 1.710 (Best: 1.710 from epoch 17)
+model 1 Top1 error: 64.500 (Best: 64.500 from epoch 17)
+model 1 Top5 error: 11.370 (Best: 11.370 from epoch 17)
+model 1 accuracy: 0.355
+model 2 Loss: 2.290 (Best: 1.791 from epoch 15)
+model 2 Top1 error: 79.510 (Best: 66.410 from epoch 15)
+model 2 Top5 error: 27.140 (Best: 12.650 from epoch 15)
+model 2 accuracy: 0.205
+model 3 Loss: 1.557 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 58.520 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 8.090 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.415
+[Epoch 19]	Learning rate: 0.1
+3/10 (30%)	agent 35	model 0.75	NLL: 1.326	Top1: 40.38 / Top5: 4.38	Total 4.2926 Time: 6.6s
+5/10 (50%)	agent 50	model 1.0	NLL: 1.264	Top1: 43.38 / Top5: 4.35	Total 2.9427 Time: 23.2s
+1/10 (10%)	agent 25	model 0.5	NLL: 1.458	Top1: 50.85 / Top5: 6.75	Total 3.4520 Time: 12.3s
+8/10 (80%)	agent 79	model 0.5	NLL: 1.049	Top1: 32.10 / Top5: 2.60	Total 3.0044 Time: 6.1s
+4/10 (40%)	agent 43	model 0.25	NLL: 1.566	Top1: 59.38 / Top5: 6.31	Total 3.4488 Time: 11.3s
+2/10 (20%)	agent 31	model 0.5	NLL: 1.278	Top1: 45.42 / Top5: 4.50	Total 2.9035 Time: 7.2s
+9/10 (90%)	agent 92	model 0.25	NLL: 1.131	Top1: 39.80 / Top5: 3.30	Total 2.9925 Time: 4.4s
+6/10 (60%)	agent 53	model 0.25	NLL: 1.448	Top1: 48.03 / Top5: 8.41	Total 3.3225 Time: 14.1s
+7/10 (70%)	agent 60	model 0.5	NLL: 1.478	Top1: 53.43 / Top5: 3.93	Total 3.6508 Time: 8.3s
+0/10 (0%)	agent 13	model 0.75	NLL: 1.678	Top1: 59.44 / Top5: 10.12	Total 4.1314 Time: 22.9s
+
+Evaluation:
+model 0 Loss: 1.814 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 72.270 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 13.850 (Best: 11.620 from epoch 14)
+model 0 accuracy: 0.277
+model 1 Loss: 1.705 (Best: 1.705 from epoch 18)
+model 1 Top1 error: 64.290 (Best: 64.290 from epoch 18)
+model 1 Top5 error: 12.080 (Best: 11.370 from epoch 17)
+model 1 accuracy: 0.357
+model 2 Loss: 2.066 (Best: 1.791 from epoch 15)
+model 2 Top1 error: 76.150 (Best: 66.410 from epoch 15)
+model 2 Top5 error: 21.950 (Best: 12.650 from epoch 15)
+model 2 accuracy: 0.238
+model 3 Loss: 1.851 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 64.150 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 15.350 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.358
+[Epoch 20]	Learning rate: 0.1
+7/10 (70%)	agent 77	model 0.25	NLL: 1.044	Top1: 30.62 / Top5: 1.38	Total 3.1049 Time: 4.0s
+6/10 (60%)	agent 71	model 0.75	NLL: 1.644	Top1: 56.36 / Top5: 10.28	Total 3.9862 Time: 26.6s
+2/10 (20%)	agent 23	model 0.5	NLL: 1.195	Top1: 37.83 / Top5: 4.83	Total 3.1060 Time: 7.5s
+0/10 (0%)	agent 14	model 0.75	NLL: 1.287	Top1: 49.38 / Top5: 4.19	Total 3.8215 Time: 11.9s
+5/10 (50%)	agent 67	model 0.25	NLL: 1.336	Top1: 44.68 / Top5: 6.21	Total 3.0765 Time: 14.9s
+1/10 (10%)	agent 19	model 0.75	NLL: 1.387	Top1: 49.00 / Top5: 4.94	Total 3.2074 Time: 12.1s
+8/10 (80%)	agent 81	model 0.5	NLL: 1.138	Top1: 39.25 / Top5: 3.08	Total 3.1329 Time: 7.3s
+9/10 (90%)	agent 86	model 0.5	NLL: 1.096	Top1: 36.00 / Top5: 3.40	Total 2.5452 Time: 12.0s
+3/10 (30%)	agent 45	model 1.0	NLL: 1.018	Top1: 30.38 / Top5: 4.38	Total 2.9219 Time: 7.9s
+4/10 (40%)	agent 47	model 0.75	NLL: 1.547	Top1: 54.04 / Top5: 7.88	Total 4.2085 Time: 17.3s
+
+Evaluation:
+model 0 Loss: 1.786 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 68.290 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 13.380 (Best: 11.620 from epoch 14)
+model 0 accuracy: 0.317
+model 1 Loss: 1.719 (Best: 1.705 from epoch 18)
+model 1 Top1 error: 65.420 (Best: 64.290 from epoch 18)
+model 1 Top5 error: 10.720 (Best: 10.720 from epoch 19)
+model 1 accuracy: 0.346
+model 2 Loss: 1.843 (Best: 1.791 from epoch 15)
+model 2 Top1 error: 66.440 (Best: 66.410 from epoch 15)
+model 2 Top5 error: 16.140 (Best: 12.650 from epoch 15)
+model 2 accuracy: 0.336
+model 3 Loss: 2.092 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 71.590 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 19.700 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.284
+[Epoch 21]	Learning rate: 0.1
+2/10 (20%)	agent 10	model 1.0	NLL: 1.116	Top1: 34.25 / Top5: 3.62	Total 3.6635 Time: 7.4s
+0/10 (0%)	agent 0	model 1.0	NLL: 1.578	Top1: 57.04 / Top5: 8.18	Total 3.8402 Time: 24.2s
+6/10 (60%)	agent 45	model 0.5	NLL: 1.209	Top1: 41.00 / Top5: 3.88	Total 3.4492 Time: 5.0s
+8/10 (80%)	agent 82	model 1.0	NLL: 1.230	Top1: 46.00 / Top5: 2.20	Total 3.4042 Time: 8.5s
+4/10 (40%)	agent 39	model 0.75	NLL: 1.473	Top1: 53.18 / Top5: 6.55	Total 3.5947 Time: 16.7s
+9/10 (90%)	agent 92	model 1.0	NLL: 1.346	Top1: 44.80 / Top5: 7.10	Total 4.1052 Time: 8.7s
+1/10 (10%)	agent 4	model 1.0	NLL: 1.199	Top1: 48.92 / Top5: 1.92	Total 3.0588 Time: 10.8s
+3/10 (30%)	agent 32	model 0.25	NLL: 1.455	Top1: 52.19 / Top5: 7.81	Total 3.3248 Time: 11.3s
+7/10 (70%)	agent 61	model 0.75	NLL: 1.347	Top1: 39.29 / Top5: 6.38	Total 3.4122 Time: 24.7s
+5/10 (50%)	agent 42	model 0.5	NLL: 1.446	Top1: 53.08 / Top5: 3.50	Total 3.5321 Time: 14.3s
+
+Evaluation:
+model 0 Loss: 1.779 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 68.270 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 11.450 (Best: 11.450 from epoch 20)
+model 0 accuracy: 0.317
+model 1 Loss: 1.749 (Best: 1.705 from epoch 18)
+model 1 Top1 error: 67.980 (Best: 64.290 from epoch 18)
+model 1 Top5 error: 11.990 (Best: 10.720 from epoch 19)
+model 1 accuracy: 0.320
+model 2 Loss: 1.770 (Best: 1.770 from epoch 20)
+model 2 Top1 error: 64.060 (Best: 64.060 from epoch 20)
+model 2 Top5 error: 14.840 (Best: 12.650 from epoch 15)
+model 2 accuracy: 0.359
+model 3 Loss: 1.846 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 71.350 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 16.350 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.286
+[Epoch 22]	Learning rate: 0.1
+8/10 (80%)	agent 79	model 0.5	NLL: 1.064	Top1: 32.00 / Top5: 2.40	Total 3.0414 Time: 6.2s
+1/10 (10%)	agent 3	model 0.5	NLL: 1.393	Top1: 50.00 / Top5: 5.50	Total 3.4394 Time: 7.2s
+5/10 (50%)	agent 29	model 0.5	NLL: 1.160	Top1: 37.88 / Top5: 2.88	Total 3.1380 Time: 5.0s
+3/10 (30%)	agent 22	model 1.0	NLL: 1.190	Top1: 39.62 / Top5: 4.12	Total 3.0791 Time: 7.3s
+6/10 (60%)	agent 41	model 0.75	NLL: 1.475	Top1: 50.93 / Top5: 7.43	Total 3.3871 Time: 10.1s
+0/10 (0%)	agent 1	model 1.0	NLL: 1.336	Top1: 46.38 / Top5: 5.79	Total 3.2612 Time: 29.7s
+7/10 (70%)	agent 45	model 0.25	NLL: 1.090	Top1: 38.62 / Top5: 3.12	Total 2.8594 Time: 4.2s
+4/10 (40%)	agent 25	model 0.5	NLL: 1.403	Top1: 48.20 / Top5: 5.65	Total 3.2959 Time: 12.0s
+2/10 (20%)	agent 13	model 1.0	NLL: 1.294	Top1: 43.03 / Top5: 6.16	Total 3.0216 Time: 27.2s
+9/10 (90%)	agent 99	model 1.0	NLL: 1.134	Top1: 38.62 / Top5: 4.62	Total 2.9887 Time: 7.6s
+
+Evaluation:
+model 0 Loss: 2.030 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 73.890 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 18.620 (Best: 11.450 from epoch 20)
+model 0 accuracy: 0.261
+model 1 Loss: 1.650 (Best: 1.650 from epoch 21)
+model 1 Top1 error: 62.010 (Best: 62.010 from epoch 21)
+model 1 Top5 error: 10.460 (Best: 10.460 from epoch 21)
+model 1 accuracy: 0.380
+model 2 Loss: 1.763 (Best: 1.763 from epoch 21)
+model 2 Top1 error: 65.300 (Best: 64.060 from epoch 20)
+model 2 Top5 error: 12.600 (Best: 12.600 from epoch 21)
+model 2 accuracy: 0.347
+model 3 Loss: 1.711 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 63.960 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 11.040 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.360
+[Epoch 23]	Learning rate: 0.1
+1/10 (10%)	agent 26	model 0.25	NLL: 1.246	Top1: 45.12 / Top5: 2.75	Total 3.4167 Time: 3.9s
+4/10 (40%)	agent 57	model 1.0	NLL: 1.431	Top1: 53.92 / Top5: 5.50	Total 3.3105 Time: 22.4s
+9/10 (90%)	agent 88	model 0.75	NLL: 1.070	Top1: 36.38 / Top5: 3.50	Total 2.8468 Time: 6.2s
+3/10 (30%)	agent 34	model 0.5	NLL: 0.926	Top1: 23.50 / Top5: 3.75	Total 2.9426 Time: 5.1s
+0/10 (0%)	agent 17	model 0.75	NLL: 1.353	Top1: 49.00 / Top5: 5.92	Total 3.0221 Time: 18.3s
+6/10 (60%)	agent 80	model 0.5	NLL: 1.525	Top1: 53.75 / Top5: 6.72	Total 3.3817 Time: 22.0s
+5/10 (50%)	agent 74	model 0.5	NLL: 1.165	Top1: 35.08 / Top5: 3.50	Total 3.3706 Time: 7.6s
+8/10 (80%)	agent 84	model 0.75	NLL: 1.365	Top1: 44.70 / Top5: 5.67	Total 3.1669 Time: 22.3s
+7/10 (70%)	agent 81	model 0.5	NLL: 0.996	Top1: 29.92 / Top5: 2.50	Total 2.6926 Time: 7.6s
+2/10 (20%)	agent 27	model 1.0	NLL: 1.348	Top1: 46.25 / Top5: 3.75	Total 3.9016 Time: 8.0s
+
+Evaluation:
+model 0 Loss: 2.560 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 78.620 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 33.070 (Best: 11.450 from epoch 20)
+model 0 accuracy: 0.214
+model 1 Loss: 1.699 (Best: 1.650 from epoch 21)
+model 1 Top1 error: 64.650 (Best: 62.010 from epoch 21)
+model 1 Top5 error: 10.630 (Best: 10.460 from epoch 21)
+model 1 accuracy: 0.353
+model 2 Loss: 1.853 (Best: 1.763 from epoch 21)
+model 2 Top1 error: 65.460 (Best: 64.060 from epoch 20)
+model 2 Top5 error: 13.630 (Best: 12.600 from epoch 21)
+model 2 accuracy: 0.345
+model 3 Loss: 1.637 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 62.320 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 9.070 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.377
+[Epoch 24]	Learning rate: 0.1
+6/10 (60%)	agent 75	model 1.0	NLL: 0.922	Top1: 25.00 / Top5: 3.00	Total 2.8116 Time: 7.9s
+1/10 (10%)	agent 13	model 0.25	NLL: 1.589	Top1: 52.44 / Top5: 10.97	Total 4.2435 Time: 14.2s
+9/10 (90%)	agent 97	model 0.75	NLL: 1.366	Top1: 49.66 / Top5: 4.66	Total 3.1520 Time: 23.0s
+3/10 (30%)	agent 52	model 0.5	NLL: 1.233	Top1: 40.12 / Top5: 3.12	Total 3.3829 Time: 5.4s
+4/10 (40%)	agent 53	model 0.25	NLL: 1.512	Top1: 51.25 / Top5: 8.16	Total 3.8853 Time: 13.9s
+5/10 (50%)	agent 56	model 0.5	NLL: 1.347	Top1: 44.58 / Top5: 8.85	Total 3.2141 Time: 15.7s
+7/10 (70%)	agent 76	model 0.25	NLL: 1.331	Top1: 43.56 / Top5: 4.94	Total 4.2009 Time: 7.5s
+2/10 (20%)	agent 42	model 0.75	NLL: 1.427	Top1: 53.17 / Top5: 3.00	Total 3.5706 Time: 17.5s
+0/10 (0%)	agent 3	model 0.5	NLL: 1.224	Top1: 43.42 / Top5: 3.92	Total 2.9914 Time: 7.3s
+8/10 (80%)	agent 91	model 0.75	NLL: 1.206	Top1: 42.90 / Top5: 3.00	Total 2.9093 Time: 7.4s
+
+Evaluation:
+model 0 Loss: 1.834 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 67.490 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 14.070 (Best: 11.450 from epoch 20)
+model 0 accuracy: 0.325
+model 1 Loss: 1.599 (Best: 1.599 from epoch 23)
+model 1 Top1 error: 62.900 (Best: 62.010 from epoch 21)
+model 1 Top5 error: 9.300 (Best: 9.300 from epoch 23)
+model 1 accuracy: 0.371
+model 2 Loss: 1.995 (Best: 1.763 from epoch 21)
+model 2 Top1 error: 70.820 (Best: 64.060 from epoch 20)
+model 2 Top5 error: 13.720 (Best: 12.600 from epoch 21)
+model 2 accuracy: 0.292
+model 3 Loss: 2.105 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 74.930 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 16.430 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.251
+[Epoch 25]	Learning rate: 0.1
+8/10 (80%)	agent 92	model 0.25	NLL: 1.278	Top1: 42.40 / Top5: 5.30	Total 3.7753 Time: 4.4s
+2/10 (20%)	agent 57	model 0.5	NLL: 1.504	Top1: 55.85 / Top5: 6.15	Total 3.2997 Time: 16.2s
+7/10 (70%)	agent 90	model 0.25	NLL: 1.546	Top1: 57.54 / Top5: 8.50	Total 3.5132 Time: 11.7s
+5/10 (50%)	agent 88	model 0.5	NLL: 1.102	Top1: 32.88 / Top5: 4.50	Total 3.0571 Time: 5.0s
+4/10 (40%)	agent 68	model 0.75	NLL: 1.324	Top1: 48.83 / Top5: 3.17	Total 3.1410 Time: 9.4s
+6/10 (60%)	agent 89	model 0.25	NLL: 1.435	Top1: 50.12 / Top5: 6.31	Total 3.3763 Time: 11.4s
+0/10 (0%)	agent 25	model 1.0	NLL: 1.320	Top1: 49.20 / Top5: 5.30	Total 3.4239 Time: 16.9s
+9/10 (90%)	agent 95	model 0.25	NLL: 1.266	Top1: 43.12 / Top5: 6.34	Total 2.9986 Time: 13.6s
+3/10 (30%)	agent 65	model 0.75	NLL: 1.542	Top1: 54.59 / Top5: 7.50	Total 3.4589 Time: 17.1s
+1/10 (10%)	agent 51	model 1.0	NLL: 1.360	Top1: 48.66 / Top5: 4.34	Total 3.4297 Time: 27.2s
+
+Evaluation:
+model 0 Loss: 1.738 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 65.500 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 12.170 (Best: 11.450 from epoch 20)
+model 0 accuracy: 0.345
+model 1 Loss: 1.630 (Best: 1.599 from epoch 23)
+model 1 Top1 error: 65.530 (Best: 62.010 from epoch 21)
+model 1 Top5 error: 9.390 (Best: 9.300 from epoch 23)
+model 1 accuracy: 0.345
+model 2 Loss: 1.911 (Best: 1.763 from epoch 21)
+model 2 Top1 error: 68.700 (Best: 64.060 from epoch 20)
+model 2 Top5 error: 18.090 (Best: 12.600 from epoch 21)
+model 2 accuracy: 0.313
+model 3 Loss: 1.807 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 70.710 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 12.230 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.293
+[Epoch 26]	Learning rate: 0.1
+3/10 (30%)	agent 45	model 1.0	NLL: 1.006	Top1: 34.38 / Top5: 2.12	Total 2.8805 Time: 8.3s
+7/10 (70%)	agent 69	model 0.5	NLL: 1.385	Top1: 49.44 / Top5: 5.53	Total 3.0491 Time: 20.6s
+5/10 (50%)	agent 56	model 0.75	NLL: 1.394	Top1: 47.73 / Top5: 7.15	Total 3.4331 Time: 20.3s
+0/10 (0%)	agent 8	model 0.75	NLL: 1.210	Top1: 36.44 / Top5: 6.06	Total 3.3640 Time: 13.5s
+8/10 (80%)	agent 87	model 0.75	NLL: 1.610	Top1: 58.12 / Top5: 9.96	Total 3.7803 Time: 17.8s
+4/10 (40%)	agent 55	model 0.5	NLL: 1.434	Top1: 51.04 / Top5: 6.61	Total 3.2288 Time: 16.8s
+9/10 (90%)	agent 94	model 0.25	NLL: 1.198	Top1: 40.17 / Top5: 4.00	Total 3.1339 Time: 5.4s
+2/10 (20%)	agent 38	model 0.75	NLL: 1.553	Top1: 49.83 / Top5: 10.94	Total 4.2317 Time: 14.6s
+6/10 (60%)	agent 61	model 0.75	NLL: 1.204	Top1: 36.88 / Top5: 4.24	Total 3.0541 Time: 25.7s
+1/10 (10%)	agent 20	model 0.5	NLL: 1.333	Top1: 47.47 / Top5: 6.41	Total 3.1943 Time: 20.4s
+
+Evaluation:
+model 0 Loss: 1.853 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 68.630 (Best: 64.170 from epoch 16)
+model 0 Top5 error: 17.550 (Best: 11.450 from epoch 20)
+model 0 accuracy: 0.314
+model 1 Loss: 1.506 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 57.450 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 7.090 (Best: 7.090 from epoch 25)
+model 1 accuracy: 0.425
+model 2 Loss: 1.614 (Best: 1.614 from epoch 25)
+model 2 Top1 error: 57.820 (Best: 57.820 from epoch 25)
+model 2 Top5 error: 10.100 (Best: 10.100 from epoch 25)
+model 2 accuracy: 0.422
+model 3 Loss: 2.243 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 73.820 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 18.940 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.262
+[Epoch 27]	Learning rate: 0.1
+8/10 (80%)	agent 77	model 0.5	NLL: 0.932	Top1: 28.50 / Top5: 1.62	Total 2.7278 Time: 5.3s
+6/10 (60%)	agent 70	model 0.5	NLL: 1.379	Top1: 48.37 / Top5: 6.60	Total 3.1592 Time: 18.7s
+0/10 (0%)	agent 20	model 0.5	NLL: 1.205	Top1: 42.85 / Top5: 4.56	Total 2.6839 Time: 20.1s
+9/10 (90%)	agent 81	model 0.25	NLL: 0.976	Top1: 32.33 / Top5: 2.08	Total 2.5295 Time: 5.6s
+5/10 (50%)	agent 68	model 0.5	NLL: 1.259	Top1: 43.75 / Top5: 4.58	Total 3.0419 Time: 7.7s
+3/10 (30%)	agent 38	model 0.25	NLL: 1.308	Top1: 45.56 / Top5: 5.61	Total 3.2643 Time: 8.2s
+1/10 (10%)	agent 29	model 1.0	NLL: 1.434	Top1: 43.62 / Top5: 5.88	Total 4.6474 Time: 8.0s
+2/10 (20%)	agent 30	model 0.25	NLL: 1.389	Top1: 49.12 / Top5: 6.15	Total 3.1967 Time: 11.6s
+7/10 (70%)	agent 72	model 0.75	NLL: 1.277	Top1: 42.94 / Top5: 4.81	Total 3.1306 Time: 12.1s
+4/10 (40%)	agent 51	model 0.5	NLL: 1.257	Top1: 42.97 / Top5: 4.19	Total 2.7720 Time: 19.3s
+
+Evaluation:
+model 0 Loss: 1.757 (Best: 1.709 from epoch 14)
+model 0 Top1 error: 60.600 (Best: 60.600 from epoch 26)
+model 0 Top5 error: 14.520 (Best: 11.450 from epoch 20)
+model 0 accuracy: 0.394
+model 1 Loss: 1.523 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 58.620 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 6.770 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.414
+model 2 Loss: 1.872 (Best: 1.614 from epoch 25)
+model 2 Top1 error: 68.620 (Best: 57.820 from epoch 25)
+model 2 Top5 error: 14.350 (Best: 10.100 from epoch 25)
+model 2 accuracy: 0.314
+model 3 Loss: 2.170 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 73.490 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 24.140 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.265
+[Epoch 28]	Learning rate: 0.1
+9/10 (90%)	agent 88	model 0.75	NLL: 1.078	Top1: 35.50 / Top5: 1.50	Total 3.0105 Time: 6.0s
+0/10 (0%)	agent 1	model 0.25	NLL: 1.250	Top1: 43.24 / Top5: 5.32	Total 2.8006 Time: 14.6s
+7/10 (70%)	agent 85	model 1.0	NLL: 1.559	Top1: 54.28 / Top5: 7.39	Total 3.8798 Time: 31.5s
+4/10 (40%)	agent 47	model 0.75	NLL: 1.160	Top1: 39.71 / Top5: 3.04	Total 3.0832 Time: 17.9s
+6/10 (60%)	agent 84	model 0.75	NLL: 1.450	Top1: 43.33 / Top5: 8.33	Total 3.9583 Time: 22.7s
+1/10 (10%)	agent 12	model 0.25	NLL: 1.239	Top1: 41.25 / Top5: 4.95	Total 3.3393 Time: 8.9s
+8/10 (80%)	agent 86	model 0.5	NLL: 1.059	Top1: 32.55 / Top5: 3.85	Total 2.6927 Time: 12.4s
+3/10 (30%)	agent 39	model 0.75	NLL: 1.305	Top1: 46.82 / Top5: 3.64	Total 3.0965 Time: 16.6s
+5/10 (50%)	agent 83	model 0.75	NLL: 1.250	Top1: 41.38 / Top5: 4.08	Total 3.1755 Time: 18.7s
+2/10 (20%)	agent 13	model 0.5	NLL: 1.289	Top1: 42.50 / Top5: 6.75	Total 3.0284 Time: 18.6s
+
+Evaluation:
+model 0 Loss: 1.671 (Best: 1.671 from epoch 27)
+model 0 Top1 error: 63.330 (Best: 60.600 from epoch 26)
+model 0 Top5 error: 11.210 (Best: 11.210 from epoch 27)
+model 0 accuracy: 0.367
+model 1 Loss: 1.582 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 60.140 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 8.310 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.399
+model 2 Loss: 1.645 (Best: 1.614 from epoch 25)
+model 2 Top1 error: 63.660 (Best: 57.820 from epoch 25)
+model 2 Top5 error: 9.730 (Best: 9.730 from epoch 27)
+model 2 accuracy: 0.363
+model 3 Loss: 1.905 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 71.890 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 18.480 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.281
+[Epoch 29]	Learning rate: 0.1
+3/10 (30%)	agent 33	model 0.75	NLL: 0.940	Top1: 24.70 / Top5: 2.70	Total 3.2747 Time: 7.2s
+7/10 (70%)	agent 65	model 0.25	NLL: 1.532	Top1: 53.32 / Top5: 8.05	Total 3.6617 Time: 9.3s
+9/10 (90%)	agent 86	model 0.75	NLL: 1.120	Top1: 35.95 / Top5: 3.85	Total 2.8295 Time: 14.7s
+4/10 (40%)	agent 34	model 0.25	NLL: 0.807	Top1: 20.88 / Top5: 1.75	Total 2.6992 Time: 3.9s
+5/10 (50%)	agent 56	model 1.0	NLL: 1.460	Top1: 49.38 / Top5: 9.23	Total 3.8912 Time: 22.6s
+8/10 (80%)	agent 84	model 1.0	NLL: 1.309	Top1: 40.73 / Top5: 5.83	Total 3.2021 Time: 26.2s
+6/10 (60%)	agent 62	model 1.0	NLL: 1.111	Top1: 38.67 / Top5: 4.17	Total 2.9217 Time: 10.9s
+2/10 (20%)	agent 32	model 1.0	NLL: 1.417	Top1: 51.12 / Top5: 7.50	Total 3.4383 Time: 22.2s
+1/10 (10%)	agent 27	model 0.5	NLL: 1.163	Top1: 40.12 / Top5: 2.75	Total 3.1477 Time: 5.1s
+0/10 (0%)	agent 22	model 1.0	NLL: 1.108	Top1: 34.12 / Top5: 3.38	Total 2.8233 Time: 7.3s
+
+Evaluation:
+model 0 Loss: 1.595 (Best: 1.595 from epoch 28)
+model 0 Top1 error: 59.780 (Best: 59.780 from epoch 28)
+model 0 Top5 error: 9.040 (Best: 9.040 from epoch 28)
+model 0 accuracy: 0.402
+model 1 Loss: 1.727 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 65.790 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 10.990 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.342
+model 2 Loss: 1.618 (Best: 1.614 from epoch 25)
+model 2 Top1 error: 59.300 (Best: 57.820 from epoch 25)
+model 2 Top5 error: 11.910 (Best: 9.730 from epoch 27)
+model 2 accuracy: 0.407
+model 3 Loss: 1.681 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 61.740 (Best: 58.520 from epoch 17)
+model 3 Top5 error: 11.990 (Best: 8.090 from epoch 17)
+model 3 accuracy: 0.383
+[Epoch 30]	Learning rate: 0.1
+4/10 (40%)	agent 49	model 1.0	NLL: 1.164	Top1: 36.33 / Top5: 4.17	Total 3.3293 Time: 16.5s
+5/10 (50%)	agent 55	model 1.0	NLL: 1.328	Top1: 46.04 / Top5: 6.00	Total 3.0126 Time: 24.8s
+3/10 (30%)	agent 22	model 1.0	NLL: 0.907	Top1: 25.12 / Top5: 1.62	Total 2.4638 Time: 7.6s
+7/10 (70%)	agent 79	model 1.0	NLL: 0.999	Top1: 27.30 / Top5: 3.30	Total 3.0392 Time: 8.6s
+1/10 (10%)	agent 15	model 0.75	NLL: 1.325	Top1: 45.67 / Top5: 5.17	Total 3.1436 Time: 21.7s
+0/10 (0%)	agent 7	model 0.25	NLL: 1.060	Top1: 35.07 / Top5: 2.50	Total 2.6962 Time: 6.1s
+8/10 (80%)	agent 94	model 1.0	NLL: 1.165	Top1: 38.67 / Top5: 4.67	Total 3.0882 Time: 10.9s
+6/10 (60%)	agent 71	model 0.75	NLL: 1.274	Top1: 43.53 / Top5: 6.14	Total 2.9033 Time: 27.0s
+2/10 (20%)	agent 20	model 0.75	NLL: 1.267	Top1: 43.76 / Top5: 5.50	Total 2.9150 Time: 26.0s
+9/10 (90%)	agent 98	model 0.5	NLL: 1.090	Top1: 34.67 / Top5: 3.88	Total 2.7056 Time: 14.3s
+
+Evaluation:
+model 0 Loss: 1.851 (Best: 1.595 from epoch 28)
+model 0 Top1 error: 69.780 (Best: 59.780 from epoch 28)
+model 0 Top5 error: 13.870 (Best: 9.040 from epoch 28)
+model 0 accuracy: 0.302
+model 1 Loss: 1.844 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 66.570 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 13.450 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.334
+model 2 Loss: 1.519 (Best: 1.519 from epoch 29)
+model 2 Top1 error: 56.940 (Best: 56.940 from epoch 29)
+model 2 Top5 error: 8.330 (Best: 8.330 from epoch 29)
+model 2 accuracy: 0.431
+model 3 Loss: 1.588 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 57.350 (Best: 57.350 from epoch 29)
+model 3 Top5 error: 7.640 (Best: 7.640 from epoch 29)
+model 3 accuracy: 0.426
+[Epoch 31]	Learning rate: 0.1
+5/10 (50%)	agent 33	model 1.0	NLL: 0.852	Top1: 20.10 / Top5: 3.20	Total 2.8976 Time: 8.7s
+1/10 (10%)	agent 18	model 0.75	NLL: 1.260	Top1: 43.22 / Top5: 6.83	Total 2.7995 Time: 27.0s
+0/10 (0%)	agent 6	model 0.75	NLL: 1.471	Top1: 49.38 / Top5: 7.42	Total 3.5978 Time: 17.5s
+6/10 (60%)	agent 44	model 0.5	NLL: 1.283	Top1: 40.25 / Top5: 6.00	Total 3.8726 Time: 5.2s
+4/10 (40%)	agent 31	model 1.0	NLL: 1.129	Top1: 35.50 / Top5: 4.00	Total 2.8321 Time: 10.4s
+2/10 (20%)	agent 20	model 0.75	NLL: 1.145	Top1: 40.97 / Top5: 4.09	Total 2.5289 Time: 24.9s
+9/10 (90%)	agent 76	model 0.25	NLL: 1.034	Top1: 30.44 / Top5: 3.81	Total 2.9228 Time: 7.3s
+8/10 (80%)	agent 65	model 0.25	NLL: 1.430	Top1: 49.41 / Top5: 6.82	Total 3.3794 Time: 10.2s
+3/10 (30%)	agent 28	model 0.5	NLL: 1.449	Top1: 50.12 / Top5: 7.54	Total 3.8437 Time: 14.5s
+7/10 (70%)	agent 56	model 0.25	NLL: 1.237	Top1: 41.08 / Top5: 5.15	Total 2.9054 Time: 11.7s
+
+Evaluation:
+model 0 Loss: 1.621 (Best: 1.595 from epoch 28)
+model 0 Top1 error: 61.560 (Best: 59.780 from epoch 28)
+model 0 Top5 error: 10.360 (Best: 9.040 from epoch 28)
+model 0 accuracy: 0.384
+model 1 Loss: 1.846 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 69.650 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 12.270 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.303
+model 2 Loss: 1.436 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 52.870 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 7.220 (Best: 7.220 from epoch 30)
+model 2 accuracy: 0.471
+model 3 Loss: 1.590 (Best: 1.557 from epoch 17)
+model 3 Top1 error: 62.330 (Best: 57.350 from epoch 29)
+model 3 Top5 error: 9.020 (Best: 7.640 from epoch 29)
+model 3 accuracy: 0.377
+[Epoch 32]	Learning rate: 0.1
+7/10 (70%)	agent 77	model 0.75	NLL: 0.965	Top1: 28.88 / Top5: 2.75	Total 2.9280 Time: 6.3s
+3/10 (30%)	agent 56	model 0.75	NLL: 1.193	Top1: 41.35 / Top5: 4.58	Total 2.7347 Time: 19.7s
+1/10 (10%)	agent 39	model 0.75	NLL: 1.179	Top1: 41.95 / Top5: 3.05	Total 2.7517 Time: 17.2s
+9/10 (90%)	agent 96	model 1.0	NLL: 0.887	Top1: 26.50 / Top5: 2.33	Total 2.6206 Time: 11.4s
+0/10 (0%)	agent 20	model 1.0	NLL: 1.165	Top1: 40.68 / Top5: 4.68	Total 2.6823 Time: 29.9s
+2/10 (20%)	agent 55	model 0.5	NLL: 1.353	Top1: 48.64 / Top5: 5.39	Total 3.2016 Time: 16.7s
+8/10 (80%)	agent 82	model 0.75	NLL: 1.258	Top1: 40.30 / Top5: 3.90	Total 3.5422 Time: 7.6s
+5/10 (50%)	agent 65	model 0.25	NLL: 1.357	Top1: 46.09 / Top5: 6.05	Total 3.0850 Time: 9.9s
+6/10 (60%)	agent 76	model 0.75	NLL: 0.943	Top1: 26.94 / Top5: 3.31	Total 2.5069 Time: 11.8s
+4/10 (40%)	agent 63	model 0.25	NLL: 1.389	Top1: 50.39 / Top5: 5.75	Total 3.1554 Time: 12.6s
+
+Evaluation:
+model 0 Loss: 1.766 (Best: 1.595 from epoch 28)
+model 0 Top1 error: 63.260 (Best: 59.780 from epoch 28)
+model 0 Top5 error: 9.350 (Best: 9.040 from epoch 28)
+model 0 accuracy: 0.367
+model 1 Loss: 1.618 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 59.970 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 10.010 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.400
+model 2 Loss: 1.442 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 54.380 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 6.630 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.456
+model 3 Loss: 1.557 (Best: 1.557 from epoch 31)
+model 3 Top1 error: 59.900 (Best: 57.350 from epoch 29)
+model 3 Top5 error: 8.270 (Best: 7.640 from epoch 29)
+model 3 accuracy: 0.401
+[Epoch 33]	Learning rate: 0.1
+5/10 (50%)	agent 75	model 0.25	NLL: 0.846	Top1: 23.25 / Top5: 2.62	Total 2.5782 Time: 4.0s
+0/10 (0%)	agent 15	model 1.0	NLL: 1.157	Top1: 40.43 / Top5: 3.63	Total 2.6247 Time: 27.0s
+8/10 (80%)	agent 89	model 0.75	NLL: 1.274	Top1: 43.96 / Top5: 5.19	Total 2.9351 Time: 19.6s
+1/10 (10%)	agent 27	model 0.25	NLL: 1.108	Top1: 40.12 / Top5: 2.88	Total 2.9416 Time: 3.8s
+3/10 (30%)	agent 63	model 0.5	NLL: 1.344	Top1: 50.86 / Top5: 4.32	Total 3.2250 Time: 16.7s
+2/10 (20%)	agent 54	model 0.5	NLL: 1.143	Top1: 37.50 / Top5: 3.25	Total 3.1453 Time: 7.6s
+6/10 (60%)	agent 78	model 1.0	NLL: 1.057	Top1: 33.64 / Top5: 2.86	Total 2.8117 Time: 12.3s
+4/10 (40%)	agent 71	model 0.25	NLL: 1.247	Top1: 43.42 / Top5: 5.19	Total 2.9703 Time: 16.1s
+9/10 (90%)	agent 97	model 0.25	NLL: 1.241	Top1: 43.94 / Top5: 3.88	Total 3.0802 Time: 14.1s
+7/10 (70%)	agent 85	model 0.5	NLL: 1.382	Top1: 50.06 / Top5: 4.83	Total 3.0514 Time: 22.0s
+
+Evaluation:
+model 0 Loss: 1.638 (Best: 1.595 from epoch 28)
+model 0 Top1 error: 60.880 (Best: 59.780 from epoch 28)
+model 0 Top5 error: 8.310 (Best: 8.310 from epoch 32)
+model 0 accuracy: 0.391
+model 1 Loss: 1.822 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 66.120 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 12.690 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.339
+model 2 Loss: 1.562 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 57.870 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 9.680 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.421
+model 3 Loss: 1.524 (Best: 1.524 from epoch 32)
+model 3 Top1 error: 56.710 (Best: 56.710 from epoch 32)
+model 3 Top5 error: 7.750 (Best: 7.640 from epoch 29)
+model 3 accuracy: 0.433
+[Epoch 34]	Learning rate: 0.1
+3/10 (30%)	agent 44	model 1.0	NLL: 1.089	Top1: 34.25 / Top5: 3.12	Total 3.3941 Time: 7.9s
+6/10 (60%)	agent 69	model 0.75	NLL: 1.262	Top1: 44.12 / Top5: 5.76	Total 2.8015 Time: 25.1s
+1/10 (10%)	agent 39	model 0.25	NLL: 1.195	Top1: 40.59 / Top5: 3.77	Total 3.1119 Time: 9.7s
+8/10 (80%)	agent 75	model 0.75	NLL: 0.718	Top1: 18.12 / Top5: 2.25	Total 2.1453 Time: 6.4s
+2/10 (20%)	agent 41	model 0.75	NLL: 1.228	Top1: 42.57 / Top5: 4.50	Total 3.0760 Time: 10.2s
+0/10 (0%)	agent 19	model 1.0	NLL: 1.186	Top1: 39.50 / Top5: 3.62	Total 3.2459 Time: 15.0s
+9/10 (90%)	agent 81	model 0.5	NLL: 1.072	Top1: 31.92 / Top5: 3.50	Total 3.2411 Time: 7.3s
+7/10 (70%)	agent 70	model 1.0	NLL: 1.185	Top1: 40.60 / Top5: 4.93	Total 2.7370 Time: 26.8s
+4/10 (40%)	agent 59	model 0.5	NLL: 1.272	Top1: 47.56 / Top5: 3.11	Total 2.8465 Time: 11.0s
+5/10 (50%)	agent 61	model 0.5	NLL: 1.145	Top1: 33.44 / Top5: 4.15	Total 3.1462 Time: 20.5s
+
+Evaluation:
+model 0 Loss: 1.549 (Best: 1.549 from epoch 33)
+model 0 Top1 error: 59.570 (Best: 59.570 from epoch 33)
+model 0 Top5 error: 8.460 (Best: 8.310 from epoch 32)
+model 0 accuracy: 0.404
+model 1 Loss: 1.531 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 58.970 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 7.170 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.410
+model 2 Loss: 1.458 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 54.820 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 7.300 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.452
+model 3 Loss: 1.607 (Best: 1.524 from epoch 32)
+model 3 Top1 error: 63.240 (Best: 56.710 from epoch 32)
+model 3 Top5 error: 7.830 (Best: 7.640 from epoch 29)
+model 3 accuracy: 0.368
+[Epoch 35]	Learning rate: 0.1
+3/10 (30%)	agent 62	model 0.5	NLL: 0.921	Top1: 28.75 / Top5: 2.92	Total 2.4409 Time: 7.2s
+1/10 (10%)	agent 24	model 1.0	NLL: 1.261	Top1: 44.06 / Top5: 4.66	Total 2.9593 Time: 27.2s
+6/10 (60%)	agent 72	model 0.25	NLL: 1.105	Top1: 42.06 / Top5: 2.12	Total 2.7788 Time: 7.1s
+7/10 (70%)	agent 74	model 0.25	NLL: 0.872	Top1: 28.17 / Top5: 1.75	Total 2.4158 Time: 5.4s
+0/10 (0%)	agent 0	model 0.25	NLL: 1.393	Top1: 50.11 / Top5: 6.00	Total 3.2567 Time: 11.8s
+5/10 (50%)	agent 69	model 0.5	NLL: 1.226	Top1: 41.41 / Top5: 4.41	Total 2.8385 Time: 20.0s
+8/10 (80%)	agent 81	model 0.25	NLL: 0.960	Top1: 29.25 / Top5: 1.92	Total 2.6399 Time: 5.3s
+4/10 (40%)	agent 63	model 0.75	NLL: 1.245	Top1: 45.79 / Top5: 4.14	Total 2.7733 Time: 20.5s
+2/10 (20%)	agent 29	model 0.5	NLL: 0.992	Top1: 30.50 / Top5: 3.00	Total 2.7363 Time: 4.9s
+9/10 (90%)	agent 82	model 0.75	NLL: 1.016	Top1: 35.10 / Top5: 2.10	Total 2.8395 Time: 7.9s
+
+Evaluation:
+model 0 Loss: 1.542 (Best: 1.542 from epoch 34)
+model 0 Top1 error: 58.490 (Best: 58.490 from epoch 34)
+model 0 Top5 error: 9.080 (Best: 8.310 from epoch 32)
+model 0 accuracy: 0.415
+model 1 Loss: 1.691 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 62.090 (Best: 57.450 from epoch 25)
+model 1 Top5 error: 9.710 (Best: 6.770 from epoch 26)
+model 1 accuracy: 0.379
+model 2 Loss: 1.713 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 61.730 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 10.090 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.383
+model 3 Loss: 1.491 (Best: 1.491 from epoch 34)
+model 3 Top1 error: 54.310 (Best: 54.310 from epoch 34)
+model 3 Top5 error: 8.770 (Best: 7.640 from epoch 29)
+model 3 accuracy: 0.457
+[Epoch 36]	Learning rate: 0.1
+5/10 (50%)	agent 49	model 0.25	NLL: 1.039	Top1: 31.50 / Top5: 2.17	Total 2.8350 Time: 8.2s
+1/10 (10%)	agent 18	model 1.0	NLL: 1.207	Top1: 39.44 / Top5: 5.72	Total 3.0094 Time: 31.5s
+6/10 (60%)	agent 50	model 1.0	NLL: 1.024	Top1: 33.96 / Top5: 2.54	Total 2.4342 Time: 23.2s
+7/10 (70%)	agent 74	model 0.75	NLL: 1.159	Top1: 33.75 / Top5: 4.33	Total 3.6285 Time: 9.1s
+9/10 (90%)	agent 86	model 1.0	NLL: 0.894	Top1: 26.45 / Top5: 2.60	Total 2.2706 Time: 18.0s
+4/10 (40%)	agent 38	model 1.0	NLL: 1.097	Top1: 37.94 / Top5: 3.22	Total 2.6814 Time: 16.0s
+3/10 (30%)	agent 29	model 0.25	NLL: 0.911	Top1: 28.00 / Top5: 2.62	Total 2.3951 Time: 3.5s
+8/10 (80%)	agent 80	model 0.5	NLL: 1.411	Top1: 48.69 / Top5: 5.69	Total 3.3202 Time: 21.3s
+0/10 (0%)	agent 5	model 0.5	NLL: 1.102	Top1: 39.70 / Top5: 1.75	Total 2.4718 Time: 11.9s
+2/10 (20%)	agent 19	model 1.0	NLL: 1.007	Top1: 32.19 / Top5: 2.38	Total 2.4685 Time: 15.0s
+
+Evaluation:
+model 0 Loss: 1.827 (Best: 1.542 from epoch 34)
+model 0 Top1 error: 64.500 (Best: 58.490 from epoch 34)
+model 0 Top5 error: 14.950 (Best: 8.310 from epoch 32)
+model 0 accuracy: 0.355
+model 1 Loss: 1.515 (Best: 1.506 from epoch 25)
+model 1 Top1 error: 57.250 (Best: 57.250 from epoch 35)
+model 1 Top5 error: 6.310 (Best: 6.310 from epoch 35)
+model 1 accuracy: 0.427
+model 2 Loss: 1.998 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 66.150 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 21.150 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.339
+model 3 Loss: 1.285 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 47.420 (Best: 47.420 from epoch 35)
+model 3 Top5 error: 5.240 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.526
+[Epoch 37]	Learning rate: 0.1
+0/10 (0%)	agent 10	model 1.0	NLL: 0.713	Top1: 18.38 / Top5: 1.75	Total 2.3585 Time: 8.0s
+1/10 (10%)	agent 13	model 1.0	NLL: 1.067	Top1: 35.56 / Top5: 3.66	Total 2.5326 Time: 27.4s
+8/10 (80%)	agent 68	model 0.5	NLL: 1.148	Top1: 42.92 / Top5: 3.00	Total 2.7179 Time: 7.5s
+9/10 (90%)	agent 82	model 0.25	NLL: 1.127	Top1: 36.70 / Top5: 2.00	Total 3.1611 Time: 4.2s
+4/10 (40%)	agent 43	model 0.75	NLL: 1.472	Top1: 53.85 / Top5: 6.96	Total 3.5857 Time: 19.4s
+5/10 (50%)	agent 51	model 1.0	NLL: 1.120	Top1: 38.28 / Top5: 3.56	Total 2.7236 Time: 26.9s
+2/10 (20%)	agent 29	model 0.75	NLL: 1.178	Top1: 39.50 / Top5: 3.75	Total 3.5015 Time: 6.4s
+7/10 (70%)	agent 63	model 0.5	NLL: 1.200	Top1: 43.54 / Top5: 2.57	Total 2.7590 Time: 16.2s
+6/10 (60%)	agent 54	model 0.25	NLL: 1.235	Top1: 40.25 / Top5: 4.50	Total 3.6539 Time: 5.5s
+3/10 (30%)	agent 42	model 0.25	NLL: 1.359	Top1: 45.25 / Top5: 3.92	Total 3.6460 Time: 9.9s
+
+Evaluation:
+model 0 Loss: 1.924 (Best: 1.542 from epoch 34)
+model 0 Top1 error: 70.060 (Best: 58.490 from epoch 34)
+model 0 Top5 error: 12.040 (Best: 8.310 from epoch 32)
+model 0 accuracy: 0.299
+model 1 Loss: 1.446 (Best: 1.446 from epoch 36)
+model 1 Top1 error: 53.280 (Best: 53.280 from epoch 36)
+model 1 Top5 error: 6.130 (Best: 6.130 from epoch 36)
+model 1 accuracy: 0.467
+model 2 Loss: 1.746 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 60.270 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 14.130 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.397
+model 3 Loss: 1.318 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 47.460 (Best: 47.420 from epoch 35)
+model 3 Top5 error: 6.260 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.525
+[Epoch 38]	Learning rate: 0.1
+2/10 (20%)	agent 33	model 0.25	NLL: 0.879	Top1: 22.70 / Top5: 2.10	Total 2.9426 Time: 4.2s
+0/10 (0%)	agent 18	model 0.5	NLL: 1.181	Top1: 41.19 / Top5: 5.14	Total 2.8485 Time: 21.3s
+5/10 (50%)	agent 69	model 0.75	NLL: 1.190	Top1: 40.88 / Top5: 4.59	Total 2.6639 Time: 25.2s
+4/10 (40%)	agent 62	model 0.25	NLL: 1.200	Top1: 37.25 / Top5: 5.33	Total 3.5114 Time: 5.2s
+9/10 (90%)	agent 95	model 0.5	NLL: 1.106	Top1: 36.31 / Top5: 4.75	Total 2.8823 Time: 18.0s
+3/10 (30%)	agent 50	model 0.75	NLL: 1.067	Top1: 37.38 / Top5: 2.69	Total 2.4721 Time: 19.1s
+6/10 (60%)	agent 81	model 1.0	NLL: 0.741	Top1: 21.58 / Top5: 0.92	Total 2.0313 Time: 10.8s
+7/10 (70%)	agent 83	model 0.25	NLL: 1.134	Top1: 34.69 / Top5: 4.50	Total 3.0285 Time: 11.9s
+1/10 (10%)	agent 27	model 1.0	NLL: 1.180	Top1: 38.62 / Top5: 3.62	Total 3.4088 Time: 7.4s
+8/10 (80%)	agent 88	model 1.0	NLL: 0.840	Top1: 22.75 / Top5: 2.75	Total 2.4510 Time: 7.5s
+
+Evaluation:
+model 0 Loss: 1.659 (Best: 1.542 from epoch 34)
+model 0 Top1 error: 64.460 (Best: 58.490 from epoch 34)
+model 0 Top5 error: 9.110 (Best: 8.310 from epoch 32)
+model 0 accuracy: 0.355
+model 1 Loss: 1.395 (Best: 1.395 from epoch 37)
+model 1 Top1 error: 52.810 (Best: 52.810 from epoch 37)
+model 1 Top5 error: 6.000 (Best: 6.000 from epoch 37)
+model 1 accuracy: 0.472
+model 2 Loss: 1.677 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 56.920 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 11.940 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.431
+model 3 Loss: 1.373 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 51.950 (Best: 47.420 from epoch 35)
+model 3 Top5 error: 6.880 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.480
+[Epoch 39]	Learning rate: 0.1
+9/10 (90%)	agent 96	model 1.0	NLL: 0.684	Top1: 19.00 / Top5: 1.25	Total 1.9770 Time: 11.1s
+1/10 (10%)	agent 13	model 0.75	NLL: 1.213	Top1: 39.78 / Top5: 6.03	Total 3.1068 Time: 22.8s
+0/10 (0%)	agent 9	model 1.0	NLL: 1.082	Top1: 37.86 / Top5: 3.46	Total 2.4871 Time: 24.8s
+7/10 (70%)	agent 76	model 1.0	NLL: 0.798	Top1: 23.69 / Top5: 2.00	Total 2.1775 Time: 14.0s
+4/10 (40%)	agent 58	model 0.5	NLL: 1.201	Top1: 42.64 / Top5: 4.43	Total 2.9745 Time: 8.7s
+6/10 (60%)	agent 69	model 0.75	NLL: 1.044	Top1: 36.21 / Top5: 3.12	Total 2.2433 Time: 24.6s
+2/10 (20%)	agent 38	model 1.0	NLL: 0.968	Top1: 33.28 / Top5: 2.28	Total 2.5332 Time: 16.8s
+5/10 (50%)	agent 68	model 0.25	NLL: 1.338	Top1: 48.33 / Top5: 4.58	Total 3.3568 Time: 5.9s
+8/10 (80%)	agent 83	model 0.5	NLL: 0.966	Top1: 29.35 / Top5: 3.12	Total 2.4805 Time: 43334.2s
+3/10 (30%)	agent 43	model 0.25	NLL: 1.393	Top1: 50.27 / Top5: 5.38	Total 3.2626 Time: 9.8s
+
+Evaluation:
+model 0 Loss: 1.711 (Best: 1.542 from epoch 34)
+model 0 Top1 error: 65.560 (Best: 58.490 from epoch 34)
+model 0 Top5 error: 10.460 (Best: 8.310 from epoch 32)
+model 0 accuracy: 0.344
+model 1 Loss: 1.401 (Best: 1.395 from epoch 37)
+model 1 Top1 error: 51.040 (Best: 51.040 from epoch 38)
+model 1 Top5 error: 6.420 (Best: 6.000 from epoch 37)
+model 1 accuracy: 0.490
+model 2 Loss: 1.477 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 52.930 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 6.690 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.471
+model 3 Loss: 1.339 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 51.440 (Best: 47.420 from epoch 35)
+model 3 Top5 error: 5.910 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.486
+[Epoch 40]	Learning rate: 0.1
+1/10 (10%)	agent 10	model 0.25	NLL: 0.815	Top1: 20.12 / Top5: 2.50	Total 2.6590 Time: 3.3s
+0/10 (0%)	agent 0	model 1.0	NLL: 1.274	Top1: 43.18 / Top5: 5.68	Total 3.1346 Time: 20.8s
+9/10 (90%)	agent 97	model 0.25	NLL: 1.222	Top1: 41.44 / Top5: 3.94	Total 3.0258 Time: 11.8s
+8/10 (80%)	agent 96	model 0.75	NLL: 0.907	Top1: 22.58 / Top5: 3.00	Total 3.0654 Time: 7.7s
+4/10 (40%)	agent 43	model 0.5	NLL: 1.339	Top1: 46.81 / Top5: 5.58	Total 3.0675 Time: 13.5s
+6/10 (60%)	agent 66	model 0.25	NLL: 1.131	Top1: 37.66 / Top5: 3.38	Total 2.7194 Time: 14.5s
+2/10 (20%)	agent 22	model 0.5	NLL: 0.898	Top1: 27.50 / Top5: 2.88	Total 2.4477 Time: 5.5s
+7/10 (70%)	agent 94	model 0.5	NLL: 0.970	Top1: 31.83 / Top5: 2.75	Total 2.5374 Time: 7.8s
+5/10 (50%)	agent 52	model 0.5	NLL: 1.037	Top1: 35.12 / Top5: 2.00	Total 2.8343 Time: 5.4s
+3/10 (30%)	agent 36	model 0.5	NLL: 0.931	Top1: 28.43 / Top5: 2.43	Total 2.3776 Time: 8.5s
+
+Evaluation:
+model 0 Loss: 1.481 (Best: 1.481 from epoch 39)
+model 0 Top1 error: 55.820 (Best: 55.820 from epoch 39)
+model 0 Top5 error: 7.370 (Best: 7.370 from epoch 39)
+model 0 accuracy: 0.442
+model 1 Loss: 1.314 (Best: 1.314 from epoch 39)
+model 1 Top1 error: 47.450 (Best: 47.450 from epoch 39)
+model 1 Top5 error: 5.530 (Best: 5.530 from epoch 39)
+model 1 accuracy: 0.525
+model 2 Loss: 1.745 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 63.330 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 12.070 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.367
+model 3 Loss: 1.524 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 55.600 (Best: 47.420 from epoch 35)
+model 3 Top5 error: 9.480 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.444
+[Epoch 41]	Learning rate: 0.1
+6/10 (60%)	agent 75	model 0.75	NLL: 0.687	Top1: 19.25 / Top5: 1.88	Total 2.2015 Time: 6.4s
+7/10 (70%)	agent 80	model 0.5	NLL: 1.237	Top1: 42.11 / Top5: 4.64	Total 2.9056 Time: 22.5s
+4/10 (40%)	agent 62	model 0.75	NLL: 1.041	Top1: 32.33 / Top5: 4.17	Total 3.0440 Time: 9.7s
+8/10 (80%)	agent 81	model 0.5	NLL: 0.843	Top1: 24.50 / Top5: 2.17	Total 2.3825 Time: 7.1s
+9/10 (90%)	agent 95	model 0.75	NLL: 1.143	Top1: 40.12 / Top5: 4.59	Total 2.9858 Time: 23.5s
+5/10 (50%)	agent 67	model 0.25	NLL: 1.124	Top1: 37.74 / Top5: 3.88	Total 2.6078 Time: 15.3s
+1/10 (10%)	agent 22	model 1.0	NLL: 0.900	Top1: 26.25 / Top5: 2.12	Total 2.6347 Time: 7.1s
+2/10 (20%)	agent 58	model 0.5	NLL: 0.973	Top1: 32.36 / Top5: 2.50	Total 2.2350 Time: 8.3s
+0/10 (0%)	agent 8	model 1.0	NLL: 0.893	Top1: 25.83 / Top5: 3.28	Total 2.6136 Time: 16.5s
+3/10 (30%)	agent 60	model 0.5	NLL: 1.095	Top1: 36.07 / Top5: 2.07	Total 2.7984 Time: 8.1s
+
+Evaluation:
+model 0 Loss: 1.515 (Best: 1.481 from epoch 39)
+model 0 Top1 error: 53.880 (Best: 53.880 from epoch 40)
+model 0 Top5 error: 10.310 (Best: 7.370 from epoch 39)
+model 0 accuracy: 0.461
+model 1 Loss: 1.347 (Best: 1.314 from epoch 39)
+model 1 Top1 error: 49.160 (Best: 47.450 from epoch 39)
+model 1 Top5 error: 5.000 (Best: 5.000 from epoch 40)
+model 1 accuracy: 0.508
+model 2 Loss: 1.611 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 59.030 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 12.060 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.410
+model 3 Loss: 1.657 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 60.040 (Best: 47.420 from epoch 35)
+model 3 Top5 error: 11.870 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.400
+[Epoch 42]	Learning rate: 0.1
+4/10 (40%)	agent 34	model 0.25	NLL: 0.654	Top1: 16.25 / Top5: 1.50	Total 2.1979 Time: 3.9s
+3/10 (30%)	agent 24	model 0.5	NLL: 1.126	Top1: 38.41 / Top5: 4.44	Total 2.4293 Time: 19.2s
+7/10 (70%)	agent 68	model 0.25	NLL: 1.169	Top1: 40.58 / Top5: 4.17	Total 2.8009 Time: 5.6s
+8/10 (80%)	agent 82	model 1.0	NLL: 1.106	Top1: 32.80 / Top5: 4.00	Total 3.4111 Time: 8.6s
+1/10 (10%)	agent 17	model 1.0	NLL: 1.072	Top1: 36.33 / Top5: 3.42	Total 2.7909 Time: 20.7s
+9/10 (90%)	agent 83	model 0.25	NLL: 0.990	Top1: 31.38 / Top5: 2.92	Total 2.5480 Time: 11.9s
+6/10 (60%)	agent 64	model 0.25	NLL: 0.876	Top1: 25.57 / Top5: 3.50	Total 2.4422 Time: 6.2s
+2/10 (20%)	agent 20	model 1.0	NLL: 1.029	Top1: 34.59 / Top5: 3.82	Total 2.5492 Time: 29.0s
+0/10 (0%)	agent 6	model 0.25	NLL: 1.303	Top1: 45.17 / Top5: 5.79	Total 3.1544 Time: 10.5s
+5/10 (50%)	agent 38	model 0.75	NLL: 0.984	Top1: 34.17 / Top5: 2.39	Total 2.4513 Time: 13.6s
+
+Evaluation:
+model 0 Loss: 1.357 (Best: 1.357 from epoch 41)
+model 0 Top1 error: 49.160 (Best: 49.160 from epoch 41)
+model 0 Top5 error: 6.910 (Best: 6.910 from epoch 41)
+model 0 accuracy: 0.508
+model 1 Loss: 1.294 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 46.480 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 5.740 (Best: 5.000 from epoch 40)
+model 1 accuracy: 0.535
+model 2 Loss: 1.698 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 60.280 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 14.520 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.397
+model 3 Loss: 1.316 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 47.200 (Best: 47.200 from epoch 41)
+model 3 Top5 error: 5.390 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.528
+[Epoch 43]	Learning rate: 0.1
+6/10 (60%)	agent 34	model 1.0	NLL: 0.606	Top1: 14.88 / Top5: 1.50	Total 2.0785 Time: 7.5s
+0/10 (0%)	agent 0	model 0.5	NLL: 1.186	Top1: 41.89 / Top5: 4.54	Total 2.6633 Time: 16.2s
+2/10 (20%)	agent 15	model 0.25	NLL: 1.139	Top1: 39.47 / Top5: 3.37	Total 2.6350 Time: 13.1s
+8/10 (80%)	agent 49	model 0.25	NLL: 1.024	Top1: 31.44 / Top5: 2.28	Total 2.8907 Time: 8.3s
+5/10 (50%)	agent 28	model 0.25	NLL: 1.199	Top1: 42.25 / Top5: 4.25	Total 2.9021 Time: 10.3s
+1/10 (10%)	agent 6	model 1.0	NLL: 1.161	Top1: 39.00 / Top5: 3.25	Total 2.8921 Time: 21.0s
+9/10 (90%)	agent 99	model 0.25	NLL: 0.891	Top1: 25.62 / Top5: 2.12	Total 2.6429 Time: 3.7s
+3/10 (30%)	agent 24	model 0.75	NLL: 1.318	Top1: 44.97 / Top5: 7.84	Total 3.3768 Time: 22.6s
+7/10 (70%)	agent 38	model 0.75	NLL: 0.857	Top1: 29.28 / Top5: 1.11	Total 1.9454 Time: 13.0s
+4/10 (40%)	agent 25	model 0.25	NLL: 1.148	Top1: 40.30 / Top5: 2.80	Total 2.7607 Time: 9.0s
+
+Evaluation:
+model 0 Loss: 1.394 (Best: 1.357 from epoch 41)
+model 0 Top1 error: 53.080 (Best: 49.160 from epoch 41)
+model 0 Top5 error: 6.600 (Best: 6.600 from epoch 42)
+model 0 accuracy: 0.469
+model 1 Loss: 1.483 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 55.710 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 6.990 (Best: 5.000 from epoch 40)
+model 1 accuracy: 0.443
+model 2 Loss: 1.647 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 57.770 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 13.890 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.422
+model 3 Loss: 1.444 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 54.130 (Best: 47.200 from epoch 41)
+model 3 Top5 error: 7.390 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.459
+[Epoch 44]	Learning rate: 0.1
+3/10 (30%)	agent 62	model 1.0	NLL: 0.938	Top1: 29.50 / Top5: 2.42	Total 2.7294 Time: 10.8s
+5/10 (50%)	agent 65	model 0.5	NLL: 1.152	Top1: 40.55 / Top5: 3.77	Total 2.5870 Time: 13.8s
+2/10 (20%)	agent 23	model 0.25	NLL: 0.870	Top1: 24.67 / Top5: 2.50	Total 2.5576 Time: 5.4s
+0/10 (0%)	agent 2	model 0.25	NLL: 1.062	Top1: 32.50 / Top5: 2.43	Total 2.9720 Time: 6.0s
+6/10 (60%)	agent 66	model 0.25	NLL: 1.107	Top1: 38.19 / Top5: 3.47	Total 2.7360 Time: 13.8s
+4/10 (40%)	agent 63	model 0.75	NLL: 1.244	Top1: 45.07 / Top5: 4.29	Total 3.0459 Time: 20.4s
+7/10 (70%)	agent 72	model 0.25	NLL: 0.979	Top1: 33.19 / Top5: 2.44	Total 2.5059 Time: 7.5s
+8/10 (80%)	agent 84	model 0.75	NLL: 1.370	Top1: 41.10 / Top5: 7.60	Total 4.0476 Time: 22.6s
+1/10 (10%)	agent 15	model 0.5	NLL: 1.156	Top1: 38.50 / Top5: 4.57	Total 2.8108 Time: 17.8s
+9/10 (90%)	agent 94	model 1.0	NLL: 0.931	Top1: 29.42 / Top5: 2.42	Total 2.7135 Time: 10.9s
+
+Evaluation:
+model 0 Loss: 1.303 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 46.870 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 5.060 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.531
+model 1 Loss: 1.399 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 52.970 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 5.970 (Best: 5.000 from epoch 40)
+model 1 accuracy: 0.470
+model 2 Loss: 1.519 (Best: 1.436 from epoch 30)
+model 2 Top1 error: 56.140 (Best: 52.870 from epoch 30)
+model 2 Top5 error: 8.810 (Best: 6.630 from epoch 31)
+model 2 accuracy: 0.439
+model 3 Loss: 1.439 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 51.990 (Best: 47.200 from epoch 41)
+model 3 Top5 error: 7.220 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.480
+[Epoch 45]	Learning rate: 0.1
+7/10 (70%)	agent 79	model 1.0	NLL: 0.789	Top1: 19.70 / Top5: 1.20	Total 2.5324 Time: 9.6s
+3/10 (30%)	agent 30	model 0.75	NLL: 1.246	Top1: 42.88 / Top5: 4.42	Total 2.9471 Time: 18.9s
+4/10 (40%)	agent 31	model 0.75	NLL: 0.989	Top1: 29.75 / Top5: 3.08	Total 2.6722 Time: 8.8s
+8/10 (80%)	agent 82	model 0.5	NLL: 0.980	Top1: 29.50 / Top5: 2.50	Total 2.8063 Time: 6.2s
+0/10 (0%)	agent 0	model 0.5	NLL: 0.988	Top1: 33.93 / Top5: 2.46	Total 2.2513 Time: 16.6s
+9/10 (90%)	agent 97	model 0.5	NLL: 1.012	Top1: 35.50 / Top5: 2.44	Total 2.4808 Time: 18.8s
+1/10 (10%)	agent 8	model 0.25	NLL: 0.861	Top1: 24.56 / Top5: 3.44	Total 2.3613 Time: 8.7s
+6/10 (60%)	agent 63	model 0.75	NLL: 1.086	Top1: 39.43 / Top5: 1.96	Total 2.4363 Time: 20.2s
+5/10 (50%)	agent 60	model 1.0	NLL: 1.234	Top1: 37.36 / Top5: 4.64	Total 3.5539 Time: 12.8s
+2/10 (20%)	agent 25	model 0.75	NLL: 1.071	Top1: 36.75 / Top5: 3.10	Total 2.6211 Time: 14.9s
+
+Evaluation:
+model 0 Loss: 1.860 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 65.030 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 14.120 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.350
+model 1 Loss: 1.462 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 54.640 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 6.360 (Best: 5.000 from epoch 40)
+model 1 accuracy: 0.454
+model 2 Loss: 1.329 (Best: 1.329 from epoch 44)
+model 2 Top1 error: 48.890 (Best: 48.890 from epoch 44)
+model 2 Top5 error: 5.950 (Best: 5.950 from epoch 44)
+model 2 accuracy: 0.511
+model 3 Loss: 1.391 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 49.870 (Best: 47.200 from epoch 41)
+model 3 Top5 error: 6.500 (Best: 5.240 from epoch 35)
+model 3 accuracy: 0.501
+[Epoch 46]	Learning rate: 0.1
+3/10 (30%)	agent 26	model 0.25	NLL: 1.334	Top1: 41.38 / Top5: 3.62	Total 4.1932 Time: 3.9s
+1/10 (10%)	agent 5	model 0.5	NLL: 0.904	Top1: 31.50 / Top5: 1.50	Total 2.0407 Time: 11.8s
+9/10 (90%)	agent 89	model 1.0	NLL: 1.081	Top1: 36.69 / Top5: 2.35	Total 2.6329 Time: 23.0s
+0/10 (0%)	agent 4	model 0.75	NLL: 1.056	Top1: 36.25 / Top5: 2.17	Total 2.8159 Time: 9.1s
+8/10 (80%)	agent 73	model 0.75	NLL: 1.034	Top1: 33.04 / Top5: 4.21	Total 2.4856 Time: 18.1s
+6/10 (60%)	agent 63	model 0.5	NLL: 1.009	Top1: 35.50 / Top5: 2.00	Total 2.3206 Time: 17.2s
+4/10 (40%)	agent 30	model 1.0	NLL: 1.132	Top1: 36.65 / Top5: 4.04	Total 2.6642 Time: 23.1s
+7/10 (70%)	agent 65	model 0.25	NLL: 1.407	Top1: 46.77 / Top5: 6.14	Total 3.6201 Time: 9.9s
+2/10 (20%)	agent 25	model 0.5	NLL: 0.971	Top1: 33.10 / Top5: 2.50	Total 2.3434 Time: 11.9s
+5/10 (50%)	agent 50	model 0.75	NLL: 0.953	Top1: 31.96 / Top5: 2.23	Total 2.2525 Time: 19.0s
+
+Evaluation:
+model 0 Loss: 1.796 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 66.140 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 13.100 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.339
+model 1 Loss: 1.383 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 50.330 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 4.940 (Best: 4.940 from epoch 45)
+model 1 accuracy: 0.497
+model 2 Loss: 1.274 (Best: 1.274 from epoch 45)
+model 2 Top1 error: 46.450 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 5.250 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.535
+model 3 Loss: 1.303 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 47.780 (Best: 47.200 from epoch 41)
+model 3 Top5 error: 5.050 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.522
+[Epoch 47]	Learning rate: 0.1
+0/10 (0%)	agent 2	model 0.5	NLL: 0.909	Top1: 28.93 / Top5: 1.29	Total 2.6008 Time: 8.2s
+7/10 (70%)	agent 73	model 0.5	NLL: 0.925	Top1: 30.29 / Top5: 2.88	Total 2.2577 Time: 14.2s
+3/10 (30%)	agent 42	model 0.75	NLL: 1.109	Top1: 37.04 / Top5: 1.88	Total 2.8374 Time: 17.8s
+2/10 (20%)	agent 27	model 0.25	NLL: 0.988	Top1: 37.62 / Top5: 1.25	Total 2.4944 Time: 3.8s
+4/10 (40%)	agent 57	model 0.5	NLL: 1.085	Top1: 40.15 / Top5: 2.35	Total 2.5219 Time: 15.6s
+9/10 (90%)	agent 95	model 1.0	NLL: 0.936	Top1: 30.25 / Top5: 3.06	Total 2.3692 Time: 27.1s
+8/10 (80%)	agent 76	model 0.25	NLL: 0.952	Top1: 26.12 / Top5: 2.44	Total 2.7672 Time: 7.2s
+5/10 (50%)	agent 63	model 0.75	NLL: 1.035	Top1: 36.00 / Top5: 2.32	Total 2.3854 Time: 20.3s
+1/10 (10%)	agent 12	model 1.0	NLL: 0.913	Top1: 27.70 / Top5: 1.90	Total 2.5509 Time: 18.5s
+6/10 (60%)	agent 72	model 0.5	NLL: 0.788	Top1: 26.06 / Top5: 1.69	Total 2.1698 Time: 9.5s
+
+Evaluation:
+model 0 Loss: 1.795 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 64.560 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 12.450 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.354
+model 1 Loss: 1.297 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 48.170 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 4.570 (Best: 4.570 from epoch 46)
+model 1 accuracy: 0.518
+model 2 Loss: 1.362 (Best: 1.274 from epoch 45)
+model 2 Top1 error: 50.250 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 5.970 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.497
+model 3 Loss: 1.345 (Best: 1.285 from epoch 35)
+model 3 Top1 error: 49.690 (Best: 47.200 from epoch 41)
+model 3 Top5 error: 5.930 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.503
+[Epoch 48]	Learning rate: 0.1
+4/10 (40%)	agent 45	model 0.25	NLL: 0.828	Top1: 28.00 / Top5: 1.12	Total 2.2301 Time: 3.9s
+2/10 (20%)	agent 32	model 0.5	NLL: 0.953	Top1: 32.19 / Top5: 3.00	Total 2.2605 Time: 16.1s
+9/10 (90%)	agent 88	model 1.0	NLL: 0.756	Top1: 19.38 / Top5: 1.62	Total 2.3373 Time: 7.4s
+7/10 (70%)	agent 68	model 1.0	NLL: 0.984	Top1: 32.75 / Top5: 3.08	Total 2.4520 Time: 10.7s
+8/10 (80%)	agent 87	model 0.75	NLL: 1.146	Top1: 39.75 / Top5: 5.08	Total 2.6863 Time: 17.8s
+1/10 (10%)	agent 30	model 1.0	NLL: 0.976	Top1: 32.81 / Top5: 2.58	Total 2.3379 Time: 22.2s
+5/10 (50%)	agent 51	model 0.75	NLL: 1.029	Top1: 33.34 / Top5: 3.22	Total 2.5265 Time: 22.8s
+0/10 (0%)	agent 13	model 0.75	NLL: 1.041	Top1: 34.28 / Top5: 3.44	Total 2.4796 Time: 23.1s
+6/10 (60%)	agent 57	model 0.25	NLL: 1.262	Top1: 43.62 / Top5: 4.46	Total 3.0808 Time: 11.7s
+3/10 (30%)	agent 43	model 1.0	NLL: 1.200	Top1: 41.12 / Top5: 4.04	Total 2.9067 Time: 22.6s
+
+Evaluation:
+model 0 Loss: 1.700 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 60.980 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 9.830 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.390
+model 1 Loss: 1.545 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 53.450 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 8.450 (Best: 4.570 from epoch 46)
+model 1 accuracy: 0.466
+model 2 Loss: 1.297 (Best: 1.274 from epoch 45)
+model 2 Top1 error: 47.360 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 5.450 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.526
+model 3 Loss: 1.230 (Best: 1.230 from epoch 47)
+model 3 Top1 error: 44.870 (Best: 44.870 from epoch 47)
+model 3 Top5 error: 5.270 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.551
+[Epoch 49]	Learning rate: 0.1
+3/10 (30%)	agent 33	model 1.0	NLL: 0.581	Top1: 13.60 / Top5: 1.30	Total 2.0674 Time: 8.6s
+8/10 (80%)	agent 80	model 0.5	NLL: 1.094	Top1: 38.78 / Top5: 2.97	Total 2.4496 Time: 21.4s
+4/10 (40%)	agent 36	model 0.75	NLL: 0.787	Top1: 23.50 / Top5: 2.50	Total 2.1449 Time: 9.9s
+1/10 (10%)	agent 26	model 1.0	NLL: 1.016	Top1: 31.50 / Top5: 2.88	Total 3.2002 Time: 7.2s
+2/10 (20%)	agent 32	model 0.25	NLL: 1.151	Top1: 39.46 / Top5: 4.69	Total 2.8206 Time: 11.4s
+7/10 (70%)	agent 62	model 0.25	NLL: 1.068	Top1: 32.17 / Top5: 3.58	Total 3.3151 Time: 5.7s
+9/10 (90%)	agent 81	model 0.75	NLL: 0.697	Top1: 20.50 / Top5: 0.92	Total 2.0183 Time: 9.6s
+6/10 (60%)	agent 46	model 1.0	NLL: 1.003	Top1: 34.15 / Top5: 3.40	Total 2.4055 Time: 17.0s
+0/10 (0%)	agent 8	model 0.25	NLL: 0.847	Top1: 25.11 / Top5: 2.28	Total 2.3158 Time: 8.3s
+5/10 (50%)	agent 37	model 0.25	NLL: 1.121	Top1: 34.12 / Top5: 3.62	Total 3.2727 Time: 7.1s
+
+Evaluation:
+model 0 Loss: 1.471 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 54.750 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 7.020 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.453
+model 1 Loss: 1.772 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 61.290 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 9.970 (Best: 4.570 from epoch 46)
+model 1 accuracy: 0.387
+model 2 Loss: 1.408 (Best: 1.274 from epoch 45)
+model 2 Top1 error: 50.840 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 6.360 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.492
+model 3 Loss: 1.423 (Best: 1.230 from epoch 47)
+model 3 Top1 error: 53.410 (Best: 44.870 from epoch 47)
+model 3 Top5 error: 6.600 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.466
+[Epoch 50]	Learning rate: 0.1
+2/10 (20%)	agent 34	model 0.75	NLL: 0.615	Top1: 13.75 / Top5: 2.50	Total 2.3103 Time: 6.7s
+3/10 (30%)	agent 41	model 0.5	NLL: 0.983	Top1: 31.93 / Top5: 2.79	Total 2.5527 Time: 8.2s
+7/10 (70%)	agent 79	model 1.0	NLL: 0.635	Top1: 15.60 / Top5: 1.10	Total 2.2228 Time: 8.7s
+8/10 (80%)	agent 82	model 0.25	NLL: 1.114	Top1: 33.70 / Top5: 3.90	Total 3.2810 Time: 4.3s
+4/10 (40%)	agent 46	model 1.0	NLL: 0.864	Top1: 29.70 / Top5: 1.70	Total 2.1197 Time: 17.2s
+9/10 (90%)	agent 87	model 0.5	NLL: 1.183	Top1: 40.71 / Top5: 4.92	Total 2.9631 Time: 14.9s
+1/10 (10%)	agent 8	model 0.75	NLL: 0.961	Top1: 27.33 / Top5: 2.39	Total 3.1929 Time: 14.9s
+0/10 (0%)	agent 6	model 0.75	NLL: 1.096	Top1: 38.88 / Top5: 3.25	Total 2.7668 Time: 17.8s
+5/10 (50%)	agent 50	model 0.75	NLL: 0.877	Top1: 29.04 / Top5: 2.00	Total 2.0196 Time: 19.5s
+6/10 (60%)	agent 61	model 0.75	NLL: 0.970	Top1: 31.56 / Top5: 2.74	Total 2.7280 Time: 24.9s
+
+Evaluation:
+model 0 Loss: 1.739 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 67.150 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 8.600 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.329
+model 1 Loss: 1.422 (Best: 1.294 from epoch 41)
+model 1 Top1 error: 51.110 (Best: 46.480 from epoch 41)
+model 1 Top5 error: 5.400 (Best: 4.570 from epoch 46)
+model 1 accuracy: 0.489
+model 2 Loss: 1.271 (Best: 1.271 from epoch 49)
+model 2 Top1 error: 47.580 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 5.390 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.524
+model 3 Loss: 1.367 (Best: 1.230 from epoch 47)
+model 3 Top1 error: 48.700 (Best: 44.870 from epoch 47)
+model 3 Top5 error: 5.810 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.513
+[Epoch 51]	Learning rate: 0.1
+3/10 (30%)	agent 27	model 0.75	NLL: 1.014	Top1: 35.38 / Top5: 2.12	Total 2.7837 Time: 6.3s
+4/10 (40%)	agent 41	model 0.25	NLL: 1.167	Top1: 38.64 / Top5: 3.57	Total 3.1665 Time: 6.2s
+0/10 (0%)	agent 3	model 0.25	NLL: 1.043	Top1: 33.50 / Top5: 4.08	Total 2.7167 Time: 6.0s
+9/10 (90%)	agent 99	model 0.5	NLL: 0.854	Top1: 22.62 / Top5: 2.88	Total 2.7355 Time: 5.5s
+2/10 (20%)	agent 15	model 0.25	NLL: 1.168	Top1: 38.93 / Top5: 4.10	Total 2.9082 Time: 13.9s
+6/10 (60%)	agent 60	model 0.5	NLL: 0.961	Top1: 32.50 / Top5: 1.64	Total 2.5144 Time: 8.5s
+7/10 (70%)	agent 64	model 1.0	NLL: 0.788	Top1: 20.57 / Top5: 3.14	Total 2.5002 Time: 12.0s
+1/10 (10%)	agent 9	model 0.5	NLL: 0.980	Top1: 35.89 / Top5: 2.89	Total 2.2612 Time: 16.6s
+5/10 (50%)	agent 56	model 0.75	NLL: 0.996	Top1: 31.58 / Top5: 4.42	Total 2.5290 Time: 19.8s
+8/10 (80%)	agent 86	model 0.25	NLL: 1.091	Top1: 31.15 / Top5: 3.45	Total 3.4466 Time: 9.1s
+
+Evaluation:
+model 0 Loss: 1.321 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 48.750 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 5.260 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.512
+model 1 Loss: 1.232 (Best: 1.232 from epoch 50)
+model 1 Top1 error: 44.420 (Best: 44.420 from epoch 50)
+model 1 Top5 error: 4.510 (Best: 4.510 from epoch 50)
+model 1 accuracy: 0.556
+model 2 Loss: 1.367 (Best: 1.271 from epoch 49)
+model 2 Top1 error: 52.540 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 5.920 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.475
+model 3 Loss: 1.507 (Best: 1.230 from epoch 47)
+model 3 Top1 error: 55.460 (Best: 44.870 from epoch 47)
+model 3 Top5 error: 7.940 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.445
+[Epoch 52]	Learning rate: 0.1
+4/10 (40%)	agent 33	model 0.75	NLL: 0.689	Top1: 18.50 / Top5: 1.60	Total 2.5500 Time: 7.9s
+8/10 (80%)	agent 90	model 1.0	NLL: 1.113	Top1: 40.12 / Top5: 2.85	Total 2.7133 Time: 22.1s
+6/10 (60%)	agent 50	model 1.0	NLL: 0.961	Top1: 29.31 / Top5: 3.31	Total 2.5453 Time: 22.6s
+9/10 (90%)	agent 93	model 0.25	NLL: 0.765	Top1: 21.08 / Top5: 1.58	Total 2.2781 Time: 5.7s
+1/10 (10%)	agent 9	model 0.5	NLL: 0.873	Top1: 31.43 / Top5: 2.04	Total 1.9582 Time: 16.6s
+3/10 (30%)	agent 20	model 0.75	NLL: 0.985	Top1: 33.15 / Top5: 3.76	Total 2.4244 Time: 25.1s
+0/10 (0%)	agent 8	model 0.25	NLL: 0.800	Top1: 19.72 / Top5: 2.50	Total 2.4361 Time: 8.2s
+2/10 (20%)	agent 15	model 0.25	NLL: 1.023	Top1: 33.97 / Top5: 2.93	Total 2.2908 Time: 13.7s
+7/10 (70%)	agent 54	model 0.25	NLL: 0.835	Top1: 24.50 / Top5: 2.17	Total 2.2999 Time: 5.6s
+5/10 (50%)	agent 47	model 1.0	NLL: 0.860	Top1: 27.25 / Top5: 2.21	Total 2.4854 Time: 20.6s
+
+Evaluation:
+model 0 Loss: 1.462 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 54.890 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 7.330 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.451
+model 1 Loss: 1.264 (Best: 1.232 from epoch 50)
+model 1 Top1 error: 46.810 (Best: 44.420 from epoch 50)
+model 1 Top5 error: 4.670 (Best: 4.510 from epoch 50)
+model 1 accuracy: 0.532
+model 2 Loss: 1.400 (Best: 1.271 from epoch 49)
+model 2 Top1 error: 51.640 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 7.090 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.484
+model 3 Loss: 1.249 (Best: 1.230 from epoch 47)
+model 3 Top1 error: 45.280 (Best: 44.870 from epoch 47)
+model 3 Top5 error: 5.710 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.547
+[Epoch 53]	Learning rate: 0.1
+3/10 (30%)	agent 35	model 0.25	NLL: 0.957	Top1: 24.00 / Top5: 3.62	Total 3.3138 Time: 4.0s
+7/10 (70%)	agent 57	model 0.5	NLL: 0.987	Top1: 35.73 / Top5: 1.54	Total 2.2101 Time: 15.9s
+6/10 (60%)	agent 56	model 0.5	NLL: 0.963	Top1: 30.69 / Top5: 4.35	Total 2.5113 Time: 16.0s
+8/10 (80%)	agent 79	model 0.5	NLL: 0.505	Top1: 13.80 / Top5: 0.60	Total 1.5963 Time: 6.1s
+2/10 (20%)	agent 30	model 0.5	NLL: 1.170	Top1: 38.81 / Top5: 5.00	Total 2.9633 Time: 16.0s
+1/10 (10%)	agent 9	model 0.5	NLL: 0.670	Top1: 23.54 / Top5: 0.89	Total 1.4623 Time: 16.8s
+4/10 (40%)	agent 36	model 1.0	NLL: 0.769	Top1: 24.07 / Top5: 1.14	Total 2.0861 Time: 12.2s
+0/10 (0%)	agent 1	model 0.75	NLL: 0.961	Top1: 32.00 / Top5: 2.88	Total 2.3453 Time: 25.4s
+9/10 (90%)	agent 87	model 0.25	NLL: 1.289	Top1: 42.88 / Top5: 7.17	Total 3.1851 Time: 10.7s
+5/10 (50%)	agent 39	model 0.75	NLL: 0.963	Top1: 32.32 / Top5: 2.77	Total 2.4300 Time: 16.4s
+
+Evaluation:
+model 0 Loss: 1.464 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 55.220 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 7.450 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.448
+model 1 Loss: 1.152 (Best: 1.152 from epoch 52)
+model 1 Top1 error: 42.320 (Best: 42.320 from epoch 52)
+model 1 Top5 error: 4.240 (Best: 4.240 from epoch 52)
+model 1 accuracy: 0.577
+model 2 Loss: 1.401 (Best: 1.271 from epoch 49)
+model 2 Top1 error: 49.910 (Best: 46.450 from epoch 45)
+model 2 Top5 error: 7.850 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.501
+model 3 Loss: 1.534 (Best: 1.230 from epoch 47)
+model 3 Top1 error: 54.470 (Best: 44.870 from epoch 47)
+model 3 Top5 error: 7.370 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.455
+[Epoch 54]	Learning rate: 0.1
+1/10 (10%)	agent 14	model 1.0	NLL: 0.991	Top1: 33.50 / Top5: 2.19	Total 2.8742 Time: 14.4s
+9/10 (90%)	agent 90	model 0.5	NLL: 0.963	Top1: 34.77 / Top5: 2.31	Total 2.1409 Time: 16.0s
+8/10 (80%)	agent 89	model 0.5	NLL: 0.966	Top1: 32.69 / Top5: 2.88	Total 2.3396 Time: 15.6s
+3/10 (30%)	agent 47	model 0.75	NLL: 0.741	Top1: 23.71 / Top5: 1.54	Total 1.8823 Time: 18.0s
+2/10 (20%)	agent 43	model 0.75	NLL: 1.201	Top1: 41.65 / Top5: 4.15	Total 2.9203 Time: 18.8s
+5/10 (50%)	agent 58	model 1.0	NLL: 1.062	Top1: 36.71 / Top5: 2.79	Total 2.7920 Time: 12.2s
+6/10 (60%)	agent 64	model 0.25	NLL: 0.801	Top1: 21.36 / Top5: 3.29	Total 2.3973 Time: 6.1s
+4/10 (40%)	agent 51	model 0.5	NLL: 1.027	Top1: 34.19 / Top5: 2.72	Total 2.5628 Time: 18.8s
+7/10 (70%)	agent 86	model 0.75	NLL: 0.803	Top1: 22.55 / Top5: 3.05	Total 2.2804 Time: 14.4s
+0/10 (0%)	agent 4	model 0.75	NLL: 0.984	Top1: 33.75 / Top5: 2.00	Total 2.7531 Time: 9.1s
+
+Evaluation:
+model 0 Loss: 1.612 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 59.260 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 8.730 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.407
+model 1 Loss: 1.103 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 40.350 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 3.620 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.597
+model 2 Loss: 1.270 (Best: 1.270 from epoch 53)
+model 2 Top1 error: 45.850 (Best: 45.850 from epoch 53)
+model 2 Top5 error: 6.090 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.541
+model 3 Loss: 1.548 (Best: 1.230 from epoch 47)
+model 3 Top1 error: 54.470 (Best: 44.870 from epoch 47)
+model 3 Top5 error: 7.280 (Best: 5.050 from epoch 45)
+model 3 accuracy: 0.455
+[Epoch 55]	Learning rate: 0.1
+8/10 (80%)	agent 96	model 0.5	NLL: 0.581	Top1: 16.42 / Top5: 1.50	Total 1.8247 Time: 7.6s
+3/10 (30%)	agent 24	model 1.0	NLL: 0.942	Top1: 32.22 / Top5: 2.97	Total 2.2120 Time: 27.2s
+2/10 (20%)	agent 17	model 0.75	NLL: 0.908	Top1: 30.83 / Top5: 2.46	Total 2.2301 Time: 17.6s
+0/10 (0%)	agent 2	model 0.5	NLL: 0.791	Top1: 25.64 / Top5: 1.21	Total 2.2278 Time: 8.4s
+5/10 (50%)	agent 56	model 0.5	NLL: 0.839	Top1: 26.42 / Top5: 3.12	Total 2.1097 Time: 15.7s
+1/10 (10%)	agent 6	model 0.25	NLL: 1.170	Top1: 39.42 / Top5: 3.75	Total 2.8320 Time: 10.3s
+4/10 (40%)	agent 29	model 0.25	NLL: 0.987	Top1: 28.88 / Top5: 2.25	Total 2.9530 Time: 3.8s
+9/10 (90%)	agent 99	model 0.25	NLL: 0.957	Top1: 27.75 / Top5: 2.62	Total 2.9694 Time: 3.7s
+7/10 (70%)	agent 88	model 0.25	NLL: 0.863	Top1: 23.38 / Top5: 2.12	Total 2.5940 Time: 4.0s
+6/10 (60%)	agent 65	model 1.0	NLL: 1.181	Top1: 40.91 / Top5: 3.27	Total 3.0857 Time: 19.5s
+
+Evaluation:
+model 0 Loss: 1.740 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 62.510 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 9.840 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.375
+model 1 Loss: 1.186 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 43.000 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 4.380 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.570
+model 2 Loss: 1.331 (Best: 1.270 from epoch 53)
+model 2 Top1 error: 48.570 (Best: 45.850 from epoch 53)
+model 2 Top5 error: 5.950 (Best: 5.250 from epoch 45)
+model 2 accuracy: 0.514
+model 3 Loss: 1.229 (Best: 1.229 from epoch 54)
+model 3 Top1 error: 44.170 (Best: 44.170 from epoch 54)
+model 3 Top5 error: 4.720 (Best: 4.720 from epoch 54)
+model 3 accuracy: 0.558
+[Epoch 56]	Learning rate: 0.1
+9/10 (90%)	agent 93	model 1.0	NLL: 0.693	Top1: 17.08 / Top5: 2.33	Total 2.1980 Time: 11.0s
+3/10 (30%)	agent 40	model 0.75	NLL: 1.135	Top1: 37.71 / Top5: 4.65	Total 2.7710 Time: 24.5s
+6/10 (60%)	agent 78	model 0.25	NLL: 0.955	Top1: 30.14 / Top5: 3.14	Total 2.5378 Time: 6.4s
+1/10 (10%)	agent 22	model 1.0	NLL: 0.728	Top1: 19.88 / Top5: 1.88	Total 2.1946 Time: 7.5s
+0/10 (0%)	agent 20	model 0.75	NLL: 0.834	Top1: 29.03 / Top5: 2.09	Total 1.9960 Time: 24.8s
+8/10 (80%)	agent 91	model 0.75	NLL: 0.887	Top1: 25.10 / Top5: 3.90	Total 2.7511 Time: 7.2s
+2/10 (20%)	agent 27	model 0.5	NLL: 0.883	Top1: 30.25 / Top5: 2.50	Total 2.3124 Time: 5.2s
+7/10 (70%)	agent 84	model 1.0	NLL: 0.926	Top1: 29.40 / Top5: 2.23	Total 2.2189 Time: 25.8s
+4/10 (40%)	agent 45	model 0.75	NLL: 0.720	Top1: 23.50 / Top5: 0.50	Total 2.0245 Time: 6.7s
+5/10 (50%)	agent 68	model 1.0	NLL: 0.881	Top1: 31.17 / Top5: 1.75	Total 2.1357 Time: 11.0s
+
+Evaluation:
+model 0 Loss: 1.517 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 55.740 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 7.930 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.443
+model 1 Loss: 1.358 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 50.700 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 5.770 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.493
+model 2 Loss: 1.128 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 39.910 (Best: 39.910 from epoch 55)
+model 2 Top5 error: 3.920 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.601
+model 3 Loss: 1.189 (Best: 1.189 from epoch 55)
+model 3 Top1 error: 41.930 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 4.390 (Best: 4.390 from epoch 55)
+model 3 accuracy: 0.581
+[Epoch 57]	Learning rate: 0.1
+3/10 (30%)	agent 33	model 0.5	NLL: 0.853	Top1: 19.70 / Top5: 3.40	Total 3.3126 Time: 5.9s
+5/10 (50%)	agent 80	model 0.75	NLL: 1.136	Top1: 38.86 / Top5: 4.33	Total 2.6543 Time: 26.8s
+8/10 (80%)	agent 88	model 0.75	NLL: 0.724	Top1: 18.38 / Top5: 2.12	Total 2.2123 Time: 6.2s
+4/10 (40%)	agent 34	model 0.75	NLL: 0.521	Top1: 11.25 / Top5: 1.75	Total 1.8434 Time: 6.2s
+9/10 (90%)	agent 91	model 1.0	NLL: 0.730	Top1: 21.00 / Top5: 1.80	Total 2.1021 Time: 8.6s
+2/10 (20%)	agent 15	model 0.25	NLL: 1.075	Top1: 36.70 / Top5: 3.37	Total 2.7187 Time: 13.4s
+6/10 (60%)	agent 81	model 0.25	NLL: 0.784	Top1: 21.92 / Top5: 1.17	Total 2.3067 Time: 5.3s
+7/10 (70%)	agent 85	model 0.25	NLL: 1.255	Top1: 43.31 / Top5: 4.08	Total 2.9313 Time: 16.1s
+1/10 (10%)	agent 3	model 0.75	NLL: 0.748	Top1: 23.25 / Top5: 1.67	Total 1.9158 Time: 9.4s
+0/10 (0%)	agent 2	model 0.75	NLL: 0.838	Top1: 26.86 / Top5: 1.64	Total 2.3352 Time: 10.3s
+
+Evaluation:
+model 0 Loss: 1.469 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 54.390 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 6.040 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.456
+model 1 Loss: 1.762 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 64.390 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 12.210 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.356
+model 2 Loss: 1.152 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 40.190 (Best: 39.910 from epoch 55)
+model 2 Top5 error: 4.430 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.598
+model 3 Loss: 1.439 (Best: 1.189 from epoch 55)
+model 3 Top1 error: 55.120 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 6.400 (Best: 4.390 from epoch 55)
+model 3 accuracy: 0.449
+[Epoch 58]	Learning rate: 0.1
+2/10 (20%)	agent 22	model 0.25	NLL: 0.849	Top1: 25.50 / Top5: 1.50	Total 2.4922 Time: 4.1s
+1/10 (10%)	agent 12	model 0.75	NLL: 0.797	Top1: 24.60 / Top5: 1.85	Total 2.1558 Time: 14.3s
+7/10 (70%)	agent 73	model 0.75	NLL: 0.835	Top1: 27.58 / Top5: 2.54	Total 1.9788 Time: 17.7s
+3/10 (30%)	agent 45	model 1.0	NLL: 1.009	Top1: 28.12 / Top5: 2.38	Total 3.2739 Time: 7.8s
+9/10 (90%)	agent 88	model 0.75	NLL: 0.693	Top1: 18.88 / Top5: 1.75	Total 2.0387 Time: 6.6s
+4/10 (40%)	agent 60	model 0.25	NLL: 1.223	Top1: 39.50 / Top5: 3.43	Total 3.3813 Time: 6.5s
+0/10 (0%)	agent 11	model 0.5	NLL: 1.134	Top1: 37.94 / Top5: 3.39	Total 3.1396 Time: 11.7s
+5/10 (50%)	agent 67	model 0.25	NLL: 0.962	Top1: 32.38 / Top5: 2.65	Total 2.2909 Time: 15.8s
+6/10 (60%)	agent 71	model 0.75	NLL: 0.935	Top1: 30.28 / Top5: 2.69	Total 2.3578 Time: 26.8s
+8/10 (80%)	agent 78	model 0.75	NLL: 0.720	Top1: 22.64 / Top5: 0.71	Total 1.9285 Time: 10.0s
+
+Evaluation:
+model 0 Loss: 1.333 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 47.400 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 6.260 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.526
+model 1 Loss: 1.565 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 55.850 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 9.370 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.442
+model 2 Loss: 1.152 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 42.100 (Best: 39.910 from epoch 55)
+model 2 Top5 error: 3.930 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.579
+model 3 Loss: 1.773 (Best: 1.189 from epoch 55)
+model 3 Top1 error: 68.210 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 9.630 (Best: 4.390 from epoch 55)
+model 3 accuracy: 0.318
+[Epoch 59]	Learning rate: 0.1
+2/10 (20%)	agent 14	model 0.5	NLL: 1.011	Top1: 34.69 / Top5: 2.50	Total 3.0601 Time: 10.1s
+7/10 (70%)	agent 63	model 0.5	NLL: 1.100	Top1: 34.57 / Top5: 4.00	Total 2.9806 Time: 16.8s
+0/10 (0%)	agent 8	model 0.75	NLL: 0.744	Top1: 21.00 / Top5: 1.67	Total 2.1772 Time: 14.1s
+8/10 (80%)	agent 82	model 0.5	NLL: 0.910	Top1: 26.50 / Top5: 2.20	Total 2.7196 Time: 6.5s
+1/10 (10%)	agent 13	model 0.5	NLL: 0.978	Top1: 31.00 / Top5: 3.47	Total 2.5931 Time: 19.7s
+3/10 (30%)	agent 15	model 1.0	NLL: 1.024	Top1: 34.33 / Top5: 3.10	Total 2.5685 Time: 26.6s
+9/10 (90%)	agent 94	model 1.0	NLL: 0.884	Top1: 26.50 / Top5: 1.75	Total 2.6940 Time: 10.8s
+5/10 (50%)	agent 57	model 1.0	NLL: 1.079	Top1: 37.15 / Top5: 2.81	Total 2.6602 Time: 23.0s
+6/10 (60%)	agent 61	model 1.0	NLL: 0.821	Top1: 25.15 / Top5: 1.29	Total 2.3596 Time: 30.1s
+4/10 (40%)	agent 51	model 0.25	NLL: 1.066	Top1: 35.28 / Top5: 2.75	Total 2.5634 Time: 13.8s
+
+Evaluation:
+model 0 Loss: 1.460 (Best: 1.303 from epoch 43)
+model 0 Top1 error: 53.140 (Best: 46.870 from epoch 43)
+model 0 Top5 error: 8.010 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.469
+model 1 Loss: 1.320 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 46.090 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 6.130 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.539
+model 2 Loss: 1.656 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 61.550 (Best: 39.910 from epoch 55)
+model 2 Top5 error: 8.320 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.385
+model 3 Loss: 1.268 (Best: 1.189 from epoch 55)
+model 3 Top1 error: 46.570 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 5.370 (Best: 4.390 from epoch 55)
+model 3 accuracy: 0.534
+[Epoch 60]	Learning rate: 0.1
+2/10 (20%)	agent 7	model 0.5	NLL: 0.832	Top1: 25.57 / Top5: 2.21	Total 2.4541 Time: 8.7s
+9/10 (90%)	agent 90	model 0.5	NLL: 0.949	Top1: 32.77 / Top5: 1.73	Total 2.3472 Time: 16.3s
+7/10 (70%)	agent 42	model 0.5	NLL: 0.903	Top1: 29.58 / Top5: 0.96	Total 2.1372 Time: 14.2s
+5/10 (50%)	agent 28	model 0.25	NLL: 1.023	Top1: 34.21 / Top5: 3.12	Total 2.4409 Time: 10.8s
+3/10 (30%)	agent 19	model 0.25	NLL: 0.997	Top1: 32.44 / Top5: 2.50	Total 2.7370 Time: 7.3s
+4/10 (40%)	agent 25	model 1.0	NLL: 0.917	Top1: 29.00 / Top5: 2.55	Total 2.4170 Time: 18.4s
+1/10 (10%)	agent 1	model 0.75	NLL: 0.822	Top1: 27.12 / Top5: 1.85	Total 2.0345 Time: 25.0s
+0/10 (0%)	agent 0	model 0.25	NLL: 1.191	Top1: 43.25 / Top5: 4.54	Total 2.8382 Time: 13.0s
+6/10 (60%)	agent 30	model 0.25	NLL: 1.170	Top1: 40.88 / Top5: 4.12	Total 2.6655 Time: 12.0s
+8/10 (80%)	agent 43	model 0.5	NLL: 1.054	Top1: 35.50 / Top5: 2.96	Total 2.4661 Time: 15.9s
+
+Evaluation:
+model 0 Loss: 1.230 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 46.070 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 5.510 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.539
+model 1 Loss: 1.202 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 43.770 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 4.160 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.562
+model 2 Loss: 1.577 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 53.390 (Best: 39.910 from epoch 55)
+model 2 Top5 error: 8.310 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.466
+model 3 Loss: 1.321 (Best: 1.189 from epoch 55)
+model 3 Top1 error: 50.340 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 5.390 (Best: 4.390 from epoch 55)
+model 3 accuracy: 0.497
+[Epoch 61]	Learning rate: 0.1
+1/10 (10%)	agent 14	model 0.25	NLL: 0.891	Top1: 32.31 / Top5: 1.69	Total 2.4172 Time: 7.4s
+2/10 (20%)	agent 40	model 0.75	NLL: 1.052	Top1: 35.03 / Top5: 4.68	Total 2.6724 Time: 25.7s
+0/10 (0%)	agent 1	model 1.0	NLL: 0.908	Top1: 29.68 / Top5: 2.62	Total 2.3631 Time: 29.8s
+8/10 (80%)	agent 92	model 0.5	NLL: 0.730	Top1: 22.20 / Top5: 1.40	Total 2.3175 Time: 6.3s
+3/10 (30%)	agent 43	model 1.0	NLL: 1.081	Top1: 37.19 / Top5: 4.00	Total 2.5149 Time: 22.9s
+5/10 (50%)	agent 58	model 0.25	NLL: 0.950	Top1: 33.50 / Top5: 1.93	Total 2.1786 Time: 6.1s
+7/10 (70%)	agent 76	model 0.25	NLL: 0.757	Top1: 19.75 / Top5: 2.38	Total 2.3426 Time: 7.4s
+4/10 (40%)	agent 50	model 0.25	NLL: 0.980	Top1: 33.08 / Top5: 2.50	Total 2.2802 Time: 11.5s
+9/10 (90%)	agent 98	model 0.25	NLL: 0.860	Top1: 26.29 / Top5: 2.42	Total 2.4009 Time: 10.8s
+6/10 (60%)	agent 60	model 1.0	NLL: 0.855	Top1: 27.07 / Top5: 1.93	Total 2.2441 Time: 12.6s
+
+Evaluation:
+model 0 Loss: 1.336 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 50.330 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 5.590 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.497
+model 1 Loss: 1.622 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 61.740 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 7.970 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.383
+model 2 Loss: 1.630 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 54.860 (Best: 39.910 from epoch 55)
+model 2 Top5 error: 8.620 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.451
+model 3 Loss: 1.357 (Best: 1.189 from epoch 55)
+model 3 Top1 error: 50.270 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 4.760 (Best: 4.390 from epoch 55)
+model 3 accuracy: 0.497
+[Epoch 62]	Learning rate: 0.1
+7/10 (70%)	agent 75	model 0.75	NLL: 0.649	Top1: 17.50 / Top5: 1.62	Total 2.2461 Time: 6.6s
+2/10 (20%)	agent 9	model 1.0	NLL: 0.924	Top1: 32.00 / Top5: 2.11	Total 2.2781 Time: 24.6s
+8/10 (80%)	agent 94	model 0.5	NLL: 0.959	Top1: 29.92 / Top5: 2.58	Total 2.9198 Time: 7.2s
+3/10 (30%)	agent 14	model 0.75	NLL: 0.906	Top1: 31.81 / Top5: 2.00	Total 2.7871 Time: 12.2s
+4/10 (40%)	agent 15	model 0.5	NLL: 1.035	Top1: 33.87 / Top5: 3.23	Total 2.8778 Time: 17.9s
+5/10 (50%)	agent 39	model 0.25	NLL: 0.917	Top1: 32.68 / Top5: 1.68	Total 2.2723 Time: 10.1s
+0/10 (0%)	agent 2	model 1.0	NLL: 0.815	Top1: 24.86 / Top5: 1.57	Total 2.4067 Time: 12.2s
+9/10 (90%)	agent 95	model 1.0	NLL: 0.807	Top1: 24.69 / Top5: 2.00	Total 2.1782 Time: 27.5s
+1/10 (10%)	agent 8	model 0.75	NLL: 0.596	Top1: 18.72 / Top5: 0.94	Total 1.6855 Time: 13.7s
+6/10 (60%)	agent 47	model 1.0	NLL: 0.774	Top1: 22.21 / Top5: 2.08	Total 2.4972 Time: 20.8s
+
+Evaluation:
+model 0 Loss: 1.405 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 50.340 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 7.270 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.497
+model 1 Loss: 1.357 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 49.580 (Best: 40.350 from epoch 53)
+model 1 Top5 error: 5.330 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.504
+model 2 Loss: 1.402 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 53.920 (Best: 39.910 from epoch 55)
+model 2 Top5 error: 6.220 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.461
+model 3 Loss: 1.143 (Best: 1.143 from epoch 61)
+model 3 Top1 error: 42.080 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 3.860 (Best: 3.860 from epoch 61)
+model 3 accuracy: 0.579
+[Epoch 63]	Learning rate: 0.1
+6/10 (60%)	agent 77	model 0.75	NLL: 0.991	Top1: 29.88 / Top5: 2.50	Total 3.4010 Time: 6.4s
+9/10 (90%)	agent 87	model 0.75	NLL: 1.055	Top1: 35.08 / Top5: 3.42	Total 2.6575 Time: 17.5s
+3/10 (30%)	agent 38	model 0.75	NLL: 0.706	Top1: 22.50 / Top5: 1.06	Total 1.8756 Time: 14.0s
+7/10 (70%)	agent 79	model 0.75	NLL: 0.657	Top1: 15.80 / Top5: 2.00	Total 2.2648 Time: 7.2s
+1/10 (10%)	agent 28	model 0.5	NLL: 0.923	Top1: 31.42 / Top5: 2.83	Total 2.3096 Time: 13.9s
+5/10 (50%)	agent 68	model 1.0	NLL: 0.834	Top1: 28.00 / Top5: 1.67	Total 2.2314 Time: 11.0s
+4/10 (40%)	agent 64	model 0.5	NLL: 0.615	Top1: 14.21 / Top5: 1.64	Total 1.8643 Time: 8.3s
+2/10 (20%)	agent 30	model 0.5	NLL: 1.032	Top1: 34.46 / Top5: 2.81	Total 2.5633 Time: 15.8s
+0/10 (0%)	agent 12	model 0.75	NLL: 0.805	Top1: 24.70 / Top5: 1.35	Total 2.3608 Time: 14.5s
+8/10 (80%)	agent 80	model 0.25	NLL: 1.152	Top1: 40.69 / Top5: 3.53	Total 2.6784 Time: 15.5s
+
+Evaluation:
+model 0 Loss: 1.359 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 48.650 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 8.040 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.513
+model 1 Loss: 1.113 (Best: 1.103 from epoch 53)
+model 1 Top1 error: 39.340 (Best: 39.340 from epoch 62)
+model 1 Top5 error: 3.730 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.607
+model 2 Loss: 1.140 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 39.230 (Best: 39.230 from epoch 62)
+model 2 Top5 error: 4.010 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.608
+model 3 Loss: 1.347 (Best: 1.143 from epoch 61)
+model 3 Top1 error: 46.420 (Best: 41.930 from epoch 55)
+model 3 Top5 error: 5.370 (Best: 3.860 from epoch 61)
+model 3 accuracy: 0.536
+[Epoch 64]	Learning rate: 0.1
+6/10 (60%)	agent 34	model 1.0	NLL: 0.598	Top1: 14.00 / Top5: 1.38	Total 2.2758 Time: 7.6s
+0/10 (0%)	agent 0	model 0.25	NLL: 1.091	Top1: 37.64 / Top5: 3.39	Total 2.5855 Time: 12.6s
+3/10 (30%)	agent 17	model 0.5	NLL: 0.853	Top1: 27.75 / Top5: 2.17	Total 2.1139 Time: 14.1s
+8/10 (80%)	agent 45	model 0.75	NLL: 0.667	Top1: 19.75 / Top5: 1.25	Total 1.9180 Time: 6.9s
+7/10 (70%)	agent 40	model 1.0	NLL: 1.016	Top1: 33.82 / Top5: 3.59	Total 2.4675 Time: 29.6s
+9/10 (90%)	agent 87	model 1.0	NLL: 0.975	Top1: 33.21 / Top5: 3.00	Total 2.4397 Time: 20.4s
+5/10 (50%)	agent 25	model 0.5	NLL: 0.855	Top1: 27.80 / Top5: 2.20	Total 2.1907 Time: 11.7s
+4/10 (40%)	agent 24	model 1.0	NLL: 0.855	Top1: 29.31 / Top5: 1.88	Total 2.1774 Time: 28.5s
+1/10 (10%)	agent 6	model 1.0	NLL: 0.887	Top1: 30.12 / Top5: 1.58	Total 2.1745 Time: 21.1s
+2/10 (20%)	agent 13	model 0.5	NLL: 0.789	Top1: 24.38 / Top5: 2.00	Total 1.8957 Time: 18.9s
+
+Evaluation:
+model 0 Loss: 1.650 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 55.960 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 9.840 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.440
+model 1 Loss: 1.047 (Best: 1.047 from epoch 63)
+model 1 Top1 error: 36.790 (Best: 36.790 from epoch 63)
+model 1 Top5 error: 3.670 (Best: 3.620 from epoch 53)
+model 1 accuracy: 0.632
+model 2 Loss: 1.524 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 57.390 (Best: 39.230 from epoch 62)
+model 2 Top5 error: 6.130 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.426
+model 3 Loss: 1.103 (Best: 1.103 from epoch 63)
+model 3 Top1 error: 40.360 (Best: 40.360 from epoch 63)
+model 3 Top5 error: 3.630 (Best: 3.630 from epoch 63)
+model 3 accuracy: 0.596
+[Epoch 65]	Learning rate: 0.1
+1/10 (10%)	agent 10	model 0.75	NLL: 0.679	Top1: 17.75 / Top5: 1.88	Total 2.3451 Time: 6.2s
+6/10 (60%)	agent 69	model 0.75	NLL: 0.939	Top1: 30.35 / Top5: 3.41	Total 2.3677 Time: 24.9s
+4/10 (40%)	agent 42	model 0.5	NLL: 0.858	Top1: 27.75 / Top5: 0.96	Total 2.1906 Time: 14.1s
+3/10 (30%)	agent 37	model 1.0	NLL: 0.631	Top1: 18.44 / Top5: 1.00	Total 1.7932 Time: 14.2s
+5/10 (50%)	agent 59	model 0.5	NLL: 1.032	Top1: 36.39 / Top5: 2.17	Total 2.4144 Time: 10.7s
+0/10 (0%)	agent 3	model 0.25	NLL: 0.947	Top1: 30.00 / Top5: 2.58	Total 2.5710 Time: 5.4s
+9/10 (90%)	agent 98	model 0.75	NLL: 0.889	Top1: 26.21 / Top5: 1.83	Total 2.7709 Time: 18.1s
+2/10 (20%)	agent 13	model 1.0	NLL: 0.819	Top1: 25.16 / Top5: 2.22	Total 2.1117 Time: 26.6s
+7/10 (70%)	agent 85	model 0.75	NLL: 1.149	Top1: 39.64 / Top5: 2.89	Total 2.9536 Time: 26.5s
+8/10 (80%)	agent 86	model 0.5	NLL: 0.577	Top1: 17.00 / Top5: 1.60	Total 1.4850 Time: 12.3s
+
+Evaluation:
+model 0 Loss: 1.474 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 55.060 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 6.810 (Best: 5.060 from epoch 43)
+model 0 accuracy: 0.449
+model 1 Loss: 1.085 (Best: 1.047 from epoch 63)
+model 1 Top1 error: 38.800 (Best: 36.790 from epoch 63)
+model 1 Top5 error: 3.360 (Best: 3.360 from epoch 64)
+model 1 accuracy: 0.612
+model 2 Loss: 1.302 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 45.460 (Best: 39.230 from epoch 62)
+model 2 Top5 error: 4.380 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.545
+model 3 Loss: 1.213 (Best: 1.103 from epoch 63)
+model 3 Top1 error: 43.080 (Best: 40.360 from epoch 63)
+model 3 Top5 error: 4.480 (Best: 3.630 from epoch 63)
+model 3 accuracy: 0.569
+[Epoch 66]	Learning rate: 0.1
+3/10 (30%)	agent 33	model 1.0	NLL: 0.546	Top1: 13.10 / Top5: 1.20	Total 2.0713 Time: 8.5s
+5/10 (50%)	agent 69	model 0.75	NLL: 0.788	Top1: 24.85 / Top5: 2.32	Total 1.8978 Time: 24.8s
+0/10 (0%)	agent 14	model 0.5	NLL: 0.797	Top1: 26.12 / Top5: 1.31	Total 2.3264 Time: 9.3s
+4/10 (40%)	agent 48	model 0.75	NLL: 0.571	Top1: 14.83 / Top5: 0.92	Total 1.7762 Time: 9.2s
+1/10 (10%)	agent 28	model 0.5	NLL: 0.801	Top1: 27.21 / Top5: 1.96	Total 2.0452 Time: 14.0s
+8/10 (80%)	agent 92	model 0.25	NLL: 0.944	Top1: 26.90 / Top5: 2.80	Total 3.2095 Time: 4.5s
+7/10 (70%)	agent 81	model 0.5	NLL: 0.757	Top1: 20.58 / Top5: 1.83	Total 2.4316 Time: 7.7s
+2/10 (20%)	agent 32	model 0.25	NLL: 1.036	Top1: 35.38 / Top5: 3.15	Total 2.5655 Time: 12.0s
+6/10 (60%)	agent 76	model 1.0	NLL: 0.629	Top1: 17.69 / Top5: 1.56	Total 1.9928 Time: 14.6s
+9/10 (90%)	agent 93	model 0.75	NLL: 0.502	Top1: 12.33 / Top5: 0.67	Total 1.5443 Time: 9.5s
+
+Evaluation:
+model 0 Loss: 1.395 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 54.290 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 4.860 (Best: 4.860 from epoch 65)
+model 0 accuracy: 0.457
+model 1 Loss: 1.186 (Best: 1.047 from epoch 63)
+model 1 Top1 error: 45.000 (Best: 36.790 from epoch 63)
+model 1 Top5 error: 4.270 (Best: 3.360 from epoch 64)
+model 1 accuracy: 0.550
+model 2 Loss: 1.284 (Best: 1.128 from epoch 55)
+model 2 Top1 error: 47.470 (Best: 39.230 from epoch 62)
+model 2 Top5 error: 4.460 (Best: 3.920 from epoch 55)
+model 2 accuracy: 0.525
+model 3 Loss: 1.543 (Best: 1.103 from epoch 63)
+model 3 Top1 error: 58.310 (Best: 40.360 from epoch 63)
+model 3 Top5 error: 6.550 (Best: 3.630 from epoch 63)
+model 3 accuracy: 0.417
+[Epoch 67]	Learning rate: 0.1
+9/10 (90%)	agent 96	model 0.75	NLL: 0.589	Top1: 15.58 / Top5: 1.00	Total 2.0040 Time: 9.2s
+6/10 (60%)	agent 87	model 0.75	NLL: 0.971	Top1: 32.50 / Top5: 2.92	Total 2.4500 Time: 18.2s
+2/10 (20%)	agent 58	model 0.5	NLL: 0.832	Top1: 28.57 / Top5: 1.43	Total 1.9921 Time: 8.4s
+0/10 (0%)	agent 7	model 0.75	NLL: 0.771	Top1: 24.21 / Top5: 2.07	Total 2.2180 Time: 10.2s
+4/10 (40%)	agent 72	model 0.75	NLL: 0.769	Top1: 23.69 / Top5: 1.38	Total 2.2091 Time: 12.2s
+5/10 (50%)	agent 83	model 0.25	NLL: 0.842	Top1: 27.27 / Top5: 1.88	Total 2.1490 Time: 11.9s
+7/10 (70%)	agent 91	model 1.0	NLL: 0.768	Top1: 25.80 / Top5: 1.80	Total 2.4328 Time: 8.9s
+1/10 (10%)	agent 50	model 0.25	NLL: 0.942	Top1: 31.35 / Top5: 2.81	Total 2.2695 Time: 11.8s
+8/10 (80%)	agent 95	model 1.0	NLL: 0.717	Top1: 23.41 / Top5: 1.72	Total 1.8624 Time: 26.6s
+3/10 (30%)	agent 63	model 1.0	NLL: 0.939	Top1: 32.18 / Top5: 1.89	Total 2.4728 Time: 24.4s
+
+Evaluation:
+model 0 Loss: 1.262 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 46.990 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 5.100 (Best: 4.860 from epoch 65)
+model 0 accuracy: 0.530
+model 1 Loss: 1.282 (Best: 1.047 from epoch 63)
+model 1 Top1 error: 47.340 (Best: 36.790 from epoch 63)
+model 1 Top5 error: 3.480 (Best: 3.360 from epoch 64)
+model 1 accuracy: 0.527
+model 2 Loss: 1.121 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 39.050 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 3.580 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.610
+model 3 Loss: 1.234 (Best: 1.103 from epoch 63)
+model 3 Top1 error: 45.440 (Best: 40.360 from epoch 63)
+model 3 Top5 error: 4.310 (Best: 3.630 from epoch 63)
+model 3 accuracy: 0.546
+[Epoch 68]	Learning rate: 0.1
+1/10 (10%)	agent 22	model 0.75	NLL: 0.736	Top1: 20.50 / Top5: 1.62	Total 2.2920 Time: 6.5s
+0/10 (0%)	agent 20	model 0.75	NLL: 0.725	Top1: 24.03 / Top5: 1.79	Total 1.7500 Time: 25.3s
+9/10 (90%)	agent 97	model 1.0	NLL: 0.809	Top1: 25.47 / Top5: 1.56	Total 2.1064 Time: 27.0s
+8/10 (80%)	agent 88	model 0.25	NLL: 0.662	Top1: 19.50 / Top5: 1.38	Total 1.8262 Time: 3.6s
+5/10 (50%)	agent 40	model 1.0	NLL: 0.888	Top1: 29.32 / Top5: 2.82	Total 2.1977 Time: 29.2s
+7/10 (70%)	agent 78	model 0.25	NLL: 0.792	Top1: 24.79 / Top5: 1.21	Total 2.1068 Time: 6.0s
+3/10 (30%)	agent 37	model 0.5	NLL: 0.803	Top1: 24.69 / Top5: 1.56	Total 2.4748 Time: 9.8s
+2/10 (20%)	agent 36	model 0.5	NLL: 0.804	Top1: 23.21 / Top5: 1.79	Total 2.3600 Time: 8.3s
+6/10 (60%)	agent 63	model 0.25	NLL: 1.081	Top1: 37.18 / Top5: 3.14	Total 2.6170 Time: 12.8s
+4/10 (40%)	agent 38	model 0.5	NLL: 0.920	Top1: 28.78 / Top5: 2.83	Total 2.8027 Time: 11.5s
+
+Evaluation:
+model 0 Loss: 1.267 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 48.350 (Best: 46.070 from epoch 59)
+model 0 Top5 error: 5.400 (Best: 4.860 from epoch 65)
+model 0 accuracy: 0.516
+model 1 Loss: 1.197 (Best: 1.047 from epoch 63)
+model 1 Top1 error: 43.840 (Best: 36.790 from epoch 63)
+model 1 Top5 error: 3.920 (Best: 3.360 from epoch 64)
+model 1 accuracy: 0.562
+model 2 Loss: 1.248 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 45.100 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 3.910 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.549
+model 3 Loss: 1.122 (Best: 1.103 from epoch 63)
+model 3 Top1 error: 40.800 (Best: 40.360 from epoch 63)
+model 3 Top5 error: 3.480 (Best: 3.480 from epoch 67)
+model 3 accuracy: 0.592
+[Epoch 69]	Learning rate: 0.1
+3/10 (30%)	agent 34	model 0.5	NLL: 0.487	Top1: 10.88 / Top5: 1.50	Total 1.8285 Time: 5.1s
+0/10 (0%)	agent 5	model 0.25	NLL: 0.923	Top1: 31.15 / Top5: 1.50	Total 2.3490 Time: 8.8s
+7/10 (70%)	agent 68	model 0.25	NLL: 1.000	Top1: 33.17 / Top5: 2.50	Total 2.6558 Time: 5.6s
+9/10 (90%)	agent 93	model 0.75	NLL: 0.545	Top1: 13.33 / Top5: 0.67	Total 1.8279 Time: 9.2s
+2/10 (20%)	agent 30	model 0.5	NLL: 0.942	Top1: 31.38 / Top5: 2.81	Total 2.2947 Time: 16.1s
+8/10 (80%)	agent 92	model 1.0	NLL: 0.621	Top1: 18.70 / Top5: 0.90	Total 2.0372 Time: 9.0s
+5/10 (50%)	agent 52	model 0.5	NLL: 0.855	Top1: 24.75 / Top5: 2.50	Total 2.5273 Time: 5.6s
+4/10 (40%)	agent 38	model 0.75	NLL: 0.719	Top1: 22.94 / Top5: 1.22	Total 1.9122 Time: 13.6s
+1/10 (10%)	agent 20	model 1.0	NLL: 0.818	Top1: 26.62 / Top5: 2.26	Total 2.1638 Time: 29.4s
+6/10 (60%)	agent 61	model 0.25	NLL: 0.881	Top1: 27.41 / Top5: 2.24	Total 2.5114 Time: 15.2s
+
+Evaluation:
+model 0 Loss: 1.230 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 45.280 (Best: 45.280 from epoch 68)
+model 0 Top5 error: 5.300 (Best: 4.860 from epoch 65)
+model 0 accuracy: 0.547
+model 1 Loss: 1.255 (Best: 1.047 from epoch 63)
+model 1 Top1 error: 45.880 (Best: 36.790 from epoch 63)
+model 1 Top5 error: 4.140 (Best: 3.360 from epoch 64)
+model 1 accuracy: 0.541
+model 2 Loss: 1.398 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 50.780 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 4.990 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.492
+model 3 Loss: 1.095 (Best: 1.095 from epoch 68)
+model 3 Top1 error: 39.410 (Best: 39.410 from epoch 68)
+model 3 Top5 error: 3.830 (Best: 3.480 from epoch 67)
+model 3 accuracy: 0.606
+[Epoch 70]	Learning rate: 0.1
+1/10 (10%)	agent 14	model 0.25	NLL: 0.939	Top1: 31.94 / Top5: 2.00	Total 2.7047 Time: 7.3s
+6/10 (60%)	agent 90	model 0.5	NLL: 0.886	Top1: 30.88 / Top5: 1.69	Total 2.1709 Time: 15.6s
+9/10 (90%)	agent 98	model 1.0	NLL: 0.588	Top1: 16.79 / Top5: 0.92	Total 1.6021 Time: 20.9s
+0/10 (0%)	agent 2	model 0.75	NLL: 0.832	Top1: 25.43 / Top5: 0.93	Total 2.4449 Time: 10.1s
+2/10 (20%)	agent 18	model 0.5	NLL: 0.931	Top1: 28.61 / Top5: 3.56	Total 2.4733 Time: 21.6s
+3/10 (30%)	agent 20	model 0.5	NLL: 0.737	Top1: 24.15 / Top5: 1.76	Total 1.7122 Time: 20.1s
+5/10 (50%)	agent 27	model 0.5	NLL: 0.977	Top1: 31.62 / Top5: 2.50	Total 2.9339 Time: 5.2s
+4/10 (40%)	agent 21	model 0.5	NLL: 0.888	Top1: 30.76 / Top5: 1.88	Total 2.1184 Time: 19.7s
+8/10 (80%)	agent 97	model 0.5	NLL: 0.827	Top1: 25.91 / Top5: 1.94	Total 2.0978 Time: 18.6s
+7/10 (70%)	agent 94	model 0.25	NLL: 0.840	Top1: 29.83 / Top5: 2.00	Total 2.3414 Time: 5.4s
+
+Evaluation:
+model 0 Loss: 1.573 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 60.580 (Best: 45.280 from epoch 68)
+model 0 Top5 error: 7.400 (Best: 4.860 from epoch 65)
+model 0 accuracy: 0.394
+model 1 Loss: 0.936 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 32.430 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 2.530 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.676
+model 2 Loss: 1.604 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 56.060 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 9.520 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.439
+model 3 Loss: 1.306 (Best: 1.095 from epoch 68)
+model 3 Top1 error: 48.830 (Best: 39.410 from epoch 68)
+model 3 Top5 error: 4.580 (Best: 3.480 from epoch 67)
+model 3 accuracy: 0.512
+[Epoch 71]	Learning rate: 0.1
+6/10 (60%)	agent 75	model 0.5	NLL: 0.589	Top1: 16.12 / Top5: 1.88	Total 1.9906 Time: 5.4s
+0/10 (0%)	agent 5	model 1.0	NLL: 0.746	Top1: 25.90 / Top5: 0.95	Total 1.9236 Time: 17.7s
+2/10 (20%)	agent 27	model 0.25	NLL: 0.885	Top1: 32.62 / Top5: 1.25	Total 2.3514 Time: 3.8s
+3/10 (30%)	agent 49	model 0.75	NLL: 0.903	Top1: 24.89 / Top5: 2.61	Total 3.1450 Time: 14.0s
+7/10 (70%)	agent 85	model 0.75	NLL: 1.128	Top1: 37.42 / Top5: 4.25	Total 2.9584 Time: 27.2s
+1/10 (10%)	agent 23	model 0.5	NLL: 0.514	Top1: 13.50 / Top5: 0.75	Total 1.5926 Time: 7.1s
+9/10 (90%)	agent 96	model 0.25	NLL: 0.775	Top1: 20.83 / Top5: 1.83	Total 2.6859 Time: 5.7s
+5/10 (50%)	agent 57	model 0.25	NLL: 1.103	Top1: 38.69 / Top5: 2.77	Total 2.6237 Time: 11.5s
+8/10 (80%)	agent 88	model 0.25	NLL: 0.711	Top1: 20.38 / Top5: 1.88	Total 2.0822 Time: 3.8s
+4/10 (40%)	agent 56	model 0.5	NLL: 0.693	Top1: 20.46 / Top5: 1.92	Total 1.7233 Time: 15.7s
+
+Evaluation:
+model 0 Loss: 1.263 (Best: 1.230 from epoch 59)
+model 0 Top1 error: 46.660 (Best: 45.280 from epoch 68)
+model 0 Top5 error: 5.130 (Best: 4.860 from epoch 65)
+model 0 accuracy: 0.533
+model 1 Loss: 1.113 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 42.080 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 3.340 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.579
+model 2 Loss: 1.400 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 50.290 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 7.940 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.497
+model 3 Loss: 1.507 (Best: 1.095 from epoch 68)
+model 3 Top1 error: 48.750 (Best: 39.410 from epoch 68)
+model 3 Top5 error: 6.600 (Best: 3.480 from epoch 67)
+model 3 accuracy: 0.512
+[Epoch 72]	Learning rate: 0.1
+6/10 (60%)	agent 44	model 0.75	NLL: 0.774	Top1: 24.38 / Top5: 0.75	Total 2.1852 Time: 6.8s
+8/10 (80%)	agent 90	model 1.0	NLL: 0.907	Top1: 31.92 / Top5: 1.73	Total 2.2150 Time: 22.6s
+5/10 (50%)	agent 40	model 0.5	NLL: 0.936	Top1: 31.41 / Top5: 3.00	Total 2.2600 Time: 20.1s
+3/10 (30%)	agent 22	model 1.0	NLL: 0.817	Top1: 22.75 / Top5: 2.38	Total 2.9000 Time: 7.4s
+7/10 (70%)	agent 69	model 0.75	NLL: 0.785	Top1: 24.41 / Top5: 2.35	Total 2.0401 Time: 25.1s
+4/10 (40%)	agent 39	model 0.25	NLL: 0.850	Top1: 28.41 / Top5: 1.09	Total 2.2054 Time: 9.8s
+1/10 (10%)	agent 7	model 0.75	NLL: 0.750	Top1: 20.79 / Top5: 1.57	Total 2.1361 Time: 10.1s
+0/10 (0%)	agent 1	model 0.25	NLL: 0.896	Top1: 28.29 / Top5: 2.97	Total 2.3160 Time: 15.0s
+9/10 (90%)	agent 98	model 1.0	NLL: 0.399	Top1: 11.75 / Top5: 0.21	Total 1.0231 Time: 20.2s
+2/10 (20%)	agent 19	model 0.25	NLL: 0.932	Top1: 29.69 / Top5: 1.75	Total 2.5594 Time: 7.5s
+
+Evaluation:
+model 0 Loss: 1.205 (Best: 1.205 from epoch 71)
+model 0 Top1 error: 44.580 (Best: 44.580 from epoch 71)
+model 0 Top5 error: 4.360 (Best: 4.360 from epoch 71)
+model 0 accuracy: 0.554
+model 1 Loss: 1.220 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 44.600 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 4.900 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.554
+model 2 Loss: 1.409 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 53.160 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 5.090 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.468
+model 3 Loss: 1.117 (Best: 1.095 from epoch 68)
+model 3 Top1 error: 41.280 (Best: 39.410 from epoch 68)
+model 3 Top5 error: 3.230 (Best: 3.230 from epoch 71)
+model 3 accuracy: 0.587
+[Epoch 73]	Learning rate: 0.1
+3/10 (30%)	agent 26	model 1.0	NLL: 1.025	Top1: 30.00 / Top5: 2.75	Total 3.4684 Time: 8.1s
+1/10 (10%)	agent 9	model 1.0	NLL: 0.760	Top1: 25.96 / Top5: 1.25	Total 1.8280 Time: 24.0s
+2/10 (20%)	agent 13	model 1.0	NLL: 0.747	Top1: 22.06 / Top5: 2.34	Total 2.0590 Time: 27.7s
+5/10 (50%)	agent 35	model 0.5	NLL: 0.578	Top1: 14.25 / Top5: 0.88	Total 2.1583 Time: 5.2s
+4/10 (40%)	agent 30	model 0.5	NLL: 0.848	Top1: 27.50 / Top5: 2.42	Total 2.0593 Time: 15.7s
+6/10 (60%)	agent 66	model 1.0	NLL: 0.731	Top1: 24.16 / Top5: 1.53	Total 1.8723 Time: 27.6s
+0/10 (0%)	agent 2	model 0.5	NLL: 0.791	Top1: 25.21 / Top5: 1.21	Total 2.3678 Time: 7.9s
+8/10 (80%)	agent 83	model 1.0	NLL: 0.705	Top1: 21.42 / Top5: 1.58	Total 2.0270 Time: 23.0s
+7/10 (70%)	agent 72	model 0.75	NLL: 0.688	Top1: 20.00 / Top5: 0.88	Total 2.0535 Time: 12.2s
+9/10 (90%)	agent 99	model 0.25	NLL: 0.724	Top1: 19.12 / Top5: 1.62	Total 2.2669 Time: 3.8s
+
+Evaluation:
+model 0 Loss: 1.539 (Best: 1.205 from epoch 71)
+model 0 Top1 error: 52.980 (Best: 44.580 from epoch 71)
+model 0 Top5 error: 8.400 (Best: 4.360 from epoch 71)
+model 0 accuracy: 0.470
+model 1 Loss: 1.071 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 38.530 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 3.570 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.615
+model 2 Loss: 1.870 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 62.000 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 8.760 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.380
+model 3 Loss: 1.010 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 35.330 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 3.060 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.647
+[Epoch 74]	Learning rate: 0.1
+6/10 (60%)	agent 48	model 0.75	NLL: 0.672	Top1: 18.25 / Top5: 1.17	Total 2.4022 Time: 8.8s
+2/10 (20%)	agent 18	model 0.5	NLL: 0.799	Top1: 25.19 / Top5: 2.61	Total 1.9597 Time: 21.4s
+4/10 (40%)	agent 37	model 0.5	NLL: 0.641	Top1: 18.44 / Top5: 0.81	Total 1.8631 Time: 9.7s
+3/10 (30%)	agent 27	model 0.25	NLL: 0.986	Top1: 37.00 / Top5: 1.38	Total 2.7653 Time: 3.9s
+1/10 (10%)	agent 17	model 0.25	NLL: 0.945	Top1: 31.75 / Top5: 2.29	Total 2.4455 Time: 11.0s
+0/10 (0%)	agent 7	model 1.0	NLL: 0.697	Top1: 19.57 / Top5: 1.64	Total 2.1313 Time: 12.3s
+9/10 (90%)	agent 88	model 1.0	NLL: 0.500	Top1: 12.25 / Top5: 1.12	Total 1.6834 Time: 7.9s
+8/10 (80%)	agent 86	model 1.0	NLL: 0.496	Top1: 13.25 / Top5: 1.30	Total 1.3589 Time: 17.7s
+5/10 (50%)	agent 47	model 0.25	NLL: 0.923	Top1: 28.00 / Top5: 2.88	Total 2.8462 Time: 11.1s
+7/10 (70%)	agent 61	model 1.0	NLL: 0.618	Top1: 19.18 / Top5: 1.09	Total 1.6472 Time: 29.6s
+
+Evaluation:
+model 0 Loss: 1.295 (Best: 1.205 from epoch 71)
+model 0 Top1 error: 43.990 (Best: 43.990 from epoch 73)
+model 0 Top5 error: 7.070 (Best: 4.360 from epoch 71)
+model 0 accuracy: 0.560
+model 1 Loss: 1.056 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 38.790 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 3.160 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.612
+model 2 Loss: 1.774 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 58.530 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 14.780 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.415
+model 3 Loss: 1.017 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 36.550 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 3.190 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.634
+[Epoch 75]	Learning rate: 0.1
+3/10 (30%)	agent 35	model 0.75	NLL: 0.833	Top1: 19.12 / Top5: 5.62	Total 2.8338 Time: 6.6s
+5/10 (50%)	agent 57	model 0.25	NLL: 1.059	Top1: 36.35 / Top5: 3.00	Total 2.6531 Time: 11.1s
+7/10 (70%)	agent 66	model 0.75	NLL: 1.027	Top1: 32.62 / Top5: 3.03	Total 3.2689 Time: 23.1s
+9/10 (90%)	agent 96	model 1.0	NLL: 0.467	Top1: 12.33 / Top5: 0.58	Total 1.5762 Time: 10.9s
+0/10 (0%)	agent 1	model 0.25	NLL: 0.867	Top1: 27.00 / Top5: 2.50	Total 2.0781 Time: 15.0s
+4/10 (40%)	agent 51	model 0.5	NLL: 0.918	Top1: 29.28 / Top5: 2.31	Total 2.5125 Time: 18.0s
+2/10 (20%)	agent 7	model 1.0	NLL: 0.563	Top1: 14.36 / Top5: 0.71	Total 1.7496 Time: 12.5s
+1/10 (10%)	agent 5	model 0.5	NLL: 0.829	Top1: 26.80 / Top5: 1.55	Total 2.2072 Time: 12.0s
+6/10 (60%)	agent 58	model 0.5	NLL: 0.832	Top1: 27.93 / Top5: 1.36	Total 2.1520 Time: 8.0s
+8/10 (80%)	agent 80	model 0.75	NLL: 1.091	Top1: 37.50 / Top5: 3.06	Total 2.6368 Time: 26.4s
+
+Evaluation:
+model 0 Loss: 1.227 (Best: 1.205 from epoch 71)
+model 0 Top1 error: 45.320 (Best: 43.990 from epoch 73)
+model 0 Top5 error: 3.920 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.547
+model 1 Loss: 0.969 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 34.710 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 3.170 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.653
+model 2 Loss: 1.417 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 53.040 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 5.910 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.470
+model 3 Loss: 1.234 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 45.810 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 4.750 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.542
+[Epoch 76]	Learning rate: 0.1
+1/10 (10%)	agent 10	model 1.0	NLL: 0.471	Top1: 10.25 / Top5: 1.12	Total 1.6720 Time: 7.5s
+6/10 (60%)	agent 57	model 0.5	NLL: 0.826	Top1: 29.12 / Top5: 1.19	Total 1.9039 Time: 16.1s
+9/10 (90%)	agent 83	model 0.5	NLL: 0.653	Top1: 19.50 / Top5: 1.04	Total 1.7283 Time: 15.5s
+4/10 (40%)	agent 35	model 0.5	NLL: 0.507	Top1: 11.12 / Top5: 0.62	Total 1.9952 Time: 4.9s
+3/10 (30%)	agent 32	model 0.25	NLL: 0.881	Top1: 29.62 / Top5: 2.31	Total 2.0310 Time: 11.8s
+2/10 (20%)	agent 27	model 0.5	NLL: 0.745	Top1: 25.75 / Top5: 0.62	Total 1.9932 Time: 5.1s
+7/10 (70%)	agent 75	model 1.0	NLL: 0.532	Top1: 14.00 / Top5: 1.75	Total 1.9004 Time: 7.4s
+5/10 (50%)	agent 42	model 1.0	NLL: 0.833	Top1: 27.25 / Top5: 1.12	Total 2.3353 Time: 21.4s
+8/10 (80%)	agent 76	model 0.5	NLL: 0.533	Top1: 14.31 / Top5: 1.00	Total 1.5889 Time: 9.4s
+0/10 (0%)	agent 4	model 0.75	NLL: 0.952	Top1: 31.42 / Top5: 1.92	Total 2.7150 Time: 9.2s
+
+Evaluation:
+model 0 Loss: 1.392 (Best: 1.205 from epoch 71)
+model 0 Top1 error: 49.540 (Best: 43.990 from epoch 73)
+model 0 Top5 error: 5.350 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.505
+model 1 Loss: 0.943 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 33.060 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 2.830 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.669
+model 2 Loss: 1.512 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 54.880 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 6.730 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.451
+model 3 Loss: 1.408 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 49.190 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 7.670 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.508
+[Epoch 77]	Learning rate: 0.1
+1/10 (10%)	agent 10	model 1.0	NLL: 0.274	Top1: 4.62 / Top5: 0.12	Total 0.8952 Time: 7.4s
+8/10 (80%)	agent 90	model 0.25	NLL: 1.037	Top1: 37.42 / Top5: 2.65	Total 2.5419 Time: 11.5s
+4/10 (40%)	agent 55	model 0.25	NLL: 1.040	Top1: 37.04 / Top5: 3.32	Total 2.6168 Time: 12.3s
+6/10 (60%)	agent 77	model 0.5	NLL: 0.691	Top1: 19.50 / Top5: 1.38	Total 2.3150 Time: 5.2s
+3/10 (30%)	agent 53	model 1.0	NLL: 0.926	Top1: 29.38 / Top5: 2.06	Total 2.7301 Time: 27.3s
+0/10 (0%)	agent 1	model 0.75	NLL: 0.765	Top1: 21.97 / Top5: 1.35	Total 2.1650 Time: 24.6s
+2/10 (20%)	agent 27	model 0.25	NLL: 1.071	Top1: 37.75 / Top5: 2.00	Total 3.3760 Time: 4.0s
+7/10 (70%)	agent 80	model 0.75	NLL: 1.000	Top1: 33.22 / Top5: 2.25	Total 2.5412 Time: 27.0s
+9/10 (90%)	agent 99	model 0.75	NLL: 0.749	Top1: 19.12 / Top5: 1.50	Total 2.5143 Time: 6.3s
+5/10 (50%)	agent 68	model 0.75	NLL: 0.988	Top1: 35.08 / Top5: 1.75	Total 2.6224 Time: 9.7s
+
+Evaluation:
+model 0 Loss: 1.178 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 42.230 (Best: 42.230 from epoch 76)
+model 0 Top5 error: 4.170 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.578
+model 1 Loss: 1.785 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 67.190 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 8.320 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.328
+model 2 Loss: 1.249 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 44.680 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 4.080 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.553
+model 3 Loss: 1.313 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 48.410 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 4.590 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.516
+[Epoch 78]	Learning rate: 0.1
+0/10 (0%)	agent 10	model 0.75	NLL: 0.639	Top1: 14.25 / Top5: 2.12	Total 2.3110 Time: 6.6s
+6/10 (60%)	agent 73	model 1.0	NLL: 0.746	Top1: 23.00 / Top5: 2.50	Total 2.0537 Time: 21.1s
+8/10 (80%)	agent 77	model 1.0	NLL: 0.843	Top1: 23.00 / Top5: 1.00	Total 3.1311 Time: 7.8s
+3/10 (30%)	agent 34	model 1.0	NLL: 0.488	Top1: 11.38 / Top5: 1.75	Total 1.6648 Time: 7.9s
+5/10 (50%)	agent 65	model 1.0	NLL: 0.934	Top1: 31.86 / Top5: 1.32	Total 2.5113 Time: 19.6s
+7/10 (70%)	agent 76	model 1.0	NLL: 0.467	Top1: 13.00 / Top5: 1.00	Total 1.4063 Time: 13.9s
+9/10 (90%)	agent 84	model 0.5	NLL: 1.028	Top1: 32.30 / Top5: 2.37	Total 3.0040 Time: 17.6s
+2/10 (20%)	agent 19	model 1.0	NLL: 0.716	Top1: 21.75 / Top5: 1.06	Total 2.1732 Time: 14.8s
+4/10 (40%)	agent 60	model 0.25	NLL: 0.939	Top1: 31.36 / Top5: 2.57	Total 2.5308 Time: 6.1s
+1/10 (10%)	agent 16	model 0.75	NLL: 0.874	Top1: 30.18 / Top5: 1.50	Total 2.0750 Time: 17.3s
+
+Evaluation:
+model 0 Loss: 1.281 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 45.170 (Best: 42.230 from epoch 76)
+model 0 Top5 error: 6.500 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.548
+model 1 Loss: 1.310 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 47.850 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 4.990 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.521
+model 2 Loss: 1.324 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 47.450 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 5.670 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.525
+model 3 Loss: 1.075 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 37.530 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 3.130 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.625
+[Epoch 79]	Learning rate: 0.1
+2/10 (20%)	agent 35	model 0.75	NLL: 0.647	Top1: 14.88 / Top5: 1.25	Total 2.2765 Time: 6.5s
+5/10 (50%)	agent 40	model 0.75	NLL: 0.890	Top1: 27.76 / Top5: 2.65	Total 2.1865 Time: 25.1s
+6/10 (60%)	agent 54	model 0.25	NLL: 0.821	Top1: 24.67 / Top5: 2.25	Total 2.5273 Time: 5.4s
+9/10 (90%)	agent 96	model 0.25	NLL: 0.619	Top1: 17.50 / Top5: 1.75	Total 2.0617 Time: 5.5s
+0/10 (0%)	agent 2	model 0.25	NLL: 0.966	Top1: 30.29 / Top5: 1.57	Total 2.8227 Time: 6.2s
+7/10 (70%)	agent 58	model 0.5	NLL: 0.799	Top1: 27.79 / Top5: 1.07	Total 2.0226 Time: 8.4s
+8/10 (80%)	agent 93	model 0.5	NLL: 0.789	Top1: 20.83 / Top5: 2.25	Total 2.6984 Time: 7.6s
+4/10 (40%)	agent 37	model 1.0	NLL: 0.498	Top1: 13.25 / Top5: 0.50	Total 1.5304 Time: 14.3s
+3/10 (30%)	agent 36	model 0.25	NLL: 0.863	Top1: 26.86 / Top5: 2.07	Total 2.5425 Time: 6.4s
+1/10 (10%)	agent 27	model 0.75	NLL: 0.908	Top1: 29.50 / Top5: 2.88	Total 2.6374 Time: 6.2s
+
+Evaluation:
+model 0 Loss: 1.203 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 42.750 (Best: 42.230 from epoch 76)
+model 0 Top5 error: 4.110 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.573
+model 1 Loss: 1.376 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 46.990 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 6.070 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.530
+model 2 Loss: 1.318 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 49.940 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 4.590 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.501
+model 3 Loss: 1.427 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 49.370 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 5.500 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.506
+[Epoch 80]	Learning rate: 0.1
+3/10 (30%)	agent 48	model 0.5	NLL: 0.643	Top1: 15.67 / Top5: 1.33	Total 2.0512 Time: 7.5s
+7/10 (70%)	agent 69	model 1.0	NLL: 0.829	Top1: 28.03 / Top5: 1.91	Total 2.1445 Time: 29.0s
+1/10 (10%)	agent 11	model 1.0	NLL: 0.926	Top1: 29.39 / Top5: 2.11	Total 2.6760 Time: 15.8s
+4/10 (40%)	agent 52	model 0.75	NLL: 0.789	Top1: 23.00 / Top5: 0.62	Total 2.3950 Time: 6.4s
+0/10 (0%)	agent 1	model 0.5	NLL: 0.825	Top1: 23.79 / Top5: 2.65	Total 2.2354 Time: 20.6s
+9/10 (90%)	agent 87	model 0.25	NLL: 1.075	Top1: 35.54 / Top5: 4.21	Total 2.6229 Time: 10.5s
+8/10 (80%)	agent 72	model 0.25	NLL: 0.675	Top1: 22.00 / Top5: 0.62	Total 1.6515 Time: 7.3s
+2/10 (20%)	agent 15	model 0.5	NLL: 0.771	Top1: 24.63 / Top5: 1.67	Total 1.8930 Time: 17.9s
+6/10 (60%)	agent 65	model 1.0	NLL: 0.889	Top1: 29.59 / Top5: 1.55	Total 2.3882 Time: 19.6s
+5/10 (50%)	agent 59	model 1.0	NLL: 1.059	Top1: 35.72 / Top5: 3.28	Total 3.0564 Time: 16.5s
+
+Evaluation:
+model 0 Loss: 1.226 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 45.650 (Best: 42.230 from epoch 76)
+model 0 Top5 error: 4.490 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.543
+model 1 Loss: 1.151 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 40.300 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 4.690 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.597
+model 2 Loss: 1.648 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 56.990 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 10.310 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.430
+model 3 Loss: 1.179 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 41.560 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 4.690 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.584
+[Epoch 81]	Learning rate: 0.1
+1/10 (10%)	agent 14	model 0.75	NLL: 0.940	Top1: 31.69 / Top5: 1.06	Total 2.9817 Time: 12.3s
+8/10 (80%)	agent 90	model 0.75	NLL: 0.907	Top1: 30.77 / Top5: 2.38	Total 2.2755 Time: 19.9s
+4/10 (40%)	agent 57	model 0.5	NLL: 0.850	Top1: 29.88 / Top5: 1.58	Total 2.0986 Time: 16.3s
+2/10 (20%)	agent 45	model 0.75	NLL: 0.760	Top1: 24.75 / Top5: 1.38	Total 2.3207 Time: 6.7s
+9/10 (90%)	agent 97	model 0.5	NLL: 0.776	Top1: 24.12 / Top5: 1.62	Total 2.1019 Time: 18.9s
+0/10 (0%)	agent 3	model 0.5	NLL: 0.764	Top1: 21.92 / Top5: 2.42	Total 2.1519 Time: 7.3s
+6/10 (60%)	agent 61	model 0.25	NLL: 0.850	Top1: 25.53 / Top5: 1.79	Total 2.5134 Time: 14.5s
+7/10 (70%)	agent 80	model 1.0	NLL: 0.862	Top1: 27.92 / Top5: 1.86	Total 2.0837 Time: 31.7s
+3/10 (30%)	agent 51	model 0.5	NLL: 0.804	Top1: 24.09 / Top5: 1.94	Total 2.0606 Time: 18.6s
+5/10 (50%)	agent 59	model 0.5	NLL: 0.984	Top1: 34.78 / Top5: 2.22	Total 2.6040 Time: 11.1s
+
+Evaluation:
+model 0 Loss: 1.388 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 51.370 (Best: 42.230 from epoch 76)
+model 0 Top5 error: 6.570 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.486
+model 1 Loss: 0.964 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 35.250 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 2.560 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.647
+model 2 Loss: 1.471 (Best: 1.121 from epoch 66)
+model 2 Top1 error: 51.040 (Best: 39.050 from epoch 66)
+model 2 Top5 error: 7.180 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.490
+model 3 Loss: 1.224 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 42.920 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 5.310 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.571
+[Epoch 82]	Learning rate: 0.1
+5/10 (50%)	agent 45	model 1.0	NLL: 0.751	Top1: 22.62 / Top5: 1.50	Total 2.3207 Time: 7.4s
+6/10 (60%)	agent 73	model 0.75	NLL: 0.903	Top1: 26.21 / Top5: 4.00	Total 2.6755 Time: 17.2s
+8/10 (80%)	agent 90	model 0.25	NLL: 0.950	Top1: 34.15 / Top5: 2.04	Total 2.2637 Time: 11.9s
+0/10 (0%)	agent 7	model 1.0	NLL: 0.587	Top1: 18.07 / Top5: 1.00	Total 1.8032 Time: 11.9s
+1/10 (10%)	agent 12	model 0.25	NLL: 0.829	Top1: 26.90 / Top5: 1.45	Total 2.2277 Time: 9.1s
+2/10 (20%)	agent 13	model 0.75	NLL: 0.936	Top1: 26.44 / Top5: 3.00	Total 2.7369 Time: 23.1s
+9/10 (90%)	agent 98	model 1.0	NLL: 0.509	Top1: 14.83 / Top5: 0.46	Total 1.5595 Time: 21.4s
+4/10 (40%)	agent 21	model 0.5	NLL: 0.832	Top1: 29.88 / Top5: 1.94	Total 1.9027 Time: 20.3s
+7/10 (70%)	agent 80	model 1.0	NLL: 0.720	Top1: 24.44 / Top5: 0.89	Total 1.5823 Time: 33.0s
+3/10 (30%)	agent 18	model 0.5	NLL: 0.781	Top1: 25.42 / Top5: 1.94	Total 1.9316 Time: 21.4s
+
+Evaluation:
+model 0 Loss: 1.411 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 47.470 (Best: 42.230 from epoch 76)
+model 0 Top5 error: 10.910 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.525
+model 1 Loss: 1.041 (Best: 0.936 from epoch 69)
+model 1 Top1 error: 36.600 (Best: 32.430 from epoch 69)
+model 1 Top5 error: 3.530 (Best: 2.530 from epoch 69)
+model 1 accuracy: 0.634
+model 2 Loss: 1.091 (Best: 1.091 from epoch 81)
+model 2 Top1 error: 37.660 (Best: 37.660 from epoch 81)
+model 2 Top5 error: 3.780 (Best: 3.580 from epoch 66)
+model 2 accuracy: 0.623
+model 3 Loss: 1.104 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 39.750 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 3.460 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.603
+[Epoch 83]	Learning rate: 0.1
+9/10 (90%)	agent 77	model 0.5	NLL: 0.522	Top1: 14.75 / Top5: 0.38	Total 1.8014 Time: 5.3s
+8/10 (80%)	agent 70	model 0.5	NLL: 0.796	Top1: 25.23 / Top5: 2.27	Total 2.0026 Time: 17.8s
+1/10 (10%)	agent 3	model 0.75	NLL: 0.673	Top1: 19.42 / Top5: 1.00	Total 1.9694 Time: 9.3s
+2/10 (20%)	agent 14	model 0.25	NLL: 0.964	Top1: 31.19 / Top5: 1.94	Total 2.9133 Time: 7.1s
+5/10 (50%)	agent 32	model 0.75	NLL: 0.783	Top1: 24.46 / Top5: 1.77	Total 1.9021 Time: 19.7s
+3/10 (30%)	agent 15	model 0.25	NLL: 0.926	Top1: 29.93 / Top5: 2.97	Total 2.2094 Time: 13.1s
+7/10 (70%)	agent 47	model 0.25	NLL: 0.824	Top1: 23.96 / Top5: 3.46	Total 2.6333 Time: 10.4s
+0/10 (0%)	agent 0	model 0.5	NLL: 0.853	Top1: 28.82 / Top5: 2.29	Total 2.0296 Time: 16.6s
+4/10 (40%)	agent 16	model 1.0	NLL: 0.809	Top1: 27.00 / Top5: 1.73	Total 1.9922 Time: 19.2s
+6/10 (60%)	agent 43	model 0.5	NLL: 0.916	Top1: 31.88 / Top5: 2.12	Total 2.1602 Time: 15.7s
+
+Evaluation:
+model 0 Loss: 1.216 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 41.900 (Best: 41.900 from epoch 82)
+model 0 Top5 error: 6.570 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.581
+model 1 Loss: 0.914 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 32.320 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 2.290 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.677
+model 2 Loss: 1.048 (Best: 1.048 from epoch 82)
+model 2 Top1 error: 37.930 (Best: 37.660 from epoch 81)
+model 2 Top5 error: 3.190 (Best: 3.190 from epoch 82)
+model 2 accuracy: 0.621
+model 3 Loss: 1.371 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 47.400 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 5.720 (Best: 3.060 from epoch 72)
+model 3 accuracy: 0.526
+[Epoch 84]	Learning rate: 0.1
+5/10 (50%)	agent 48	model 0.5	NLL: 0.524	Top1: 13.92 / Top5: 0.83	Total 1.7158 Time: 7.7s
+7/10 (70%)	agent 66	model 1.0	NLL: 0.800	Top1: 26.00 / Top5: 1.62	Total 2.5215 Time: 27.6s
+3/10 (30%)	agent 30	model 1.0	NLL: 0.851	Top1: 28.69 / Top5: 1.96	Total 2.1152 Time: 22.6s
+2/10 (20%)	agent 29	model 0.75	NLL: 0.577	Top1: 15.25 / Top5: 0.88	Total 1.8593 Time: 6.4s
+9/10 (90%)	agent 95	model 1.0	NLL: 0.719	Top1: 22.31 / Top5: 1.94	Total 2.2267 Time: 27.3s
+8/10 (80%)	agent 84	model 0.25	NLL: 1.059	Top1: 31.50 / Top5: 4.17	Total 2.8046 Time: 13.2s
+6/10 (60%)	agent 52	model 1.0	NLL: 0.757	Top1: 24.62 / Top5: 1.25	Total 2.3366 Time: 7.4s
+4/10 (40%)	agent 39	model 0.5	NLL: 0.668	Top1: 22.00 / Top5: 1.05	Total 1.6612 Time: 13.3s
+0/10 (0%)	agent 7	model 0.25	NLL: 0.905	Top1: 27.43 / Top5: 3.00	Total 2.6117 Time: 6.1s
+1/10 (10%)	agent 19	model 0.75	NLL: 0.713	Top1: 21.06 / Top5: 1.50	Total 2.0715 Time: 12.2s
+
+Evaluation:
+model 0 Loss: 1.392 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 50.140 (Best: 41.900 from epoch 82)
+model 0 Top5 error: 5.180 (Best: 3.920 from epoch 74)
+model 0 accuracy: 0.499
+model 1 Loss: 1.095 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 40.650 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 3.530 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.594
+model 2 Loss: 1.234 (Best: 1.048 from epoch 82)
+model 2 Top1 error: 47.220 (Best: 37.660 from epoch 81)
+model 2 Top5 error: 3.240 (Best: 3.190 from epoch 82)
+model 2 accuracy: 0.528
+model 3 Loss: 1.109 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 41.290 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 2.800 (Best: 2.800 from epoch 83)
+model 3 accuracy: 0.587
+[Epoch 85]	Learning rate: 0.1
+8/10 (80%)	agent 81	model 0.25	NLL: 0.717	Top1: 20.17 / Top5: 1.00	Total 2.0724 Time: 5.5s
+5/10 (50%)	agent 55	model 0.25	NLL: 0.983	Top1: 33.04 / Top5: 3.46	Total 2.3733 Time: 11.9s
+4/10 (40%)	agent 16	model 0.25	NLL: 1.027	Top1: 34.86 / Top5: 2.27	Total 2.5251 Time: 9.8s
+0/10 (0%)	agent 2	model 1.0	NLL: 0.761	Top1: 21.29 / Top5: 1.29	Total 2.4380 Time: 12.0s
+2/10 (20%)	agent 8	model 0.75	NLL: 0.686	Top1: 18.00 / Top5: 1.22	Total 2.4652 Time: 13.3s
+6/10 (60%)	agent 63	model 0.75	NLL: 0.883	Top1: 28.93 / Top5: 2.14	Total 2.3379 Time: 22.7s
+1/10 (10%)	agent 4	model 0.25	NLL: 0.883	Top1: 30.67 / Top5: 1.67	Total 2.3740 Time: 7.2s
+3/10 (30%)	agent 12	model 1.0	NLL: 0.536	Top1: 15.15 / Top5: 0.70	Total 1.4593 Time: 22.3s
+7/10 (70%)	agent 78	model 0.25	NLL: 0.855	Top1: 25.36 / Top5: 2.21	Total 2.4883 Time: 7.2s
+9/10 (90%)	agent 98	model 0.5	NLL: 0.785	Top1: 22.08 / Top5: 1.88	Total 2.5515 Time: 13.7s
+
+Evaluation:
+model 0 Loss: 1.189 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 43.420 (Best: 41.900 from epoch 82)
+model 0 Top5 error: 3.870 (Best: 3.870 from epoch 84)
+model 0 accuracy: 0.566
+model 1 Loss: 1.140 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 41.750 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 3.730 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.583
+model 2 Loss: 1.149 (Best: 1.048 from epoch 82)
+model 2 Top1 error: 40.820 (Best: 37.660 from epoch 81)
+model 2 Top5 error: 3.840 (Best: 3.190 from epoch 82)
+model 2 accuracy: 0.592
+model 3 Loss: 1.276 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 46.370 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 2.830 (Best: 2.800 from epoch 83)
+model 3 accuracy: 0.536
+[Epoch 86]	Learning rate: 0.1
+2/10 (20%)	agent 10	model 0.5	NLL: 0.580	Top1: 13.88 / Top5: 1.38	Total 2.1103 Time: 5.0s
+8/10 (80%)	agent 55	model 0.75	NLL: 0.876	Top1: 28.75 / Top5: 2.89	Total 2.2124 Time: 20.1s
+6/10 (60%)	agent 30	model 1.0	NLL: 0.769	Top1: 26.00 / Top5: 1.46	Total 2.0539 Time: 22.7s
+9/10 (90%)	agent 81	model 1.0	NLL: 0.552	Top1: 14.25 / Top5: 0.83	Total 1.7803 Time: 11.0s
+3/10 (30%)	agent 12	model 0.75	NLL: 0.607	Top1: 17.35 / Top5: 0.85	Total 1.7783 Time: 15.6s
+4/10 (40%)	agent 22	model 0.25	NLL: 0.716	Top1: 18.38 / Top5: 1.75	Total 2.2258 Time: 4.0s
+5/10 (50%)	agent 29	model 0.75	NLL: 0.492	Top1: 12.88 / Top5: 0.62	Total 1.5575 Time: 6.3s
+7/10 (70%)	agent 38	model 0.75	NLL: 0.759	Top1: 23.61 / Top5: 1.89	Total 2.1190 Time: 14.0s
+1/10 (10%)	agent 4	model 0.25	NLL: 0.725	Top1: 25.08 / Top5: 0.58	Total 1.7870 Time: 5.6s
+0/10 (0%)	agent 3	model 0.75	NLL: 0.555	Top1: 16.17 / Top5: 0.50	Total 1.5617 Time: 9.2s
+
+Evaluation:
+model 0 Loss: 1.244 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 44.880 (Best: 41.900 from epoch 82)
+model 0 Top5 error: 3.710 (Best: 3.710 from epoch 85)
+model 0 accuracy: 0.551
+model 1 Loss: 1.778 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 64.990 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 9.160 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.350
+model 2 Loss: 1.033 (Best: 1.033 from epoch 85)
+model 2 Top1 error: 37.370 (Best: 37.370 from epoch 85)
+model 2 Top5 error: 3.640 (Best: 3.190 from epoch 82)
+model 2 accuracy: 0.626
+model 3 Loss: 1.148 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 41.600 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 4.080 (Best: 2.800 from epoch 83)
+model 3 accuracy: 0.584
+[Epoch 87]	Learning rate: 0.1
+1/10 (10%)	agent 10	model 1.0	NLL: 0.473	Top1: 9.88 / Top5: 0.62	Total 1.7919 Time: 7.5s
+9/10 (90%)	agent 90	model 0.25	NLL: 0.943	Top1: 32.46 / Top5: 1.92	Total 2.3148 Time: 11.8s
+7/10 (70%)	agent 70	model 0.75	NLL: 0.806	Top1: 25.73 / Top5: 2.20	Total 2.0979 Time: 22.7s
+4/10 (40%)	agent 44	model 0.75	NLL: 0.770	Top1: 20.38 / Top5: 1.38	Total 2.6024 Time: 6.2s
+5/10 (50%)	agent 53	model 0.75	NLL: 0.844	Top1: 26.38 / Top5: 2.16	Total 2.0830 Time: 23.4s
+3/10 (30%)	agent 15	model 0.25	NLL: 0.911	Top1: 29.70 / Top5: 2.50	Total 2.2807 Time: 13.8s
+2/10 (20%)	agent 14	model 1.0	NLL: 0.631	Top1: 20.88 / Top5: 0.69	Total 1.7933 Time: 14.5s
+6/10 (60%)	agent 57	model 0.5	NLL: 0.985	Top1: 34.46 / Top5: 2.81	Total 2.7455 Time: 15.5s
+0/10 (0%)	agent 3	model 0.5	NLL: 0.776	Top1: 25.58 / Top5: 1.50	Total 2.2918 Time: 7.3s
+8/10 (80%)	agent 84	model 1.0	NLL: 0.844	Top1: 25.37 / Top5: 2.00	Total 2.4277 Time: 27.2s
+
+Evaluation:
+model 0 Loss: 1.263 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 45.220 (Best: 41.900 from epoch 82)
+model 0 Top5 error: 4.640 (Best: 3.710 from epoch 85)
+model 0 accuracy: 0.548
+model 1 Loss: 1.460 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 55.700 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 4.730 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.443
+model 2 Loss: 0.997 (Best: 0.997 from epoch 86)
+model 2 Top1 error: 34.530 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 2.980 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.655
+model 3 Loss: 1.170 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 41.010 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 3.720 (Best: 2.800 from epoch 83)
+model 3 accuracy: 0.590
+[Epoch 88]	Learning rate: 0.1
+4/10 (40%)	agent 48	model 1.0	NLL: 0.497	Top1: 13.42 / Top5: 0.58	Total 1.5980 Time: 10.7s
+9/10 (90%)	agent 90	model 0.75	NLL: 0.755	Top1: 25.38 / Top5: 1.54	Total 1.8373 Time: 19.5s
+3/10 (30%)	agent 41	model 0.75	NLL: 0.566	Top1: 16.43 / Top5: 1.00	Total 1.5163 Time: 10.1s
+5/10 (50%)	agent 62	model 0.25	NLL: 0.650	Top1: 20.08 / Top5: 1.00	Total 1.7711 Time: 5.6s
+1/10 (10%)	agent 18	model 0.5	NLL: 0.729	Top1: 22.97 / Top5: 1.94	Total 2.0233 Time: 22.6s
+0/10 (0%)	agent 11	model 1.0	NLL: 0.848	Top1: 24.72 / Top5: 2.22	Total 2.5318 Time: 16.2s
+7/10 (70%)	agent 81	model 0.75	NLL: 0.557	Top1: 14.75 / Top5: 0.42	Total 1.7717 Time: 9.2s
+6/10 (60%)	agent 72	model 0.5	NLL: 0.677	Top1: 21.00 / Top5: 1.00	Total 2.0308 Time: 10.2s
+8/10 (80%)	agent 84	model 0.75	NLL: 0.938	Top1: 29.07 / Top5: 2.07	Total 2.6186 Time: 22.8s
+2/10 (20%)	agent 38	model 0.25	NLL: 0.875	Top1: 26.61 / Top5: 2.44	Total 2.4281 Time: 8.7s
+
+Evaluation:
+model 0 Loss: 1.310 (Best: 1.178 from epoch 76)
+model 0 Top1 error: 47.340 (Best: 41.900 from epoch 82)
+model 0 Top5 error: 5.580 (Best: 3.710 from epoch 85)
+model 0 accuracy: 0.527
+model 1 Loss: 1.104 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 41.190 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 3.640 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.588
+model 2 Loss: 0.993 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 35.290 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 3.080 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.647
+model 3 Loss: 1.298 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 48.030 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 5.260 (Best: 2.800 from epoch 83)
+model 3 accuracy: 0.520
+[Epoch 89]	Learning rate: 0.1
+1/10 (10%)	agent 10	model 0.75	NLL: 0.574	Top1: 15.25 / Top5: 1.25	Total 2.1560 Time: 6.7s
+6/10 (60%)	agent 70	model 0.5	NLL: 0.872	Top1: 25.63 / Top5: 2.60	Total 2.4291 Time: 17.5s
+5/10 (50%)	agent 57	model 1.0	NLL: 0.775	Top1: 27.31 / Top5: 1.08	Total 1.9778 Time: 23.8s
+3/10 (30%)	agent 34	model 1.0	NLL: 0.405	Top1: 7.50 / Top5: 1.50	Total 1.4041 Time: 7.6s
+0/10 (0%)	agent 9	model 0.25	NLL: 0.930	Top1: 32.14 / Top5: 2.54	Total 2.2085 Time: 12.4s
+8/10 (80%)	agent 84	model 0.75	NLL: 0.839	Top1: 26.80 / Top5: 1.63	Total 2.1907 Time: 22.6s
+2/10 (20%)	agent 19	model 0.25	NLL: 0.967	Top1: 29.12 / Top5: 2.88	Total 2.8191 Time: 7.0s
+9/10 (90%)	agent 95	model 0.25	NLL: 0.752	Top1: 24.09 / Top5: 2.19	Total 1.8505 Time: 13.8s
+4/10 (40%)	agent 46	model 1.0	NLL: 0.687	Top1: 21.30 / Top5: 1.30	Total 1.8473 Time: 18.0s
+7/10 (70%)	agent 78	model 0.75	NLL: 0.540	Top1: 15.79 / Top5: 0.64	Total 1.4713 Time: 10.6s
+
+Evaluation:
+model 0 Loss: 1.033 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 36.860 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 3.230 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.631
+model 1 Loss: 1.052 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 37.170 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 3.820 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.628
+model 2 Loss: 1.066 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 37.680 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 3.550 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.623
+model 3 Loss: 1.174 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 43.230 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 3.320 (Best: 2.800 from epoch 83)
+model 3 accuracy: 0.568
+[Epoch 90]	Learning rate: 0.1
+2/10 (20%)	agent 26	model 0.5	NLL: 1.066	Top1: 33.00 / Top5: 3.12	Total 3.5126 Time: 5.6s
+3/10 (30%)	agent 28	model 0.75	NLL: 0.670	Top1: 22.25 / Top5: 0.75	Total 1.6972 Time: 17.6s
+9/10 (90%)	agent 98	model 0.75	NLL: 0.619	Top1: 16.92 / Top5: 0.92	Total 1.8256 Time: 17.6s
+4/10 (40%)	agent 34	model 0.25	NLL: 0.485	Top1: 11.12 / Top5: 1.12	Total 1.7568 Time: 3.8s
+0/10 (0%)	agent 0	model 0.75	NLL: 0.863	Top1: 28.75 / Top5: 2.32	Total 2.1003 Time: 20.3s
+1/10 (10%)	agent 17	model 0.25	NLL: 0.789	Top1: 26.92 / Top5: 2.21	Total 1.9569 Time: 10.8s
+6/10 (60%)	agent 47	model 0.5	NLL: 0.631	Top1: 19.25 / Top5: 1.58	Total 1.8661 Time: 14.5s
+7/10 (70%)	agent 58	model 1.0	NLL: 0.679	Top1: 21.29 / Top5: 1.21	Total 1.8629 Time: 12.5s
+8/10 (80%)	agent 72	model 0.5	NLL: 0.558	Top1: 18.00 / Top5: 0.38	Total 1.5663 Time: 9.8s
+5/10 (50%)	agent 38	model 0.25	NLL: 0.775	Top1: 25.61 / Top5: 1.50	Total 1.9729 Time: 8.4s
+
+Evaluation:
+model 0 Loss: 1.091 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 39.380 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 3.810 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.606
+model 1 Loss: 1.106 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 35.900 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 3.690 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.641
+model 2 Loss: 1.006 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 36.220 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 3.110 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.638
+model 3 Loss: 1.287 (Best: 1.010 from epoch 72)
+model 3 Top1 error: 46.200 (Best: 35.330 from epoch 72)
+model 3 Top5 error: 4.120 (Best: 2.800 from epoch 83)
+model 3 accuracy: 0.538
+[Epoch 91]	Learning rate: 0.1
+8/10 (80%)	agent 92	model 0.75	NLL: 0.595	Top1: 16.70 / Top5: 1.20	Total 1.8631 Time: 7.7s
+1/10 (10%)	agent 24	model 0.5	NLL: 0.794	Top1: 25.69 / Top5: 1.91	Total 1.8587 Time: 18.5s
+9/10 (90%)	agent 95	model 1.0	NLL: 0.634	Top1: 19.88 / Top5: 1.50	Total 1.8982 Time: 27.6s
+6/10 (60%)	agent 60	model 0.25	NLL: 1.037	Top1: 33.50 / Top5: 3.64	Total 3.0379 Time: 5.9s
+4/10 (40%)	agent 41	model 0.25	NLL: 0.763	Top1: 22.71 / Top5: 2.07	Total 1.9921 Time: 6.4s
+5/10 (50%)	agent 56	model 1.0	NLL: 0.731	Top1: 22.04 / Top5: 1.92	Total 2.2114 Time: 23.7s
+7/10 (70%)	agent 84	model 1.0	NLL: 0.739	Top1: 23.07 / Top5: 1.90	Total 1.9180 Time: 26.7s
+2/10 (20%)	agent 32	model 0.75	NLL: 0.666	Top1: 21.15 / Top5: 1.31	Total 1.7176 Time: 19.3s
+0/10 (0%)	agent 3	model 0.25	NLL: 0.788	Top1: 26.75 / Top5: 1.58	Total 2.0541 Time: 5.6s
+3/10 (30%)	agent 39	model 0.5	NLL: 0.625	Top1: 19.41 / Top5: 0.68	Total 1.6387 Time: 13.6s
+
+Evaluation:
+model 0 Loss: 1.103 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 40.300 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 3.790 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.597
+model 1 Loss: 1.058 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 37.860 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 3.230 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.621
+model 2 Loss: 1.149 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 39.950 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 4.640 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.601
+model 3 Loss: 0.975 (Best: 0.975 from epoch 90)
+model 3 Top1 error: 33.720 (Best: 33.720 from epoch 90)
+model 3 Top5 error: 2.700 (Best: 2.700 from epoch 90)
+model 3 accuracy: 0.663
+[Epoch 92]	Learning rate: 0.1
+3/10 (30%)	agent 48	model 0.25	NLL: 0.639	Top1: 17.08 / Top5: 1.17	Total 2.0274 Time: 5.7s
+5/10 (50%)	agent 51	model 0.75	NLL: 0.783	Top1: 25.03 / Top5: 1.66	Total 2.0684 Time: 23.2s
+7/10 (70%)	agent 60	model 1.0	NLL: 0.689	Top1: 19.50 / Top5: 2.29	Total 2.0501 Time: 11.8s
+9/10 (90%)	agent 79	model 0.5	NLL: 0.549	Top1: 12.40 / Top5: 0.90	Total 2.0742 Time: 5.8s
+4/10 (40%)	agent 50	model 1.0	NLL: 0.682	Top1: 20.88 / Top5: 1.42	Total 1.8532 Time: 23.3s
+8/10 (80%)	agent 68	model 0.75	NLL: 0.812	Top1: 26.17 / Top5: 1.42	Total 2.3183 Time: 9.4s
+6/10 (60%)	agent 52	model 0.75	NLL: 0.673	Top1: 20.38 / Top5: 1.25	Total 2.0697 Time: 6.5s
+1/10 (10%)	agent 13	model 0.5	NLL: 0.717	Top1: 22.88 / Top5: 1.75	Total 1.7358 Time: 19.0s
+2/10 (20%)	agent 47	model 0.25	NLL: 0.638	Top1: 18.71 / Top5: 1.17	Total 1.8286 Time: 10.4s
+0/10 (0%)	agent 11	model 1.0	NLL: 0.726	Top1: 23.11 / Top5: 1.22	Total 1.8886 Time: 16.5s
+
+Evaluation:
+model 0 Loss: 1.521 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 51.680 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 8.820 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.483
+model 1 Loss: 1.114 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 38.500 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 4.020 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.615
+model 2 Loss: 1.115 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 41.020 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 3.920 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.590
+model 3 Loss: 1.024 (Best: 0.975 from epoch 90)
+model 3 Top1 error: 35.390 (Best: 33.720 from epoch 90)
+model 3 Top5 error: 3.070 (Best: 2.700 from epoch 90)
+model 3 accuracy: 0.646
+[Epoch 93]	Learning rate: 0.1
+8/10 (80%)	agent 96	model 1.0	NLL: 0.533	Top1: 12.08 / Top5: 0.83	Total 2.0420 Time: 11.7s
+4/10 (40%)	agent 73	model 0.5	NLL: 0.665	Top1: 21.67 / Top5: 1.29	Total 1.6380 Time: 14.0s
+5/10 (50%)	agent 78	model 0.5	NLL: 0.692	Top1: 20.43 / Top5: 1.07	Total 2.0800 Time: 8.0s
+0/10 (0%)	agent 29	model 0.75	NLL: 0.577	Top1: 15.00 / Top5: 1.25	Total 1.9529 Time: 6.4s
+1/10 (10%)	agent 46	model 0.75	NLL: 0.708	Top1: 22.10 / Top5: 1.70	Total 1.8989 Time: 15.2s
+7/10 (70%)	agent 91	model 0.25	NLL: 0.976	Top1: 27.60 / Top5: 4.20	Total 3.0560 Time: 4.3s
+9/10 (90%)	agent 99	model 0.25	NLL: 0.831	Top1: 21.38 / Top5: 2.12	Total 2.7109 Time: 3.9s
+3/10 (30%)	agent 67	model 1.0	NLL: 0.702	Top1: 21.94 / Top5: 1.15	Total 1.9896 Time: 29.3s
+2/10 (20%)	agent 60	model 0.25	NLL: 0.917	Top1: 28.64 / Top5: 2.14	Total 2.5967 Time: 5.9s
+6/10 (60%)	agent 84	model 0.75	NLL: 0.846	Top1: 26.17 / Top5: 1.67	Total 2.5384 Time: 22.8s
+
+Evaluation:
+model 0 Loss: 1.231 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 42.690 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 6.140 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.573
+model 1 Loss: 1.107 (Best: 0.914 from epoch 82)
+model 1 Top1 error: 40.170 (Best: 32.320 from epoch 82)
+model 1 Top5 error: 3.580 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.598
+model 2 Loss: 1.050 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 37.020 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 3.840 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.630
+model 3 Loss: 1.033 (Best: 0.975 from epoch 90)
+model 3 Top1 error: 37.600 (Best: 33.720 from epoch 90)
+model 3 Top5 error: 2.330 (Best: 2.330 from epoch 92)
+model 3 accuracy: 0.624
+[Epoch 94]	Learning rate: 0.1
+9/10 (90%)	agent 92	model 0.75	NLL: 0.487	Top1: 11.60 / Top5: 0.60	Total 1.6819 Time: 7.4s
+0/10 (0%)	agent 9	model 0.25	NLL: 0.871	Top1: 30.86 / Top5: 2.14	Total 2.1262 Time: 12.5s
+3/10 (30%)	agent 24	model 0.25	NLL: 0.893	Top1: 30.03 / Top5: 2.28	Total 2.0645 Time: 13.6s
+5/10 (50%)	agent 29	model 1.0	NLL: 0.602	Top1: 14.75 / Top5: 0.50	Total 2.1402 Time: 7.9s
+6/10 (60%)	agent 40	model 0.5	NLL: 0.829	Top1: 27.65 / Top5: 1.88	Total 2.0571 Time: 20.0s
+8/10 (80%)	agent 78	model 1.0	NLL: 0.559	Top1: 14.57 / Top5: 0.29	Total 1.7128 Time: 12.1s
+1/10 (10%)	agent 16	model 1.0	NLL: 0.725	Top1: 22.95 / Top5: 1.14	Total 2.0512 Time: 19.9s
+7/10 (70%)	agent 41	model 1.0	NLL: 0.558	Top1: 15.07 / Top5: 0.79	Total 1.6466 Time: 12.2s
+4/10 (40%)	agent 28	model 0.5	NLL: 0.757	Top1: 24.25 / Top5: 1.46	Total 1.9841 Time: 14.2s
+2/10 (20%)	agent 20	model 1.0	NLL: 0.653	Top1: 19.56 / Top5: 1.88	Total 1.8186 Time: 30.5s
+
+Evaluation:
+model 0 Loss: 1.090 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 39.440 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 3.820 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.606
+model 1 Loss: 0.906 (Best: 0.906 from epoch 93)
+model 1 Top1 error: 31.990 (Best: 31.990 from epoch 93)
+model 1 Top5 error: 2.580 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.680
+model 2 Loss: 1.194 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 45.510 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 4.000 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.545
+model 3 Loss: 0.835 (Best: 0.835 from epoch 93)
+model 3 Top1 error: 29.520 (Best: 29.520 from epoch 93)
+model 3 Top5 error: 1.850 (Best: 1.850 from epoch 93)
+model 3 accuracy: 0.705
+[Epoch 95]	Learning rate: 0.1
+8/10 (80%)	agent 93	model 0.75	NLL: 0.649	Top1: 14.67 / Top5: 1.50	Total 2.3919 Time: 9.5s
+3/10 (30%)	agent 56	model 0.75	NLL: 0.723	Top1: 21.88 / Top5: 2.31	Total 1.9356 Time: 18.9s
+0/10 (0%)	agent 2	model 0.75	NLL: 0.716	Top1: 21.36 / Top5: 1.00	Total 2.2155 Time: 10.2s
+6/10 (60%)	agent 79	model 0.75	NLL: 0.517	Top1: 13.10 / Top5: 0.90	Total 1.8213 Time: 7.3s
+1/10 (10%)	agent 29	model 0.5	NLL: 0.605	Top1: 16.62 / Top5: 1.12	Total 1.9192 Time: 5.4s
+2/10 (20%)	agent 38	model 1.0	NLL: 0.566	Top1: 16.67 / Top5: 0.78	Total 1.7071 Time: 16.9s
+7/10 (70%)	agent 92	model 0.25	NLL: 0.684	Top1: 18.20 / Top5: 1.80	Total 2.2491 Time: 4.5s
+5/10 (50%)	agent 72	model 0.25	NLL: 0.741	Top1: 22.88 / Top5: 1.19	Total 2.1334 Time: 6.8s
+4/10 (40%)	agent 71	model 0.75	NLL: 0.803	Top1: 27.33 / Top5: 2.22	Total 2.0013 Time: 30.2s
+9/10 (90%)	agent 98	model 0.75	NLL: 0.566	Top1: 16.12 / Top5: 0.67	Total 1.6572 Time: 19.0s
+
+Evaluation:
+model 0 Loss: 1.156 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 42.090 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 4.160 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.579
+model 1 Loss: 1.280 (Best: 0.906 from epoch 93)
+model 1 Top1 error: 48.380 (Best: 31.990 from epoch 93)
+model 1 Top5 error: 3.780 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.516
+model 2 Loss: 1.036 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 36.090 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 3.130 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.639
+model 3 Loss: 1.151 (Best: 0.835 from epoch 93)
+model 3 Top1 error: 42.260 (Best: 29.520 from epoch 93)
+model 3 Top5 error: 3.630 (Best: 1.850 from epoch 93)
+model 3 accuracy: 0.577
+[Epoch 96]	Learning rate: 0.1
+3/10 (30%)	agent 37	model 0.5	NLL: 0.696	Top1: 20.44 / Top5: 0.81	Total 2.2787 Time: 9.8s
+1/10 (10%)	agent 24	model 1.0	NLL: 0.756	Top1: 24.59 / Top5: 1.84	Total 1.9653 Time: 29.3s
+8/10 (80%)	agent 97	model 1.0	NLL: 0.671	Top1: 20.97 / Top5: 1.19	Total 1.9181 Time: 29.7s
+5/10 (50%)	agent 54	model 0.75	NLL: 0.550	Top1: 13.33 / Top5: 1.42	Total 1.8738 Time: 9.6s
+4/10 (40%)	agent 40	model 1.0	NLL: 0.771	Top1: 24.76 / Top5: 2.29	Total 2.0651 Time: 32.6s
+0/10 (0%)	agent 3	model 0.5	NLL: 0.643	Top1: 19.67 / Top5: 0.58	Total 1.8106 Time: 8.2s
+9/10 (90%)	agent 98	model 0.25	NLL: 0.694	Top1: 19.92 / Top5: 1.58	Total 1.8619 Time: 11.6s
+6/10 (60%)	agent 69	model 0.5	NLL: 0.747	Top1: 25.15 / Top5: 1.76	Total 1.8095 Time: 22.5s
+7/10 (70%)	agent 80	model 0.25	NLL: 1.062	Top1: 35.75 / Top5: 3.75	Total 2.5280 Time: 17.3s
+2/10 (20%)	agent 31	model 0.5	NLL: 0.662	Top1: 20.25 / Top5: 0.92	Total 1.9071 Time: 8.0s
+
+Evaluation:
+model 0 Loss: 1.313 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 46.590 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 4.790 (Best: 3.230 from epoch 88)
+model 0 accuracy: 0.534
+model 1 Loss: 1.052 (Best: 0.906 from epoch 93)
+model 1 Top1 error: 36.210 (Best: 31.990 from epoch 93)
+model 1 Top5 error: 3.090 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.638
+model 2 Loss: 1.382 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 51.500 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 6.000 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.485
+model 3 Loss: 0.859 (Best: 0.835 from epoch 93)
+model 3 Top1 error: 30.100 (Best: 29.520 from epoch 93)
+model 3 Top5 error: 2.230 (Best: 1.850 from epoch 93)
+model 3 accuracy: 0.699
+[Epoch 97]	Learning rate: 0.1
+0/10 (0%)	agent 2	model 1.0	NLL: 0.563	Top1: 16.57 / Top5: 0.79	Total 1.7590 Time: 13.4s
+8/10 (80%)	agent 71	model 0.5	NLL: 0.722	Top1: 23.78 / Top5: 1.17	Total 1.8915 Time: 24.3s
+7/10 (70%)	agent 68	model 1.0	NLL: 0.622	Top1: 19.33 / Top5: 0.67	Total 1.6933 Time: 13.1s
+1/10 (10%)	agent 4	model 0.5	NLL: 0.892	Top1: 31.08 / Top5: 1.17	Total 2.5973 Time: 8.5s
+2/10 (20%)	agent 36	model 1.0	NLL: 0.467	Top1: 13.79 / Top5: 0.79	Total 1.3491 Time: 12.8s
+6/10 (60%)	agent 58	model 0.5	NLL: 0.697	Top1: 24.79 / Top5: 1.00	Total 1.7872 Time: 9.0s
+9/10 (90%)	agent 86	model 1.0	NLL: 0.416	Top1: 11.50 / Top5: 1.00	Total 1.1883 Time: 19.7s
+3/10 (30%)	agent 51	model 0.75	NLL: 0.736	Top1: 22.84 / Top5: 1.06	Total 1.9798 Time: 26.0s
+5/10 (50%)	agent 56	model 1.0	NLL: 0.510	Top1: 15.88 / Top5: 1.08	Total 1.2955 Time: 23.7s
+4/10 (40%)	agent 55	model 0.25	NLL: 0.934	Top1: 30.43 / Top5: 2.39	Total 2.3774 Time: 13.7s
+
+Evaluation:
+model 0 Loss: 1.082 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 39.470 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 2.870 (Best: 2.870 from epoch 96)
+model 0 accuracy: 0.605
+model 1 Loss: 1.009 (Best: 0.906 from epoch 93)
+model 1 Top1 error: 36.400 (Best: 31.990 from epoch 93)
+model 1 Top5 error: 2.700 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.636
+model 2 Loss: 1.373 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 44.760 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 7.400 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.552
+model 3 Loss: 0.811 (Best: 0.811 from epoch 96)
+model 3 Top1 error: 28.360 (Best: 28.360 from epoch 96)
+model 3 Top5 error: 1.740 (Best: 1.740 from epoch 96)
+model 3 accuracy: 0.716
+[Epoch 98]	Learning rate: 0.1
+0/10 (0%)	agent 33	model 0.25	NLL: 0.620	Top1: 14.10 / Top5: 1.70	Total 2.4753 Time: 4.8s
+6/10 (60%)	agent 69	model 0.5	NLL: 0.648	Top1: 21.47 / Top5: 1.03	Total 1.5453 Time: 22.7s
+4/10 (40%)	agent 56	model 0.5	NLL: 0.601	Top1: 18.73 / Top5: 1.46	Total 1.5605 Time: 17.0s
+1/10 (10%)	agent 34	model 0.75	NLL: 0.609	Top1: 14.12 / Top5: 3.00	Total 2.4017 Time: 7.0s
+7/10 (70%)	agent 71	model 1.0	NLL: 0.681	Top1: 23.11 / Top5: 1.14	Total 1.6392 Time: 34.2s
+8/10 (80%)	agent 72	model 0.5	NLL: 0.570	Top1: 15.69 / Top5: 0.38	Total 1.8024 Time: 10.4s
+3/10 (30%)	agent 49	model 1.0	NLL: 0.635	Top1: 16.78 / Top5: 1.28	Total 2.1135 Time: 17.7s
+5/10 (50%)	agent 64	model 0.25	NLL: 0.571	Top1: 14.21 / Top5: 1.50	Total 1.6673 Time: 6.8s
+9/10 (90%)	agent 82	model 0.25	NLL: 0.866	Top1: 24.80 / Top5: 2.00	Total 2.6204 Time: 4.9s
+2/10 (20%)	agent 48	model 1.0	NLL: 0.504	Top1: 11.83 / Top5: 0.67	Total 1.7734 Time: 11.5s
+
+Evaluation:
+model 0 Loss: 1.489 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 55.940 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 6.660 (Best: 2.870 from epoch 96)
+model 0 accuracy: 0.441
+model 1 Loss: 0.943 (Best: 0.906 from epoch 93)
+model 1 Top1 error: 33.770 (Best: 31.990 from epoch 93)
+model 1 Top5 error: 2.680 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.662
+model 2 Loss: 1.802 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 63.600 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 12.940 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.364
+model 3 Loss: 0.983 (Best: 0.811 from epoch 96)
+model 3 Top1 error: 36.240 (Best: 28.360 from epoch 96)
+model 3 Top5 error: 2.430 (Best: 1.740 from epoch 96)
+model 3 accuracy: 0.638
+[Epoch 99]	Learning rate: 0.1
+2/10 (20%)	agent 35	model 0.75	NLL: 1.011	Top1: 21.38 / Top5: 7.62	Total 4.1892 Time: 7.1s
+7/10 (70%)	agent 71	model 0.25	NLL: 0.875	Top1: 28.89 / Top5: 2.06	Total 2.1677 Time: 17.5s
+4/10 (40%)	agent 60	model 0.25	NLL: 0.886	Top1: 27.07 / Top5: 2.36	Total 2.4668 Time: 7.0s
+3/10 (30%)	agent 48	model 0.5	NLL: 0.623	Top1: 15.50 / Top5: 1.17	Total 2.2783 Time: 8.2s
+0/10 (0%)	agent 11	model 1.0	NLL: 0.741	Top1: 22.89 / Top5: 1.28	Total 2.1844 Time: 17.5s
+9/10 (90%)	agent 93	model 0.75	NLL: 0.604	Top1: 16.50 / Top5: 0.75	Total 2.0192 Time: 9.9s
+6/10 (60%)	agent 62	model 1.0	NLL: 0.573	Top1: 15.25 / Top5: 0.83	Total 1.9277 Time: 11.5s
+1/10 (10%)	agent 23	model 0.5	NLL: 0.460	Top1: 11.33 / Top5: 1.00	Total 1.5139 Time: 8.1s
+8/10 (80%)	agent 76	model 1.0	NLL: 0.450	Top1: 11.31 / Top5: 0.56	Total 1.4657 Time: 15.3s
+5/10 (50%)	agent 61	model 0.5	NLL: 0.716	Top1: 20.44 / Top5: 1.44	Total 2.2584 Time: 22.8s
+
+Evaluation:
+model 0 Loss: 1.469 (Best: 1.033 from epoch 88)
+model 0 Top1 error: 52.850 (Best: 36.860 from epoch 88)
+model 0 Top5 error: 7.770 (Best: 2.870 from epoch 96)
+model 0 accuracy: 0.471
+model 1 Loss: 1.076 (Best: 0.906 from epoch 93)
+model 1 Top1 error: 40.920 (Best: 31.990 from epoch 93)
+model 1 Top5 error: 2.940 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.591
+model 2 Loss: 1.681 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 55.300 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 15.960 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.447
+model 3 Loss: 0.982 (Best: 0.811 from epoch 96)
+model 3 Top1 error: 33.710 (Best: 28.360 from epoch 96)
+model 3 Top5 error: 3.030 (Best: 1.740 from epoch 96)
+model 3 accuracy: 0.663
+[Epoch 100]	Learning rate: 0.1
+4/10 (40%)	agent 49	model 1.0	NLL: 0.534	Top1: 12.83 / Top5: 0.72	Total 1.7874 Time: 17.5s
+5/10 (50%)	agent 55	model 0.5	NLL: 0.786	Top1: 27.89 / Top5: 1.57	Total 1.9373 Time: 18.0s
+9/10 (90%)	agent 87	model 0.75	NLL: 1.004	Top1: 31.29 / Top5: 3.12	Total 2.7808 Time: 19.1s
+7/10 (70%)	agent 81	model 0.25	NLL: 0.705	Top1: 19.08 / Top5: 1.00	Total 2.2205 Time: 6.2s
+2/10 (20%)	agent 32	model 0.5	NLL: 0.632	Top1: 20.50 / Top5: 1.15	Total 1.5572 Time: 16.5s
+6/10 (60%)	agent 79	model 0.25	NLL: 0.660	Top1: 14.50 / Top5: 1.30	Total 2.3655 Time: 4.9s
+0/10 (0%)	agent 22	model 0.75	NLL: 0.843	Top1: 19.38 / Top5: 3.75	Total 2.6925 Time: 6.9s
+1/10 (10%)	agent 24	model 0.75	NLL: 0.912	Top1: 28.62 / Top5: 2.22	Total 2.4825 Time: 25.6s
+3/10 (30%)	agent 39	model 0.25	NLL: 0.839	Top1: 27.55 / Top5: 2.05	Total 2.2077 Time: 11.0s
+8/10 (80%)	agent 83	model 0.25	NLL: 0.674	Top1: 19.31 / Top5: 1.27	Total 1.7708 Time: 12.9s
+
+Evaluation:
+model 0 Loss: 1.018 (Best: 1.018 from epoch 99)
+model 0 Top1 error: 34.110 (Best: 34.110 from epoch 99)
+model 0 Top5 error: 2.790 (Best: 2.790 from epoch 99)
+model 0 accuracy: 0.659
+model 1 Loss: 0.918 (Best: 0.906 from epoch 93)
+model 1 Top1 error: 33.180 (Best: 31.990 from epoch 93)
+model 1 Top5 error: 2.370 (Best: 2.290 from epoch 82)
+model 1 accuracy: 0.668
+model 2 Loss: 1.207 (Best: 0.993 from epoch 87)
+model 2 Top1 error: 41.920 (Best: 34.530 from epoch 86)
+model 2 Top5 error: 5.290 (Best: 2.980 from epoch 86)
+model 2 accuracy: 0.581
+model 3 Loss: 1.340 (Best: 0.811 from epoch 96)
+model 3 Top1 error: 51.540 (Best: 28.360 from epoch 96)
+model 3 Top5 error: 4.230 (Best: 1.740 from epoch 96)
+model 3 accuracy: 0.485
